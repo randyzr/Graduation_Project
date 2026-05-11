@@ -1,0 +1,59 @@
+\chapter{Introducción}
+
+    \section{Antecedentes}
+
+        La descarga electrostática (ESD, por sus siglas en inglés) representa una de 
+        las principales causas de daño en dispositivos electrónicos sensibles, 
+        especialmente en la industria de semiconductores. A medida que los circuitos integrados 
+        han reducido su tamaño, su susceptibilidad a eventos ESD ha incrementado, lo que ha 
+        llevado a la implementación de estrictos controles en ambientes de manufactura y laboratorios electrónicos \cite{versalogic_esd}.
+
+        Para mitigar estos efectos, se han desarrollado técnicas de control basadas en la 
+        puesta a tierra del personal, utilizando dispositivos como pulseras antiestáticas y calzado conductivo. 
+        Estos elementos permiten disipar las cargas acumuladas en el cuerpo humano, reduciendo el riesgo de descargas 
+        hacia componentes electrónicos \cite{STM97_ANSI}.
+
+        Los sistemas de verificación ESD han evolucionado desde dispositivos simples que únicamente 
+        indican condiciones de "pasa" o "falla", hasta sistemas más avanzados que integran múltiples funcionalidades. 
+        Los testers básicos de pulseras antiestáticas, como el Desco 19240, permiten validar la continuidad eléctrica 
+        del sistema de puesta a tierra, pero no ofrecen información detallada ni capacidades de integración con otros sistemas.
+
+        Por otro lado, soluciones más complejas como el SmartLog Pro 2 o sistemas de control ESD con acceso integrado 
+        incluyen características como identificación de usuario mediante RFID, registro de pruebas, comunicación en red 
+        y generación de reportes. Estos sistemas permiten mejorar la trazabilidad y el cumplimiento de normas industriales, 
+        pero presentan limitaciones importantes como su alto costo y baja flexibilidad de personalización \cite{SmartLogPro2}.
+
+        En la literatura técnica también se han propuesto diferentes enfoques para el control ESD, incluyendo sistemas 
+        de monitoreo continuo mediante IoT y medición de campos electrostáticos en líneas de producción. Sin embargo, 
+        estos trabajos no abordan de forma integral el diseño de sistemas accesibles, personalizables y orientados a 
+        aplicaciones de laboratorio.
+
+        Adicionalmente, desde el punto de vista de instrumentación electrónica, la medición de la resistencia cuerpo–tierra 
+        implica desafíos asociados a la medición de altas impedancias, donde factores como corrientes de fuga, ruido eléctrico 
+        y condiciones ambientales pueden afectar significativamente la precisión \cite{keithley_lowlevel}.
+
+        Este contexto evidencia la necesidad de desarrollar soluciones que integren medición precisa, 
+        interacción con el usuario, monitoreo ambiental y capacidades de registro, manteniendo un bajo costo y 
+        alta adaptabilidad a distintos entornos.
+
+    \section{Planteamiento del Problema}
+        En los laboratorios de electrónica y manufactura de semiconductores, 
+        el control ESD se realiza mediante sistemas de verificación de resistencia cuerpo a tierra. 
+        Sin embargo, del análisis de las soluciones comerciales disponibles, no se identifican sistemas de bajo costo 
+        que integren de manera conjunta medición cuantitativa, identificación de usuario, registro de datos 
+        y capacidad de personalización.
+
+        Las soluciones de bajo costo se limitan a verificaciones de tipo pasa/falla, mientras que los sistemas 
+        avanzados que incorporan estas funcionalidades presentan un costo elevado y arquitectura cerrada, 
+        lo que restringe su adaptación a necesidades específicas.
+
+        Esta situación evidencia la necesidad de desarrollar una solución accesible, flexible y 
+        personalizable que permita mejorar el control y la trazabilidad ESD en entornos de laboratorio, 
+        como el laboratorio TestChip de Intel Costa Rica.
+
+\section{Estructura del Documento}
+El documento se organiza de la siguiente manera. En el Capítulo 1 se presenta la introducción, 
+los antecedentes y el planteamiento del problema. Posteriormente, 
+se desarrolla el marco teórico y el estado del arte asociados a la descarga electrostática, 
+la medición de resistencia cuerpo--tierra, la medición de alta impedancia y las soluciones comerciales existentes. 
+Luego se describe la solución propuesta, los objetivos del proyecto, el experimento preliminar y el cronograma de trabajo.
