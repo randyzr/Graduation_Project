@@ -1,31 +1,229 @@
 \chapter{Hipótesis y Objetivos del Proyecto}
 
 \section{Hipótesis}
-Se plantea que es posible diseñar e implementar un sistema de control ESD de bajo costo que permita medir 
-la resistencia cuerpo--tierra en el rango de $500~\mathrm{k}\Omega$ a $40~\mathrm{M}\Omega$, con una precisión de $\pm10\%$, 
-integrando funcionalidades de identificación, monitoreo y registro, de manera que el sistema sea funcionalmente 
-equivalente a soluciones comerciales en términos de verificación ESD para entornos de laboratorio.
+
+Se plantea que una estación inteligente de control ESD de bajo costo puede transformar la verificación manual 
+de pulseras antiestáticas en un evento trazable y auditable mediante la integración de un probador comercial HZR-171, 
+identificación de usuario, monitoreo ambiental, interfaz gráfica táctil y almacenamiento local, logrando que al 
+menos el 95 \% de los ciclos completos de prueba ejecutados mediante el prototipo generen registros completos 
+compuestos por usuario, fecha, hora, resultado ESD, temperatura y humedad relativa, con un costo 
+estimado de materiales inferior a 350 USD.
 
 \section{Objetivos}
 
         \subsection{Objetivo General}
-            Diseñar e implementar un sistema inteligente de control ESD de bajo costo, 
-            que integre múltiples funcionalidades orientadas a entornos industriales y de laboratorio.
+            Diseñar e implementar un sistema inteligente de control ESD de bajo costo para 
+            laboratorios de electrónica, integrando verificación de pulseras antiestáticas, 
+            identificación de usuarios, monitoreo ambiental y almacenamiento de registros.
+
 
         \subsection{Objetivos Específicos}
-                \begin{itemize}
-                    \item Diseñar e implementar un sistema de medición de resistencia cuerpo--tierra en el rango de 
-                    $500~\mathrm{k}\Omega$ a $40~\mathrm{M}\Omega$, con una precisión aproximada de $\pm 10\%$.
+                
+        \begin{itemize}
 
-                \item Desarrollar la arquitectura hardware del sistema, incluyendo la PCB, fuente de alimentación 
-                y técnicas de medición para alta impedancia, considerando la reducción de corrientes de fuga.
+        \item Integrar los módulos electrónicos requeridos para el sistema inteligente de control ESD, incluyendo el 
+        probador comercial, sensor ambiental, dispositivos de identificación, ESP32 HMI
+         y microcontroladores necesarios para la operación del sistema.
 
-                \item Integrar funcionalidades de monitoreo e interacción, incluyendo sensores ambientales, 
-                detección de usuario, identificación mediante RFID e interfaz gráfica para visualización de resultados.
+        \item Implementar mecanismos de identificación de usuarios mediante lectura de código de barras y reconocimiento facial.
 
-                \item Implementar un sistema de registro y generación de reportes, y validar el funcionamiento del 
-                sistema en el laboratorio TestChip de Intel Costa Rica.
-            \end{itemize}
+        \item Implementar los subsistemas de interacción y monitoreo de la estación, incluyendo interfaz gráfica 
+        táctil y monitoreo ambiental.
+
+        \item Implementar almacenamiento local de registros y generación de reportes asociados a las pruebas ESD.
+
+        \item Validar el funcionamiento del sistema mediante pruebas funcionales de los subsistemas 
+        y pruebas de integración del prototipo, así como mediante pruebas de operación realizadas 
+        en el laboratorio TEM de Intel Costa Rica.
+
+        \end{itemize}
+
+\section{Lista de tareas por objetivo}
+
+\subsection{Objetivo Específico 1}
+
+\textbf{Integrar los módulos electrónicos requeridos para el sistema inteligente de 
+control ESD, incluyendo el probador comercial, sensor ambiental, dispositivos de identificación, 
+ESP32 HMI y microcontroladores necesarios para la operación del sistema.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+    \item Analizar los requerimientos funcionales del sistema.
+    \item Estudiar el funcionamiento de los módulos electrónicos seleccionados.
+    \item Definir la arquitectura electrónica del sistema.
+    \item Diseñar el sistema de alimentación eléctrica.
+    \item Integrar el probador HZR-171 con el controlador principal.
+    \item Integrar el sensor ambiental SHT31-D.
+    \item Integrar el lector de código de barras y el módulo de reconocimiento facial.
+    \item Integrar el ESP32 HMI con el resto del sistema.
+    \item Diseñar el esquema de interconexión entre subsistemas.
+    \item Diseñar un modelo CAD para la integración física de los componentes electrónicos.
+    \item Fabricar y ensamblar el prototipo.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+    \item Documento de arquitectura electrónica del sistema.
+    \item Diagramas de bloques e interconexión.
+    \item Modelo CAD del prototipo.
+    \item Prototipo ensamblado de la estación ESD.
+\end{itemize}
+
+
+\subsection{Objetivo Específico 2}
+
+\textbf{Implementar mecanismos de identificación de usuarios mediante lectura de código de barras y reconocimiento facial.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+    \item Estudiar el funcionamiento del lector de código de barras GM67.
+    \item Implementar la comunicación entre el lector y el controlador principal.
+    \item Desarrollar rutinas para lectura y validación de identificadores.
+    \item Diseñar la estructura de almacenamiento de información de usuarios.
+    \item Configurar el módulo ESP32-S3 CAM.
+    \item Implementar el proceso de registro facial.
+    \item Implementar el proceso de reconocimiento facial.
+    \item Asociar la identificación facial con el identificador del usuario.
+    \item Evaluar el desempeño de ambos métodos de identificación.
+    \item Validar el funcionamiento del subsistema de identificación.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+    \item Subsistema de identificación por código de barras funcional.
+    \item Subsistema de reconocimiento facial funcional.
+    \item Base de datos local de usuarios.
+    \item Informe de validación del subsistema de identificación.
+\end{itemize}
+
+
+\subsection{Objetivo Específico 3}
+
+\textbf{Implementar los subsistemas de interacción y monitoreo de la estación, incluyendo interfaz gráfica táctil y monitoreo ambiental.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+    \item Diseñar la estructura de la interfaz gráfica.
+    \item Implementar las pantallas de operación y navegación.
+    \item Implementar la visualización de resultados de pruebas ESD.
+    \item Implementar la visualización de información del usuario.
+    \item Implementar la visualización de variables ambientales.
+    \item Implementar la adquisición de datos del sensor de temperatura y humedad.
+    \item Validar el funcionamiento de los subsistemas de interacción y monitoreo.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+    \item Interfaz gráfica táctil funcional.
+    \item Subsistema de monitoreo ambiental funcional.
+    \item Informe de validación de los subsistemas de interacción y monitoreo.
+\end{itemize}
+
+
+\subsection{Objetivo Específico 4}
+
+\textbf{Implementar almacenamiento local de registros y generación de reportes asociados a las pruebas ESD.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+    \item Seleccionar el formato de almacenamiento de datos.
+    \item Configurar la comunicación con la memoria SD.
+    \item Diseñar la estructura de almacenamiento de registros.
+    \item Registrar eventos de identificación de usuarios.
+    \item Registrar resultados de pruebas ESD.
+    \item Registrar variables ambientales.
+    \item Implementar mecanismos de consulta de información.
+    \item Diseñar el formato de los reportes.
+    \item Desarrollar reportes históricos de operación.
+    \item Validar la integridad de los datos almacenados.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+    \item Sistema de almacenamiento local funcional.
+    \item Base de datos de registros de operación.
+    \item Sistema de generación de reportes históricos.
+    \item Informe de validación del almacenamiento y generación de reportes.
+\end{itemize}
+
+
+\subsection{Objetivo Específico 5}
+
+\textbf{Validar el funcionamiento del sistema mediante pruebas funcionales de los subsistemas 
+y pruebas de integración del prototipo, así como mediante pruebas de operación realizadas en el laboratorio TEM de Intel Costa Rica.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+    \item Elaborar un plan de validación del sistema.
+    \item Realizar pruebas funcionales del subsistema de verificación ESD.
+    \item Realizar pruebas funcionales del subsistema de identificación.
+    \item Realizar pruebas funcionales de los subsistemas de interacción y monitoreo.
+    \item Realizar pruebas funcionales del subsistema de almacenamiento de datos.
+    \item Ejecutar pruebas de integración del sistema completo.
+    \item Evaluar la comunicación e interoperabilidad entre subsistemas.
+    \item Verificar el cumplimiento de los requisitos funcionales establecidos.
+    \item Ejecutar pruebas de operación del prototipo en el laboratorio TEM de Intel Costa Rica.
+    \item Analizar los resultados obtenidos.
+    \item Elaborar el informe de validación final.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+    \item Plan de validación del sistema.
+    \item Resultados de pruebas funcionales.
+    \item Resultados de pruebas de integración.
+    \item Resultados de pruebas de operación.
+    \item Informe de validación final.
+\end{itemize}
 
 \section{Alcances y Limitaciones del Proyecto}
+
+\subsection{Alcances}
+
+El proyecto contempla el diseño e implementación de una estación inteligente de control ESD de bajo costo para entornos de laboratorio, integrando diferentes subsistemas orientados a mejorar la trazabilidad y el cumplimiento de procedimientos de protección contra descargas electrostáticas.
+
+Dentro de los alcances del proyecto se consideran los siguientes:
+
+\begin{itemize}
+\item Integración de un probador comercial de pulseras antiestáticas HZR-171 como subsistema principal de verificación ESD.
+\item Identificación de usuarios mediante lectura de código de barras.
+\item Implementación de reconocimiento facial como mecanismo complementario de identificación.
+\item Monitoreo de temperatura y humedad relativa mediante sensores ambientales.
+\item Desarrollo de una interfaz gráfica táctil para la interacción con el usuario y la visualización de información del sistema.
+\item Almacenamiento local de registros asociados a pruebas ESD, identificación de usuarios, variables ambientales.
+\item Generación de reportes históricos a partir de la información almacenada localmente.
+\item Diseño CAD y construcción de una estructura física que facilite la integración y operación de los subsistemas electrónicos.
+\item Validación funcional de los subsistemas desarrollados y validación operativa del prototipo en el laboratorio TEM de Intel Costa Rica.
+\end{itemize}
+
+\subsection{Limitaciones}
+
+Las principales limitaciones consideradas para el desarrollo del proyecto son las siguientes:
+
+\begin{itemize}
+\item El sistema utilizará un probador comercial de pulseras antiestáticas como mecanismo principal de verificación ESD.
+\item El rango de operación y los criterios de aprobación o rechazo de las pruebas ESD estarán limitados por las especificaciones del probador HZR-171.
+\item El sistema estará orientado a la verificación de pulseras antiestáticas y no incluirá la evaluación de otros elementos de control ESD.
+\item El reconocimiento facial podrá verse afectado por condiciones de iluminación, posición del usuario y calidad de las imágenes capturadas.
+\item Los registros generados por el sistema serán almacenados localmente y no se contempla la integración con bases de datos corporativas o servicios en la nube.
+\item El sistema no contempla integración con sistemas institucionales de control de acceso o gestión de personal.
+\item La validación operativa se realizará mediante pruebas en el laboratorio TEM de Intel Costa Rica bajo las condiciones y recursos disponibles durante el periodo de ejecución del proyecto.
+\item El prototipo desarrollado tendrá fines académicos y de investigación, por lo que no pretende sustituir sistemas comerciales certificados para control ESD.
+\item El diseño de un circuito propio para la medición de resistencia cuerpo-tierra no forma parte del alcance obligatorio del proyecto y podrá considerarse como trabajo complementario si el tiempo y los recursos disponibles lo permiten.
+\item No se solicitará una base de datos con las identificaciones empresariales de cada trabajador que haga uso del laboratorio de Intel TEM Costa Rica, por lo que cada usuario que haga uso por primera vez del prototipo debe de registrar su nombre y identificación empresarial.
+\item La detección facial de cada usuario no será obligatoria y se le solicitará permiso a cada usuario nuevo para poder registrarla en el sistema.
+\item Los datos empresariales que haga uso el prototipo como el registro de los usuarios con sus identificaciones y nombres no se compartirán en el reporte final debido a políticas de privacidad.
+\item El prototipo no detectará la cantidad de cargas electroestáticas, campo electroestático o tensión eléctrica almacenada en el usuario.
+\end{itemize}
+
 

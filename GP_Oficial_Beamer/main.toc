@@ -1,6 +1,10 @@
 \babel@toc {spanish}{}\relax 
 \beamer@sectionintoc {1}{Introducción}{4}{0}{1}
-\beamer@sectionintoc {2}{Marco teórico}{8}{0}{2}
-\beamer@sectionintoc {3}{Estado del arte}{11}{0}{3}
-\beamer@sectionintoc {4}{Definición del problema}{17}{0}{4}
-\beamer@sectionintoc {5}{Conclusiones}{19}{0}{5}
+\beamer@sectionintoc {2}{Marco teórico}{7}{0}{2}
+\beamer@sectionintoc {3}{Estado del arte}{12}{0}{3}
+\beamer@sectionintoc {4}{Definición del problema}{18}{0}{4}
+\beamer@sectionintoc {5}{Propuesta de solución}{19}{0}{5}
+\beamer@sectionintoc {6}{Presupuesto}{22}{0}{6}
+\beamer@sectionintoc {7}{Hipótesis de solución y objetivos}{23}{0}{7}
+\beamer@sectionintoc {8}{Validación del prototipo}{26}{0}{8}
+\beamer@sectionintoc {9}{Cronograma}{27}{0}{9}

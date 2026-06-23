@@ -238,15 +238,36 @@
             importante es que nuestro cuerpo modelado como impedancia se podría representar de la siguiente manera:
 
             \begin{equation}
-                Z_{Cuerpo} = R\text{(f)} + jX\text{(f)}
+                Z_{Cuerpo} = R\text{(f,V,P,A,H)} + jX\text{(f,V,P,A,H)}
             \end{equation}
 
-            Por lo que el componente resistivo depende de la frecuencia de la señal de estimulo que se aplique, lo mismo 
-            ocurre con la reactancia. La reactancia de nuestro cuerpo es capacitiva, esto es un punto importante ya que 
-            es la capacitancia de nuestro cuerpo lo que permite almacenar la energia electroestática, como se puede observar 
-            en el modelo HBM \cite{dtic_skin}. Para fines médicos es común el estudio de la impedancia del cuerpo desde diferentes 
+            La resistencia eléctrica del cuerpo humano no es constante ni lineal, sino que depende de muchos factores, donde 
+            variables como la frecuencia y la tensión utilizada en la señal de estímulo, la presión y área de contacto ejercida
+            por el usuario y la humedad relativa del ambiente y del usuario pueden cambiar el valor de R, la reactancia también 
+            depende de estas variables, pero menos drásticamente que el componente resistivo \cite{ELEK_IEC_IEEE_Safety_2023}. La reactancia de nuestro cuerpo 
+            es capacitiva, esto es un punto importante ya que es la capacitancia de nuestro cuerpo lo que permite 
+            almacenar la energia electroestática, como se puede observar en el modelo HBM \cite{dtic_skin}. 
+            Para fines médicos es común el estudio de la impedancia del cuerpo desde diferentes 
             sectores, sin embargo para fines de este proyecto no es relevante, por eso se elije $f=0$ Hz como punto de 
             medición a utilizar.
+
+            Debido a que los estándares definen que la resistencia del usuario se debe medir utilizando una señal DC \cite{S1_1_ANSI}, el parámetro
+            $f$ se deja de considerar. Los rangos de tensiones dependen si el dispositivo usualmente los dispositivos
+            portatiles suelen aplicar una señal de 4 V \cite{Desco_19240}, para los dispositivos no portatiles 
+            el valor más común son 30 V \cite{Desco_SmartLog}.
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.65\textwidth]{pics/TF3_4.png}
+                \caption{Uso de divisor de voltage para medición de la resistencia del cuerpo a tierra, fuente: elaboración propia}
+                \label{fig:resistencia_a_tierra}
+            \end{figure}
+
+            La mayoria de estaciones de control ESD utilizan como base la ley de Ohm para obtener el valor de resistencia del 
+            cuerpo a tierra, por lo que un divisor de tensión es muy común en estos casos, donde a partir del valor de $V_{body}$
+            y debido a que $R_{ref}$ y $V_s$ son conocidos, es posible obtener $R_{Body}$.
+            
+            
             
     \section{Medición de alta impedancia}
 
@@ -303,6 +324,36 @@
                     \caption{Uso de fuente externa para suprimir corrientes de fuga \cite{keithley_lowlevel}}
                     \label{fig:resistencia_a_tierra}
             \end{figure}
+
+        \subsection{Efectos de EMI y ruido}
+
+            Debido a que el medidor de la resistencia del cuerpo a tierra debe ser capaz de detectar resistencias de hasta 
+            35 M$\Omega$ eso implica que si usando como base la figura 2.9 y considerando que $V_s = 30$ V, $R_{ref} = 10$
+            M$\Omega$ y $R_{Body} = 35$ M$\Omega$ entonces $I_{body} \approx 600$ nA, esta corriente es lo suficientemente
+            pequeña para que el efecto de la interferencia electrómagnética presente en el cuerpo del usuario, en los cables 
+            utilizados, en la tarjeta electrónica y a su vez el ruido del sistema se vuelvan variables a considerar. 
+            Para poder combatir y minimizar las interferencias electrómagnéticas según el manual de medición de precisión 
+            de Keithley \cite{keithley_lowlevel} se puede hacer uso de cables blindados, como por ejemplo cables de comunicaciones analógicas como el
+            coaxial. 
+
+            \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.65\textwidth]{pics/TF3_5.png}
+                    \caption{Uso de cables blindados para mitigar el EMI \cite{keithley_lowlevel}}
+                    \label{fig:resistencia_a_tierra}
+            \end{figure}
+
+            Otro punto que comenta el manual es el uso de capacitores conectados a tierra, debido a el comportamiento 
+            de los capacitores a alta frecuencia permite que elimine en gran manera los efectos de EMI y disminuya el ancho 
+            de banda del ruido.
+
+            \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.65\textwidth]{pics/TF3_6.png}
+                    \caption{Uso de capacitores para disminuir el efecto del ruido y EMI \cite{keithley_lowlevel}}
+                    \label{fig:resistencia_a_tierra}
+            \end{figure}
+
 
 
         \subsection{Técnicas de guardado (guarding)}
@@ -465,15 +516,16 @@
             \caption{Circuito de operación típico del ICL7106 \cite{ICL7106}.}
             \label{fig:icl7106}
         \end{figure}
-
-        Las siguientes opciones requiere de diseñar un circuito electrónico de precisión para realizar la medición, 
-        usando amplificadores operacionales de muy baja corriente de fuga, técnicas de guardado (guarding) 
-        y técnicas de cancelación de ruido. A su vez dispositivos como DAC (digital to analog converter) 
-        y ADC (analog to digital converter) de alta resolución para generar la señal de estimulo y 
-        digitalizar la medición respectivamente. Este tipo de soluciones no estan disponibles comercialmente, 
-        no existen tarjetas electrónicas de desarrollo o módulos que implementen este tipo de circuitos, 
-        entonces se deberá diseñar el circuito electrónico desde cero usando los dispositivos electrónicos
-        comentados anteriormente.
+        
+        Otras alternativas requieren del diseño de un circuito electrónico de precisión para realizar la medición de resistencia 
+        cuerpo--tierra. Este tipo de medición involucra corrientes en el orden de $\mu$A o nA, por lo que deben considerarse efectos como 
+        la corriente de polarización de los amplificadores, las corrientes de fuga en la tarjeta electrónica, la contaminación superficial, 
+        la humedad, el ruido eléctrico y la interferencia electromagnética. Por esta razón, el diseño de un front-end de medición 
+        para altas impedancias normalmente requiere amplificadores operacionales de muy baja corriente de polarización, 
+        técnicas de guardado (\textit{guarding}), blindaje, filtrado y criterios de diseño de PCB orientados a reducir 
+        corrientes parásitas \cite{keithley_lowlevel}. Puede revisarse el apéndice \ref{ap:medicion_alta_impedancia} para más detalle de
+        este tipo de circuitos electrónicos.
+        
 
     \section{Normativas aplicables a sistemas ESD}
 

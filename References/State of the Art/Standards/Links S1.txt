@@ -1,0 +1,12 @@
+https://www.esda.org/esd-overview/esd-fundamentals/part-1-an-introduction-to-esd/
+https://www.esda.org/esd-overview/esd-fundamentals/part-2-principles-of-esd-control/
+https://www.esda.org/esd-overview/esd-fundamentals/part-3-basic-esd-control-procedures-and-materials/
+https://www.esda.org/esd-overview/esd-fundamentals/part-4-training-and-auditing/
+https://www.esda.org/esd-overview/esd-fundamentals/part-5-device-sensitivity-and-testing/
+https://www.esda.org/esd-overview/esd-fundamentals/part-6-esd-standards/
+
+https://www.vde-verlag.de/iec-normen/preview-pdf/info_iec61340-5-1%7Bed2.0.RLV%7Den.pdf
+https://standards.nasa.gov/sites/default/files/standards/JSC/Baseline/0/JSC-66552BASELINE.pdf
+https://desco.descoindustries.com/Articles/ESDControlProgramPeriodic.pdf
+https://www.versalogic.com/wp-content/themes/vsl-new/assets/resources/whitepapers/VL-ESD-White-Paper.pdf
+https://blog.ansi.org/ansi/ansi-esd-s20-20-2021-protection-electronic-parts/

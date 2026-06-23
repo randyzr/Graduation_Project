@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  10 MAY 2026 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.22)  14 JUN 2026 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/randy/Desktop/Education/IS 2026/Projects Formulation/Graduation Project/GP_Oficial_Beamer/main.tex"
-(/home/randy/Desktop/Education/IS 2026/Projects Formulation/Graduation Project/GP_Oficial_Beamer/main.tex
+**"/home/randy/Desktop/Education/IS 2026/Projects Formulation/Graduation_Project/GP_Oficial_Beamer/main.tex"
+(/home/randy/Desktop/Education/IS 2026/Projects Formulation/Graduation_Project/GP_Oficial_Beamer/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -637,8 +637,8 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip78
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
-) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 23.
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 161.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -651,24 +651,24 @@ LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -723,57 +723,57 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 161.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 23.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 161.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 23.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 161.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 161.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 23.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 161.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 23.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 161.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 23.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 23.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 161.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 23.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 23.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 161.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 23.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 23.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 161.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 23.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 23.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 161.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 23.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 161.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 23.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 23.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 23.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 23.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 23.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 161.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 23.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 161.
  (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -787,53 +787,61 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
  (./main.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}]
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 40.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 192.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 40.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 192.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 40.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 192.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 40.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 192.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 40.
+(Font)              <10.95> on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 40.
+(Font)              <8> on input line 192.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 40.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+(Font)              <6> on input line 192.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 40.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 192.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 40.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 192.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 40.
-<Figures/F1.png, id=58, 824.07875pt x 593.21625pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 192.
+<Figures/F1.png, id=88, 824.07875pt x 593.21625pt>
 File: Figures/F1.png Graphic file (type png)
 <use Figures/F1.png>
-Package pdftex.def Info: Figures/F1.png  used on input line 40.
-(pdftex.def)             Requested size: 173.39096pt x 124.81442pt.
- [2
+Package pdftex.def Info: Figures/F1.png  used on input line 192.
+(pdftex.def)             Requested size: 164.72604pt x 118.57777pt.
+
+
+LaTeX Warning: Citation `istock_esd_sparks' on page 2 undefined on input line 192.
+
+
+Overfull \vbox (11.3949pt too high) detected at line 192
+ []
+
+[2
 
  <./Figures/F1.png>] (./main.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -841,145 +849,214 @@ LaTeX Info: Redefining \% on input line 1.
 ) [3
 
 ]
-<Figures/F2.png, id=83, 658.46pt x 511.9125pt>
-File: Figures/F2.png Graphic file (type png)
-<use Figures/F2.png>
-Package pdftex.def Info: Figures/F2.png  used on input line 59.
-(pdftex.def)             Requested size: 273.09189pt x 212.31474pt.
+<Figures/F14.jpg, id=123, 820.00935pt x 547.30582pt>
+File: Figures/F14.jpg Graphic file (type jpg)
+<use Figures/F14.jpg>
+Package pdftex.def Info: Figures/F14.jpg  used on input line 235.
+(pdftex.def)             Requested size: 197.66632pt x 131.92397pt.
+<Figures/IndustrialLab.jpg, id=126, 614.295pt x 429.605pt>
+File: Figures/IndustrialLab.jpg Graphic file (type jpg)
+<use Figures/IndustrialLab.jpg>
+Package pdftex.def Info: Figures/IndustrialLab.jpg  used on input line 235.
+(pdftex.def)             Requested size: 197.66632pt x 138.2368pt.
+ [4
 
-Overfull \vbox (1.64934pt too high) detected at line 59
- []
-
-[4
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./Figures/F2.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 80.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 80.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 80.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 80.
- [5
-
-]
-<Figures/F3.png, id=97, 1290.8225pt x 898.35625pt>
-File: Figures/F3.png Graphic file (type png)
-<use Figures/F3.png>
-Package pdftex.def Info: Figures/F3.png  used on input line 91.
-(pdftex.def)             Requested size: 260.09306pt x 181.01143pt.
- [6
-
- <./Figures/F3.png>]
-<Figures/F4.jpeg, id=104, 703.62875pt x 403.5075pt>
+ <./Figures/F14.jpg> <./Figures/IndustrialLab.jpg>]
+<Figures/F4.jpeg, id=134, 703.62875pt x 403.5075pt>
 File: Figures/F4.jpeg Graphic file (type jpg)
 <use Figures/F4.jpeg>
-Package pdftex.def Info: Figures/F4.jpeg  used on input line 102.
+Package pdftex.def Info: Figures/F4.jpeg  used on input line 245.
 (pdftex.def)             Requested size: 260.09306pt x 149.15382pt.
+ [5
+
+ <./Figures/F4.jpeg>]
+<Figures/F15.jpg, id=141, 863.225pt x 485.815pt>
+File: Figures/F15.jpg Graphic file (type jpg)
+<use Figures/F15.jpg>
+Package pdftex.def Info: Figures/F15.jpg  used on input line 255.
+(pdftex.def)             Requested size: 303.4375pt x 170.77167pt.
+ [6
+
+ <./Figures/F15.jpg>]
+<Figures/F2.png, id=149, 658.46pt x 511.9125pt>
+File: Figures/F2.png Graphic file (type png)
+<use Figures/F2.png>
+Package pdftex.def Info: Figures/F2.png  used on input line 293.
+(pdftex.def)             Requested size: 202.86896pt x 157.71484pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 293.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 293.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 293.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 293.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 293.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 293.
  [7
 
- <./Figures/F4.jpeg>] [8
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./Figures/F2.png>]
+<Figures/F3.png, id=178, 895.345pt x 577.15625pt>
+File: Figures/F3.png Graphic file (type png)
+<use Figures/F3.png>
+Package pdftex.def Info: Figures/F3.png  used on input line 303.
+(pdftex.def)             Requested size: 260.09306pt x 167.66164pt.
+ [8
 
-] [9
-
-] [10
-
-] [11
-
-] [12
+ <./Figures/F3.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 328.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 328.
+ [9
 
 ]
-<Figures/F9.jpeg, id=136, 961.5925pt x 1284.8pt>
-File: Figures/F9.jpeg Graphic file (type jpg)
-<use Figures/F9.jpeg>
-Package pdftex.def Info: Figures/F9.jpeg  used on input line 164.
-(pdftex.def)             Requested size: 130.04652pt x 173.75418pt.
-<Figures/F10.jpg, id=137, 523.9575pt x 523.9575pt>
-File: Figures/F10.jpg Graphic file (type jpg)
-<use Figures/F10.jpg>
-Package pdftex.def Info: Figures/F10.jpg  used on input line 164.
-(pdftex.def)             Requested size: 173.39427pt x 173.3942pt.
+<Figures/TF2_1.jpg, id=192, 983.675pt x 655.44875pt>
+File: Figures/TF2_1.jpg Graphic file (type jpg)
+<use Figures/TF2_1.jpg>
+Package pdftex.def Info: Figures/TF2_1.jpg  used on input line 338.
+(pdftex.def)             Requested size: 260.09306pt x 173.30304pt.
+ [10
+
+ <./Figures/TF2_1.jpg>]
+<Figures/TF4_6.png, id=201, 836.12375pt x 368.37625pt>
+File: Figures/TF4_6.png Graphic file (type png)
+<use Figures/TF4_6.png>
+Package pdftex.def Info: Figures/TF4_6.png  used on input line 362.
+(pdftex.def)             Requested size: 268.75798pt x 118.41116pt.
+ [11
+
+ <./Figures/TF4_6.png>]
+<Figures/SA1_01.png, id=224, 861.2175pt x 421.575pt>
+File: Figures/SA1_01.png Graphic file (type png)
+<use Figures/SA1_01.png>
+Package pdftex.def Info: Figures/SA1_01.png  used on input line 413.
+(pdftex.def)             Requested size: 159.95593pt x 78.29892pt.
+ [12
+
+ <./Figures/SA1_01.png>]
+<Figures/SA1_03.png, id=285, 900.36375pt x 612.2875pt>
+File: Figures/SA1_03.png Graphic file (type png)
+<use Figures/SA1_03.png>
+Package pdftex.def Info: Figures/SA1_03.png  used on input line 456.
+(pdftex.def)             Requested size: 163.514pt x 111.18797pt.
  [13
 
- <./Figures/F9.jpeg> <./Figures/F10.jpg>]
-<Figures/F11.png, id=145, 679.53876pt x 475.7775pt>
-File: Figures/F11.png Graphic file (type png)
-<use Figures/F11.png>
-Package pdftex.def Info: Figures/F11.png  used on input line 182.
-(pdftex.def)             Requested size: 130.04652pt x 91.05203pt.
-<Figures/F12.png, id=146, 365.365pt x 550.055pt>
-File: Figures/F12.png Graphic file (type png)
-<use Figures/F12.png>
-Package pdftex.def Info: Figures/F12.png  used on input line 182.
-(pdftex.def)             Requested size: 108.371pt x 163.14609pt.
- [14
+ <./Figures/SA1_03.png>] [14
 
- <./Figures/F11.png> <./Figures/F12.png>]
-<Figures/F5.png, id=154, 645.41125pt x 651.43375pt>
-File: Figures/F5.png Graphic file (type png)
-<use Figures/F5.png>
-Package pdftex.def Info: Figures/F5.png  used on input line 200.
-(pdftex.def)             Requested size: 130.04652pt x 131.25856pt.
-<Figures/F6.png, id=155, 1051.93pt x 564.1075pt>
-File: Figures/F6.png Graphic file (type png)
-<use Figures/F6.png>
-Package pdftex.def Info: Figures/F6.png  used on input line 200.
-(pdftex.def)             Requested size: 173.39427pt x 92.97903pt.
- [15
+]
+<Figures/F25.jpeg, id=347, 715.67375pt x 917.4275pt>
+File: Figures/F25.jpeg Graphic file (type jpg)
+<use Figures/F25.jpeg>
+Package pdftex.def Info: Figures/F25.jpeg  used on input line 534.
+(pdftex.def)             Requested size: 130.04652pt x 166.6977pt.
+<Figures/F9.jpeg, id=348, 476.78125pt x 569.12625pt>
+File: Figures/F9.jpeg Graphic file (type jpg)
+<use Figures/F9.jpeg>
+Package pdftex.def Info: Figures/F9.jpeg  used on input line 534.
+(pdftex.def)             Requested size: 130.04652pt x 155.23798pt.
 
- <./Figures/F5.png> <./Figures/F6.png>]
-<Figures/F7.png, id=163, 400.49625pt x 571.13374pt>
+Overfull \vbox (3.25423pt too high) detected at line 534
+ []
+
+[15
+
+ <./Figures/F25.jpeg> <./Figures/F9.jpeg>]
+<Figures/F7.png, id=354, 400.49625pt x 571.13374pt>
 File: Figures/F7.png Graphic file (type png)
 <use Figures/F7.png>
-Package pdftex.def Info: Figures/F7.png  used on input line 218.
-(pdftex.def)             Requested size: 130.04652pt x 185.4594pt.
-<Figures/F8.png, id=164, 515.9275pt x 1053.9375pt>
-File: Figures/F8.png Graphic file (type png)
-<use Figures/F8.png>
-Package pdftex.def Info: Figures/F8.png  used on input line 218.
-(pdftex.def)             Requested size: 86.69548pt x 177.09245pt.
- [16
+Package pdftex.def Info: Figures/F7.png  used on input line 576.
+(pdftex.def)             Requested size: 119.64455pt x 170.61812pt.
 
- <./Figures/F7.png> <./Figures/F8.png>] [17
+Overfull \vbox (6.95137pt too high) detected at line 576
+ []
 
-]
-<Figures/F13.png, id=176, 1027.84pt x 1541.76pt>
-File: Figures/F13.png Graphic file (type png)
-<use Figures/F13.png>
-Package pdftex.def Info: Figures/F13.png  used on input line 234.
-(pdftex.def)             Requested size: 134.37898pt x 201.56505pt.
- [18
+[16
 
- <./Figures/F13.png (PNG copy)>] [19
+ <./Figures/F7.png>]
+<Figures/SP_22.jpg, id=387, 225.84375pt x 225.84375pt>
+File: Figures/SP_22.jpg Graphic file (type jpg)
+<use Figures/SP_22.jpg>
+Package pdftex.def Info: Figures/SP_22.jpg  used on input line 611.
+(pdftex.def)             Requested size: 173.39427pt x 173.40398pt.
+ [17
+
+ <./Figures/SP_22.jpg>] [18
 
 ]
-\openout4 = `main.vrb'.
+<Figures/F10.jpg, id=423, 523.9575pt x 523.9575pt>
+File: Figures/F10.jpg Graphic file (type jpg)
+<use Figures/F10.jpg>
+Package pdftex.def Info: Figures/F10.jpg  used on input line 677.
+(pdftex.def)             Requested size: 146.29985pt x 146.29935pt.
+ [19
 
- (./main.vrb
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [20
+ <./Figures/F10.jpg>]
+<Figures/SP_16.png, id=444, 837.1275pt x 968.61874pt>
+File: Figures/SP_16.png Graphic file (type png)
+<use Figures/SP_16.png>
+Package pdftex.def Info: Figures/SP_16.png  used on input line 704.
+(pdftex.def)             Requested size: 154.96994pt x 179.30989pt.
+
+Overfull \vbox (9.13309pt too high) detected at line 704
+ []
+
+[20
+
+ <./Figures/SP_16.png>]
+<Figures/SP_20.png, id=463, 1407.2575pt x 1126.2075pt>
+File: Figures/SP_20.png Graphic file (type png)
+<use Figures/SP_20.png>
+Package pdftex.def Info: Figures/SP_20.png  used on input line 734.
+(pdftex.def)             Requested size: 175.55864pt x 140.48346pt.
+ [21
+
+ <./Figures/SP_20.png (PNG copy)>] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
 
 ]
-\openout4 = `main.vrb'.
+<Figures/SP_21.png, id=585, 1723.43875pt x 919.435pt>
+File: Figures/SP_21.png Graphic file (type png)
+<use Figures/SP_21.png>
+Package pdftex.def Info: Figures/SP_21.png  used on input line 927.
+(pdftex.def)             Requested size: 338.11702pt x 180.37637pt.
 
- (./main.vrb) [21
+Overfull \vbox (2.79964pt too high) detected at line 927
+ []
 
-]
-\openout4 = `main.vrb'.
+[27
 
- (./main.vrb) [22
+ <./Figures/SP_21.png (PNG copy)>] [28
 
-]
-\openout4 = `main.vrb'.
+] (./main.bbl
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 109.
+ (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) [29
 
- (./main.vrb) [23
+] [30
+
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}] [31
+
+
+] [32
+
+
+] [33
+
+
+] [34
+
 
 ]
 \tf@nav=\write6
@@ -999,22 +1076,26 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C0FC1E211A70BC43F97F0C6026DF8EF0;698.
+(rerunfilecheck)             Checksum: AAC9B353ED22F678DBA8FFD90CE0866E;1342.
  ) 
 Here is how much of TeX's memory you used:
- 23854 strings out of 474222
- 455332 string characters out of 5748733
- 1944975 words of memory out of 5000000
- 45530 multiletter control sequences out of 15000+600000
- 627287 words of font info for 87 fonts, out of 8000000 for 9000
+ 24426 strings out of 474222
+ 471352 string characters out of 5748733
+ 1971975 words of memory out of 5000000
+ 46013 multiletter control sequences out of 15000+600000
+ 647835 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,123p,719b,861s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (23 pages, 5419755 bytes).
+ 128i,15n,123p,554b,1078s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (34 pages, 19048569 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 565 compressed objects within 6 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 1100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

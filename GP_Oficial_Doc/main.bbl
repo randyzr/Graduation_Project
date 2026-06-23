@@ -19,6 +19,156 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{XL6019BoostModule}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5c2808f7180b66bfd3eb0926ad13fe9c}{%
+           family={{ACEIRMC}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c2808f7180b66bfd3eb0926ad13fe9c}
+      \strng{fullhash}{5c2808f7180b66bfd3eb0926ad13fe9c}
+      \strng{bibnamehash}{5c2808f7180b66bfd3eb0926ad13fe9c}
+      \strng{authorbibnamehash}{5c2808f7180b66bfd3eb0926ad13fe9c}
+      \strng{authornamehash}{5c2808f7180b66bfd3eb0926ad13fe9c}
+      \strng{authorfullhash}{5c2808f7180b66bfd3eb0926ad13fe9c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{XL6019 High Power DC-DC Step-Up Converter Module}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/dp/B082XQC2DS
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/dp/B082XQC2DS
+      \endverb
+    \endentry
+    \entry{AITRIPPDTrigger}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c2580e52a6ac807b7b93484634ba8a79}{%
+           family={{AITRIP}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2580e52a6ac807b7b93484634ba8a79}
+      \strng{fullhash}{c2580e52a6ac807b7b93484634ba8a79}
+      \strng{bibnamehash}{c2580e52a6ac807b7b93484634ba8a79}
+      \strng{authorbibnamehash}{c2580e52a6ac807b7b93484634ba8a79}
+      \strng{authornamehash}{c2580e52a6ac807b7b93484634ba8a79}
+      \strng{authorfullhash}{c2580e52a6ac807b7b93484634ba8a79}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{USB Power Delivery trigger module capable of negotiating 5 V, 9 V, 12 V, 15 V and 20 V outputs from compatible USB-C power sources}
+      \field{title}{100 W 5 A USB-C PD QC Adjustable Voltage Power Trigger Module}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/dp/B0D7942HWP
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/dp/B0D7942HWP
+      \endverb
+    \endentry
+    \entry{Speaker8Ohm3W}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={{Amazon}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{4 Pcs Speaker 8 Ohm 3 W with JST-PH2.0 Connector}
+      \field{urlday}{9}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/MELIFE-2pcs-Single-Cavity-Speaker/dp/B0BYCD34FY/ref=sr_1_6_sspa?sr=8-6-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/MELIFE-2pcs-Single-Cavity-Speaker/dp/B0BYCD34FY/ref=sr_1_6_sspa?sr=8-6-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1
+      \endverb
+    \endentry
+    \entry{MicroSD8GB}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={{Amazon}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{8 GB microSD Memory Card with Adapter}
+      \field{urlday}{9}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/8GB-Adapter-Memory-Tablet-Console/dp/B0FDKTJJML
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/8GB-Adapter-Memory-Tablet-Console/dp/B0FDKTJJML
+      \endverb
+    \endentry
+    \entry{PLA500gCost}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={{Amazon}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Estimated cost based on approximately 500 g of PLA filament consumption}
+      \field{title}{PLA Filament Material Cost Estimate for 3D Printed Prototype}
+      \field{urlday}{9}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/ANYCUBIC-Printer-Filament-Dimensional-Accuracy/dp/B0834W5L3L/ref=sr_1_6_sspa?sr=8-6-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/ANYCUBIC-Printer-Filament-Dimensional-Accuracy/dp/B0834W5L3L/ref=sr_1_6_sspa?sr=8-6-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1
+      \endverb
+    \endentry
     \entry{S1_1_ANSI}{misc}{}
       \name{author}{1}{}{%
         {{hash=5fce6ba9e6bca4e6399380b88f5ed0b6}{%
@@ -265,6 +415,38 @@
       \verb https://emit.descoindustries.com/DescoEmitCatalog/Access-Control/SmartLog-Pro-2/Hardware/50181/
       \endverb
     \endentry
+    \entry{Desco_SmartLog}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=74e7068b878e215c9287656e466bf28f}{%
+           family={{Desco Industries Inc.}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Desco Industries}%
+      }
+      \strng{namehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{fullhash}{74e7068b878e215c9287656e466bf28f}
+      \strng{bibnamehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{authorbibnamehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{authornamehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{authorfullhash}{74e7068b878e215c9287656e466bf28f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Model 50180 Wrist Strap Tester Datasheet}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.globaltestsupply.com/pdfs/cache/www.globaltestsupply.com/50180/datasheet/50180-datasheet.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.globaltestsupply.com/pdfs/cache/www.globaltestsupply.com/50180/datasheet/50180-datasheet.pdf
+      \endverb
+    \endentry
     \entry{TI2014}{report}{}
       \name{author}{2}{}{%
         {{hash=a049a8ee49bdaa027908c75a1ab2838f}{%
@@ -296,6 +478,36 @@
       \field{type}{techreport}
       \field{year}{2014}
     \endentry
+    \entry{GM67Ebay}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ef1544421a9019ce831e3c059d8d9483}{%
+           family={{eBay Seller}},
+           familyi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef1544421a9019ce831e3c059d8d9483}
+      \strng{fullhash}{ef1544421a9019ce831e3c059d8d9483}
+      \strng{bibnamehash}{ef1544421a9019ce831e3c059d8d9483}
+      \strng{authorbibnamehash}{ef1544421a9019ce831e3c059d8d9483}
+      \strng{authornamehash}{ef1544421a9019ce831e3c059d8d9483}
+      \strng{authorfullhash}{ef1544421a9019ce831e3c059d8d9483}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Commercial listing of GM67 barcode scanner module with UART/TTL interface}
+      \field{title}{GM67 2D Barcode Scanner Module}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ebay.com/itm/358092102293
+      \endverb
+      \verb{url}
+      \verb https://www.ebay.com/itm/358092102293
+      \endverb
+    \endentry
     \entry{Globos_Electrostatica}{misc}{}
       \name{author}{1}{}{%
         {{hash=b37758057acd9cc760b6a3fc509eab5c}{%
@@ -324,6 +536,92 @@
       \endverb
       \verb{url}
       \verb https://educaconbigbang.com/2015/09/5-experimentos-de-electricidad-estatica-con-globos/
+      \endverb
+    \endentry
+    \entry{ElecrowESP32HMI7}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=18a441d3cc79670b42cb00930951ba3c}{%
+           family={{Elecrow}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{fullhash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{bibnamehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{authorbibnamehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{authornamehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{authorfullhash}{18a441d3cc79670b42cb00930951ba3c}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ESP32-based human-machine interface module featuring a 7-inch capacitive touchscreen, 800×480 resolution, dual-core LX7 processor up to 240 MHz, microSD (TF) card support, and compatibility with Arduino, LVGL, PlatformIO and MicroPython}
+      \field{title}{ESP32 Display 800×480, 7 Inch HMI Basic ESP32 RGB TFT LCD Touch Screen}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/dp/B0F8NFFH29
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/dp/B0F8NFFH29
+      \endverb
+    \endentry
+    \entry{ELEK_IEC_IEEE_Safety_2023}{online}{}
+      \name{author}{1}{}{%
+        {{hash=96983890a3dd5f5f59d0ac3d5efa1641}{%
+           family={{ELEK}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{fullhash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{bibnamehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{authorbibnamehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{authornamehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{authorfullhash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-05-31}
+      \field{title}{Safety Limit Calculations to IEEE and IEC Standards}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://elek.com/articles/safety-limit-calculations-to-ieee-and-iec-standards/
+      \endverb
+      \verb{url}
+      \verb https://elek.com/articles/safety-limit-calculations-to-ieee-and-iec-standards/
+      \endverb
+    \endentry
+    \entry{ESDAPrinciples2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5d7cf6726a1869429bc47b5746f0b9e0}{%
+           family={{EOS/ESD Association}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{fullhash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{bibnamehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{authorbibnamehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{authornamehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{authorfullhash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-06-10}
+      \field{title}{Fundamentals of Electrostatic Discharge, Part Two: Principles of ESD Control -- ESD Control Program Development}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.esda.org/esd-overview/esd-fundamentals/part-2-principles-of-esd-control/
+      \endverb
+      \verb{url}
+      \verb https://www.esda.org/esd-overview/esd-fundamentals/part-2-principles-of-esd-control/
       \endverb
     \endentry
     \entry{STM97_ANSI}{misc}{}
@@ -438,6 +736,107 @@
       \verb https://esdman01.en.ec21.com/ESD_Access_Control_System,_001-6809--11607596_11478622.html
       \endverb
     \endentry
+    \entry{ElecrowESP32HMIManual}{manual}{}
+      \list{organization}{1}{%
+        {Elecrow}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32 Display HMI User Manual}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elecrow.com/download/product/ESP32_Display/ESP32_Display_HMI_User_Manual.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.elecrow.com/download/product/ESP32_Display/ESP32_Display_HMI_User_Manual.pdf
+      \endverb
+    \endentry
+    \entry{ESP32WROOM32Datasheet}{manual}{}
+      \list{organization}{1}{%
+        {Espressif Systems}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32-WROOM-32 Datasheet}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{ESP32WROOM32Amazon}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32-WROOM-32 Development Board}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/dp/B08D5ZD528
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/dp/B08D5ZD528
+      \endverb
+    \endentry
+    \entry{FreenoveESP32S3CAM}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5ccd88299834e0c0809f4515744f5c09}{%
+           family={{Freenove}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Freenove}%
+      }
+      \strng{namehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{fullhash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{bibnamehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{authorbibnamehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{authornamehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{authorfullhash}{5ccd88299834e0c0809f4515744f5c09}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32-S3 CAM Board}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://store.freenove.com/products/fnk0085
+      \endverb
+      \verb{url}
+      \verb https://store.freenove.com/products/fnk0085
+      \endverb
+    \endentry
     \entry{Getty_Electrostatics}{misc}{}
       \name{author}{1}{}{%
         {{hash=2956f7e0289cd088e5e84a24bacc28bb}{%
@@ -466,6 +865,48 @@
       \verb{url}
       \verb https://www.getty.edu/publications/ambers/intro/4/
       \endverb
+    \endentry
+    \entry{GM67}{manual}{}
+      \list{organization}{1}{%
+        {GM}%
+      }
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{note}{2D barcode scanner module with UART, USB and TTL interfaces}
+      \field{title}{GM67 Barcode Scanner Module User Manual}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mikroshop.ch/pdf/GM67_Barcode.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mikroshop.ch/pdf/GM67_Barcode.pdf
+      \endverb
+    \endentry
+    \entry{HZR171}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=887b238efae00b8fb15931cdb1b02c98}{%
+           family={{HZR}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{887b238efae00b8fb15931cdb1b02c98}
+      \strng{fullhash}{887b238efae00b8fb15931cdb1b02c98}
+      \strng{bibnamehash}{887b238efae00b8fb15931cdb1b02c98}
+      \strng{authorbibnamehash}{887b238efae00b8fb15931cdb1b02c98}
+      \strng{authornamehash}{887b238efae00b8fb15931cdb1b02c98}
+      \strng{authorfullhash}{887b238efae00b8fb15931cdb1b02c98}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.amazon.com/dp/B0FTXNWKLB}}
+      \field{note}{Product page accessed June 7, 2026}
+      \field{title}{Static Anti-Static Wristband Grounding Monitor}
+      \field{year}{2026}
     \endentry
     \entry{IEC60479}{misc}{}
       \name{author}{1}{}{%
@@ -644,6 +1085,66 @@
       \verb 10.47833/2025.2.ENG.012
       \endverb
     \endentry
+    \entry{AWG24Wire}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7fe6bb266dd2cabe84188da4b1829c74}{%
+           family={{SCHDRA}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fe6bb266dd2cabe84188da4b1829c74}
+      \strng{fullhash}{7fe6bb266dd2cabe84188da4b1829c74}
+      \strng{bibnamehash}{7fe6bb266dd2cabe84188da4b1829c74}
+      \strng{authorbibnamehash}{7fe6bb266dd2cabe84188da4b1829c74}
+      \strng{authornamehash}{7fe6bb266dd2cabe84188da4b1829c74}
+      \strng{authorfullhash}{7fe6bb266dd2cabe84188da4b1829c74}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{24 AWG stranded tinned copper wire kit intended for low-voltage electronic interconnections and prototype assembly}
+      \field{title}{UL1007 24 AWG Hook-Up Wire Kit, Tinned Copper, Multi-Color}
+      \field{urlday}{9}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/dp/B0C7TJG9YB
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/dp/B0C7TJG9YB
+      \endverb
+    \endentry
+    \entry{SHT31}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e022ea74d18272592ae656183a54e73b}{%
+           family={{Sensirion AG}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e022ea74d18272592ae656183a54e73b}
+      \strng{fullhash}{e022ea74d18272592ae656183a54e73b}
+      \strng{bibnamehash}{e022ea74d18272592ae656183a54e73b}
+      \strng{authorbibnamehash}{e022ea74d18272592ae656183a54e73b}
+      \strng{authornamehash}{e022ea74d18272592ae656183a54e73b}
+      \strng{authorfullhash}{e022ea74d18272592ae656183a54e73b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Digital temperature and humidity sensor with I2C interface, used for environmental monitoring}
+      \field{title}{SHT3x-DIS Digital Humidity and Temperature Sensor Datasheet}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/897975/ETC2/SHT31.html
+      \endverb
+      \verb{url}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/897975/ETC2/SHT31.html
+      \endverb
+    \endentry
     \entry{SCS_770758}{misc}{}
       \name{author}{1}{}{%
         {{hash=0ad0c9ff7a2994274d52ecc055338085}{%
@@ -672,6 +1173,35 @@
       \endverb
       \verb{url}
       \verb https://staticcontrol.descoindustries.com/SCSCatalog/Wrist-Strap-and-Footwear-Testers/Dual-Combination-Tester/770758/
+      \endverb
+    \endentry
+    \entry{SHT31Module}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d2040d23e0458b9c335b8615680b71ae}{%
+           family={{Teyleten Robot}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2040d23e0458b9c335b8615680b71ae}
+      \strng{fullhash}{d2040d23e0458b9c335b8615680b71ae}
+      \strng{bibnamehash}{d2040d23e0458b9c335b8615680b71ae}
+      \strng{authorbibnamehash}{d2040d23e0458b9c335b8615680b71ae}
+      \strng{authornamehash}{d2040d23e0458b9c335b8615680b71ae}
+      \strng{authorfullhash}{d2040d23e0458b9c335b8615680b71ae}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SHT31 Digital Temperature and Humidity Sensor Module}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/dp/B0CN32WXJY
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/dp/B0CN32WXJY
       \endverb
     \endentry
     \entry{PGT120}{misc}{}
@@ -796,6 +1326,36 @@
       \verb https://van.physics.illinois.edu/ask/listing/542
       \endverb
     \endentry
+    \entry{FR4ProtoBoard}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fa59d251b2f34ef1ca3e4ed864d92f17}{%
+           family={{uxcell}},
+           familyi={u\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa59d251b2f34ef1ca3e4ed864d92f17}
+      \strng{fullhash}{fa59d251b2f34ef1ca3e4ed864d92f17}
+      \strng{bibnamehash}{fa59d251b2f34ef1ca3e4ed864d92f17}
+      \strng{authorbibnamehash}{fa59d251b2f34ef1ca3e4ed864d92f17}
+      \strng{authornamehash}{fa59d251b2f34ef1ca3e4ed864d92f17}
+      \strng{authorfullhash}{fa59d251b2f34ef1ca3e4ed864d92f17}
+      \field{sortinit}{u}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Double-sided fiberglass epoxy (FR4) prototyping board with copper-clad perforated pads for through-hole circuit assembly}
+      \field{title}{Double-Sided FR4 Prototyping PCB Board, 150 mm × 100 mm}
+      \field{urlday}{9}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.com/dp/B07R49DXN8
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/dp/B07R49DXN8
+      \endverb
+    \endentry
     \entry{versalogic_esd}{misc}{}
       \name{author}{1}{}{%
         {{hash=8a670dbd66471029ce6b0cbb99b809b1}{%
@@ -815,6 +1375,26 @@
       \field{howpublished}{\url{https://www.versalogic.com/wp-content/themes/vsl-new/assets/resources/whitepapers/VL-ESD-White-Paper.pdf}}
       \field{note}{White Paper, Accessed: 2026-04-19}
       \field{title}{Electrostatic Discharge (ESD) and How to Prevent It}
+    \endentry
+    \entry{XL6019Datasheet}{manual}{}
+      \list{organization}{1}{%
+        {XLSEMI}%
+      }
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labeltitlesource}{title}
+      \field{title}{XL6019 180 kHz 5 A Switching Current Boost DC/DC Converter Datasheet}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/1134396/XLSEMI/XL6019.html
+      \endverb
+      \verb{url}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/1134396/XLSEMI/XL6019.html
+      \endverb
     \endentry
     \entry{Xu2023}{misc}{}
       \name{author}{4}{}{%

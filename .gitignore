@@ -1,1 +1,28 @@
-*.mp4
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db*.mp4
+

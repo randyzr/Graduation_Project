@@ -1,5 +1,9 @@
-
 \documentclass[aspectratio=169]{beamer}
+
+% ============================================================
+% Packages
+% ============================================================
+
 \usepackage[spanish,es-nodecimaldot]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -7,293 +11,962 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{ragged2e}
-\usepackage{hyperref}
+\usepackage{graphicx}
 \usepackage{url}
-\usetheme{Madrid}
-\usecolortheme{default}
-\setbeamertemplate{navigation symbols}{}
-\setbeamertemplate{footline}
+\usepackage{hyperref}
 
-\title{Sistema inteligente de control ESD de bajo costo\\para el laboratorio TestChip Intel Costa Rica}
-\subtitle{Estado del arte, marco teórico y definición del problema}
+% ============================================================
+% Professional Beamer visual style
+% ============================================================
+
+\usetheme{Boadilla}
+\usecolortheme{dolphin}
+
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Bibliography style in Beamer
+\setbeamertemplate{bibliography item}[text]
+
+% Numbered figures and tables in Beamer
+\setbeamertemplate{caption}[numbered]
+
+% ============================================================
+% Custom colors
+% ============================================================
+
+\definecolor{TecBlue}{RGB}{0,58,112}
+\definecolor{TecCyan}{RGB}{0,150,180}
+\definecolor{SoftGray}{RGB}{245,247,250}
+\definecolor{DarkGray}{RGB}{45,45,45}
+\definecolor{LightBlue}{RGB}{232,242,248}
+
+% ============================================================
+% Main color configuration
+% ============================================================
+
+\setbeamercolor{structure}{fg=TecBlue}
+\setbeamercolor{frametitle}{fg=white,bg=TecBlue}
+\setbeamercolor{title}{fg=white,bg=TecBlue}
+\setbeamercolor{author}{fg=DarkGray}
+\setbeamercolor{date}{fg=DarkGray}
+
+% Normal text
+\setbeamercolor{normal text}{fg=DarkGray,bg=white}
+
+% Standard blocks
+\setbeamercolor{block title}{fg=white,bg=TecBlue}
+\setbeamercolor{block body}{fg=DarkGray,bg=SoftGray}
+
+% Alert blocks
+\setbeamercolor{alerted text}{fg=TecBlue}
+\setbeamercolor{block title alerted}{fg=white,bg=TecCyan}
+\setbeamercolor{block body alerted}{fg=DarkGray,bg=LightBlue}
+
+% Example blocks
+\setbeamercolor{block title example}{fg=white,bg=TecCyan}
+\setbeamercolor{block body example}{fg=DarkGray,bg=SoftGray}
+
+% Itemize bullets
+\setbeamercolor{item}{fg=TecCyan}
+\setbeamercolor{subitem}{fg=TecBlue}
+
+% Figure captions
+\setbeamerfont{caption}{size=\scriptsize}
+\setbeamercolor{caption name}{fg=TecBlue}
+
+% Frame title font
+\setbeamerfont{frametitle}{series=\bfseries,size=\large}
+
+% Title page font
+\setbeamerfont{title}{series=\bfseries,size=\Large}
+\setbeamerfont{subtitle}{size=\normalsize}
+
+% ============================================================
+% Custom emphasis boxes
+% ============================================================
+
+% Important text box without visible title
+\newcommand{\importantbox}[1]{
+    \begin{beamercolorbox}[
+        rounded=true,
+        shadow=true,
+        wd=\textwidth,
+        sep=0.35cm
+    ]{block body}
+        \justifying
+        #1
+    \end{beamercolorbox}
+}
+
+% Highlighted text box without visible title
+\newcommand{\highlightbox}[1]{
+    \begin{beamercolorbox}[
+        rounded=true,
+        shadow=true,
+        wd=\textwidth,
+        sep=0.35cm
+    ]{block body alerted}
+        \justifying
+        #1
+    \end{beamercolorbox}
+}
+
+% Compact source/note command
+\newcommand{\sourcenote}[1]{
+    \vspace{0.1cm}
+    \raggedleft
+    {\scriptsize #1}
+}
+
+% ============================================================
+% Dynamic footer section comment
+% ============================================================
+
+\newcommand{\rightfootertext}{}
+\newcommand{\setrightfooter}[1]{\gdef\rightfootertext{#1}}
+
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.65\paperwidth,ht=2.5ex,dp=1ex,leftskip=1em]{author in head/foot}%
+    \scriptsize Sistema de control ESD
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.35\paperwidth,ht=2.5ex,dp=1ex,rightskip=1em plus1fil]{date in head/foot}%
+    \scriptsize \rightfootertext
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\setbeamercolor{author in head/foot}{fg=white,bg=TecBlue}
+\setbeamercolor{date in head/foot}{fg=white,bg=TecCyan}
+
+% ============================================================
+% Presentation metadata
+% ============================================================
+
+\title{Diseño y implementación de un sistema inteligente \\ de bajo costo para el control ESD en laboratorios de electrónica}
 \author{Randy Zamora Rojas}
-\institute{Proyecto de graduación -- Ingeniería Electrónica\\Instituto Tecnológico de Costa Rica}
-\date{Marzo 2026}
+\institute{
+Anteproyecto de graduación -- Ingeniería Electrónica\\
+Instituto Tecnológico de Costa Rica\\[0.2cm]
+\textbf{Asesor:} M.Sc. Javier Rivera Alvarado
+}
+\date{Junio 2026}
+
+% ============================================================
+% Document
+% ============================================================
 
 \begin{document}
 
-\begin{frame}
+% ============================================================
+% Cover
+% ============================================================
+
+\begin{frame}[plain]
   \titlepage
 \end{frame}
 
-\begin{frame}{Motivación}
+% ============================================================
+% Initial motivation
+% ============================================================
 
-Una persona puede generar hasta 35,000 V simplemente caminando [2].
-Este nivel es suficiente para dañar dispositivos electrónicos sensibles, incluso sin que el daño sea visible.
-De hecho, la industria pierde entre un 4\% y 6\% de sus ingresos debido a la electróestática [11].
+\setrightfooter{¿Por qué es importante el control ESD?}
+
+\begin{frame}{Impacto de las descargas electrostáticas}
+
+\importantbox{
+Una persona puede generar hasta 35,000 V al caminar \cite{esda_part1},
+suficiente para dañar dispositivos electrónicos sensibles. La industria pierde
+entre 4\% y 6\% de sus ingresos debido a ESD según Versalogic Corporation
+\cite{versalogic_esd_wp}.
+}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.4\textwidth]{Figures/F1.png}
+    \includegraphics[width=0.38\textwidth]{Figures/F1.png}
+    \caption{Descarga electrostática sobre un dispositivo electrónico \cite{istock_esd_sparks}.}
 \end{figure}
 
 \end{frame}
 
-\begin{frame}{Agenda}
-\tableofcontents
+% ============================================================
+% Agenda
+% ============================================================
+
+\setrightfooter{}
+
+\begin{frame}[plain]{Agenda}
+    \tableofcontents
 \end{frame}
 
+% ============================================================
+% Introduction
+% ============================================================
+
+\setrightfooter{ ¿Qué es control ESD?}
 \section{Introducción}
-\begin{frame}{Introducción}
-\begin{columns}
-    \column{0.7\textwidth}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.9\textwidth]{Figures/F2.png}
-    \end{figure}
-    \column{0.2\textwidth}
-    \begin{equation*}
-        \boxed{\text{q} = \text{C} \cdot \text{V}}
-    \end{equation*}
-\end{columns}
-\end{frame}
 
-\begin{frame}{Introducción}
-    \centering
-    \textbf{Ejemplos de Niveles Típicos de Voltaje de Generación Estática [2]}
-    \vspace{0.3cm}
-    \small
-    \renewcommand{\arraystretch}{1.25}
-    \begin{tabular}{|p{5.2cm}|c|c|}
-        \hline
-        \textbf{Means of Generation} & \textbf{10--25\% RH} & \textbf{65--90\% RH} \\ \hline
-        Walking across carpet S           & 35{,}000 V & 1{,}500 V \\ \hline
-        Walking across vinyl tile        & 12{,}000 V & 250 V \\ \hline
-        Worker at bench                  & 6{,}000 V & 100 V \\ \hline
-        Polybag picked up from the bench & 20{,}000 V & 1{,}200 V \\ \hline
-        Chair with urethane foam         & 18{,}000 V & 1{,}500 V \\ \hline
-    \end{tabular}
+\begin{frame}{Riesgo ESD durante la manipulación electrónica}
 
-    \vspace{0.2cm}
-    \raggedleft
-    \scriptsize Fuente: [2]
-\end{frame}
+\begin{columns}[c]
 
-\begin{frame}{Introducción}
+    % ---------------- Left image ----------------
+    \column{0.48\textwidth}
+
     \begin{figure}
         \centering
-        \includegraphics[width=0.6\textwidth]{Figures/F3.png}
+        \includegraphics[width=0.95\linewidth]{Figures/F14.jpg}
+        \caption{\scriptsize Manipulación de componentes electrónicos sin pulsera antiestática \cite{magnific_cpu_repair}.}
     \end{figure}
 
-    \vspace{0.2cm}
-    \raggedleft
-    \scriptsize Fuente: [2]
+    % ---------------- Right image ----------------
+    \column{0.48\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.95\linewidth]{Figures/IndustrialLab.jpg}
+        \caption{\scriptsize Estación de trabajo en ambiente industrial \cite{getty_modern_workstation}.}
+    \end{figure}
+
+\end{columns}
+
 \end{frame}
 
-\begin{frame}{Introducción}
+\begin{frame}{Uso de pulsera antiestática}
+
     \begin{figure}
         \centering
         \includegraphics[width=0.6\textwidth]{Figures/F4.jpeg}
+        \caption{Uso de pulsera antiestática al manipular componentes electrónicos, fuente: Versalogic Corp \cite{versalogic_esd_wp}.}
     \end{figure}
 
-    \vspace{0.2cm}
-    \raggedleft
-    \scriptsize Fuente: [11]
 \end{frame}
 
+\begin{frame}{Sistemas industriales de control ESD}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{Figures/F15.jpg}
+        \caption{Sistemas de control ESD en industrias \cite{gotopac_esd_access_control}.}
+    \end{figure}
+
+\end{frame}
+
+% ============================================================
+% Theoretical framework
+% ============================================================
+
+\setrightfooter{ ¿Qué es ESD?}
 \section{Marco teórico}
-\begin{frame}{Marco teórico: generación de carga y daño}
-\begin{itemize}
-    \item La magnitud de la carga depende del tipo de material, velocidad de separación, área de contacto y humedad relativa [2].
-    \item El daño puede ser \textbf{catastrófico} (falla inmediata) o \textbf{latente} (degradación que reduce la vida útil del sistema) [2], [5].
-    \item Los estándares de control suelen tomar como base productos con sensibilidad de 100~V HBM y 200~V CDM [1], [9].
-\end{itemize}
-\end{frame}
 
-\begin{frame}{Marco teórico: puesta a tierra y control de personal}
-\begin{itemize}
-    \item La puesta a tierra busca mantener conductores, superficies y personal al mismo potencial eléctrico [4], [9], [10].
-    \item Las pulseras antiestáticas siguen siendo el método principal para operadores sentados; los sistemas piso/calzado se usan cuando se requiere movilidad [4], [9], [10].
-    \item La verificación periódica es obligatoria dentro de un plan de cumplimiento; en pulseras, la práctica común es prueba diaria o monitoreo continuo [4], [8], [9].
-    \item La auditoría requiere instrumentos básicos como medidor de campo, medidor de resistencia y probadores de muñequera/calzado [5], [8].
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Marco teórico: influencia ambiental}
-\begin{itemize}
-    \item La humedad relativa influye en la acumulación de carga y en la severidad de la descarga; ambientes secos favorecen mayores tensiones y descargas más severas [11], [12], [14].
-    \item Sin embargo, la humidificación por sí sola no sustituye un programa ESD completo; debe verse como apoyo al control del riesgo [11], [12], [14].
-    \item Literatura reciente también reporta que cambios de temperatura y humedad pueden modificar la robustez ESD de dispositivos de protección integrados [13].
-    \item Esto justifica incorporar sensores ambientales como valor agregado del sistema propuesto.
-\end{itemize}
-\end{frame}
-
-\section{Estado del arte}
-\begin{frame}{Estado del arte: estándares y guías}
-\begin{itemize}
-    \item \textbf{ANSI/ESD S20.20}: documento base para establecer, implementar y mantener un programa de control ESD [1], [19].
-    \item \textbf{IEC 61340-5-1}: versión internacional con requisitos administrativos y técnicos para el programa ESD [9].
-    \item \textbf{NASA JSC-66552}: referencia de alta confiabilidad para protección de componentes y ensambles electrónicos en ambientes críticos [10].
-    \item \textbf{TR53 / TR20.20}: soporte para verificación, auditoría e interpretación práctica del programa [8], [20].
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Estado del arte: Investigación académica}
-\begin{itemize}
-    \item También existen enfoques de monitoreo continuo y gestión por tablero para seguimiento del estado de muñequera y cumplimiento [14], [18].
-    \item A nivel académico, la literatura se concentra más en monitoreo, protección de dispositivos y efectos ambientales que en estaciones integradas de bajo costo [13], [14].
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Estado del arte: Probadores de Wrist Straps}
+\begin{frame}{Generación de carga electrostática y principio físico}
 
 \begin{columns}
 
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.6\linewidth]{Figures/F9.jpeg}\\[0.2cm]
-{\scriptsize DESCO Wrist Strap Tester, costo: \(\approx\) \$150 [24].}
+    \column{0.72\textwidth}
 
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.8\linewidth]{Figures/F10.jpg}\\[0.2cm]
-{\scriptsize HZR 171, costo: \(\approx\) \$30 [20].}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\textwidth]{Figures/F2.png}
+        \caption{Generación de carga electrostática por contacto y separación, fuente: ESD Association \cite{esda_part1}.}
+    \end{figure}
 
-\end{columns}
+    \column{0.28\textwidth}
 
-\end{frame}
+    \begin{block}{Principio físico}
+        \centering
+        \Large
+        \[
+            q = C \cdot V
+        \]
+    \end{block}
 
-\begin{frame}{Estado del arte: Probadores Básicos}
+    \vspace{0.1cm}
 
-\begin{columns}
-
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.6\linewidth]{Figures/F11.png}\\[0.2cm]
-{\scriptsize SCS Dual Combination Tester 770758, costo: \(\approx\) \$1073 [25].}
-
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.5\linewidth]{Figures/F12.png}\\[0.2cm]
-{\scriptsize SCS 770031: \(\approx\) \$495 [27].}
-
-\end{columns}
-
-\end{frame}
-
-\begin{frame}{Estado del arte: Estaciones Básicas}
-
-\begin{columns}
-
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.6\linewidth]{Figures/F5.png}\\[0.2cm]
-{\scriptsize PGT130DT, costo: \(\approx\) \$7676 [23].}
-
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.8\linewidth]{Figures/F6.png}\\[0.2cm]
-{\scriptsize PGT120, costo: \(\approx\) \$2137 [20].}
-
-\end{columns}
-
-\end{frame}
-
-\begin{frame}{Estado del arte: Estaciones Integrales}
-
-\begin{columns}
-
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.6\linewidth]{Figures/F7.png}\\[0.2cm]
-{\scriptsize ESDMAN ESD System, costo: \(\approx\) \$2500 [27].}
-
-\column{0.5\textwidth}
-\centering
-\includegraphics[width=0.4\linewidth]{Figures/F8.png}\\[0.2cm]
-{\scriptsize SmartLog Pro 2, costo: \(\approx\) \$5000 [15] [21].}
-
-\end{columns}
-
-\end{frame}
-
-\section{Definición del problema}
-\begin{frame}{Definición del problema}
-    En el laboratorio TestChip de Intel Costa Rica, 
-    se requiere una solución que permita verificar el 
-    cumplimiento ESD de forma eficiente, automatizada y de 
-    bajo costo, lo cual no es completamente cubierto por las 
-    soluciones actuales.
-\end{frame}
-
-\begin{frame}{Propuesta preliminar del proyecto}
-\begin{figure}
     \centering
-    \includegraphics[width=0.31\textwidth]{Figures/F13.png}
-\end{figure}
+    {\scriptsize Fuente: Engineering Electromagnetics, 2019 \cite{hayt2019}}
+
+\end{columns}
+
 \end{frame}
 
-\section{Conclusiones}
-\begin{frame}{Conclusiones}
-\begin{itemize}
-    \item El estado del arte muestra estándares robustos y productos comerciales útiles, pero deja espacio para una propuesta más accesible y personalizada [10], [14], [15], [18].
-    \item La propuesta de una estación ESD inteligente de bajo costo es técnicamente justificable y académicamente relevante.
-\end{itemize}
+\begin{frame}{Clasificación de materiales según su resistencia eléctrica}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{Figures/F3.png}
+        \caption{Clasificación de resistencia eléctrica en materiales, fuente: ESD Association \cite{esda_part1}.}
+    \end{figure}
+
 \end{frame}
+
+\begin{frame}{Influencia de la humedad relativa en la generación ESD}
+
+    \begin{table}
+    \centering
+    \caption{Ejemplos de niveles típicos de voltaje de generación estática, fuente: ESD Association \cite{esda_part1}.}
+
+    \vspace{0.2cm}
+
+    \small
+    \renewcommand{\arraystretch}{1.25}
+
+    \begin{tabular}{|p{5.2cm}|c|c|}
+        \hline
+        \textbf{Medio de generación} & \textbf{10--25\% HR} &
+        \textbf{65--90\% HR} \\ \hline
+        Caminar sobre alfombra              & 35{,}000 V & 1{,}500 V \\ \hline
+        Caminar sobre piso vinílico         & 12{,}000 V & 250 V \\ \hline
+        Operario en estación de trabajo     & 6{,}000 V  & 100 V \\ \hline
+        Bolsa plástica levantada del banco  & 20{,}000 V & 1{,}200 V \\ \hline
+        Silla con espuma de uretano         & 18{,}000 V & 1{,}500 V \\ \hline
+    \end{tabular}
+    \end{table}
+
+\end{frame}
+
+\begin{frame}{Medición de resistencia cuerpo--tierra}
+
+    \begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{Figures/TF2_1.jpg}
+    \caption{Ilustración de puesta a tierra de una persona, fuente: ESD Association \cite{STM97_ANSI}.}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}{Reto técnico: medición de alta impedancia}
+
+    % ========================================================
+    % Top: technical figure
+    % ========================================================
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.62\textwidth]{Figures/TF4_6.png}
+        \caption{Ejemplo de corriente de fuga en mediciones de alta impedancia, fuente: Keithley Instruments \cite{keithley_lowlevel}.}
+    \end{figure}
+
+    \vspace{-0.15cm}
+
+    % ========================================================
+    % Bottom: key idea
+    % ========================================================
+
+    \begin{alertblock}{Idea técnica clave}
+        En mediciones de alta impedancia, las corrientes de fuga, el aislamiento y el ruido eléctrico pueden afectar el resultado de la medición.
+    \end{alertblock}
+
+\end{frame}
+
+% ============================================================
+% State of the art
+% ============================================================
+
+\setrightfooter{ ¿Qué se ha investigado?}
+\section{Estado del arte}
+
+\begin{frame}{Investigación: Monitoreo de puesta a tierra}
+
+\begin{columns}
+
+    % ========================================================
+    % Left column: figure
+    % ========================================================
+    \column{0.45\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.82\linewidth]{Figures/SA1_01.png}
+        \caption{Monitoreo de resistencia de puesta a tierra \cite{Nagy2025}.}
+    \end{figure}
+
+    % ========================================================
+    % Right column: relevant information
+    % ========================================================
+    \column{0.50\textwidth}
+
+    \begin{block}{Aporte principal}
+        \small
+        Nagy \cite{Nagy2025} propone un sistema IoT para monitorear de forma 
+        continua la resistencia de puesta a tierra en estaciones de trabajo 
+        ESD.
+    \end{block}
+
+    \vspace{0.15cm}
+
+    \begin{block}{Características técnicas}
+        \small
+        \begin{itemize}
+            \item Módulos en estaciones de trabajo.
+            \item Servidor central basado en Raspberry Pi.
+            \item Comunicación mediante WiFi, MQTT y JSON.
+            \item Detección temprana de problemas de conexión a tierra.
+        \end{itemize}
+    \end{block}
+
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Investigación: Monitoreo de campos electrostáticos}
+
+\begin{columns}[T]
+
+    % ========================================================
+    % Left column: relevant information
+    % ========================================================
+    \column{0.50\textwidth}
+
+    \begin{block}{Aporte principal}
+        \small
+        El trabajo de Xu y colaboradores \cite{Xu2023} propone un sistema de monitoreo 
+        continuo de ESD para líneas de manufactura, 
+        orientado a detectar acumulación de carga electrostática en 
+        tarjetas electrónicas ensambladas.
+    \end{block}
+
+    \vspace{0.15cm}
+
+    \begin{block}{Características técnicas}
+        \small
+        \begin{itemize}
+            \item Uso de \textit{fieldmeters} sin contacto.
+            \item Generación de mapas de calor del campo eléctrico.
+            \item Conversión ADC y envío de datos a servidor local.
+        \end{itemize}
+    \end{block}
+
+    % ========================================================
+    % Right column: figure
+    % ========================================================
+    \column{0.46\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.82\linewidth]{Figures/SA1_03.png}
+        \caption{Monitoreo de campos electrostáticos \cite{Xu2023}.}
+    \end{figure}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Normativas aplicables al control ESD}
+
+\small
+
+\begin{columns}[T]
+
+    % ========================================================
+    % Left column: standards
+    % ========================================================
+    \column{0.43\textwidth}
+
+    \begin{block}{Normativas consideradas}
+        \begin{itemize}
+            \item \textbf{ANSI/ESD S20.20}
+            \item \textbf{IEC 61340-5-1}
+            \item \textbf{ANSI/ESD S1.1}
+            \item \textbf{ANSI/ESD STM97.1}
+            \item \textbf{IEC 60479}
+        \end{itemize}
+    \end{block}
+
+    \vspace{0.15cm}
+
+    \begin{alertblock}{Parámetros clave}
+        \centering
+        \textbf{750 k$\Omega$ -- 35 M$\Omega$}\\
+        \scriptsize Rango de referencia para verificación de puesta a tierra del personal.
+    \end{alertblock}
+
+    % ========================================================
+    % Right column: relevance to the project
+    % ========================================================
+    \column{0.53\textwidth}
+
+    \begin{block}{Importancia para el proyecto}
+        \begin{itemize}
+            \item \textbf{Programa ESD:} define prácticas de control, verificación y cumplimiento.
+            \item \textbf{Pulsera antiestática:} guía la prueba del sistema usuario--pulsera.
+            \item \textbf{Calzado/piso ESD:} referencia para resistencia cuerpo--tierra.
+            \item \textbf{Seguridad eléctrica:} limita la corriente aplicada al usuario.
+            \item \textbf{Trazabilidad:} justifica registrar usuario, fecha, hora y resultado.
+        \end{itemize}
+    \end{block}
+
+\end{columns}
+
+\vspace{0.1cm}
+
+{\scriptsize Fuente: \cite{ANSI_S2020_Blog},\cite{S1_1_ANSI},\cite{STM97_ANSI},\cite{IEC61340_Preview},\cite{IEC60479}}.
+
+\end{frame}
+
+\setrightfooter{ ¿Qué soluciones existen?}
+
+\begin{frame}{Solución actual en TEM Lab}
+
+\begin{columns}[T]
+
+    \column{0.5\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\linewidth]{Figures/F25.jpeg}
+        \caption{\scriptsize Indicaciones de seguridad ESD en TEM Lab, fuente: fotografia propia.}
+    \end{figure}
+
+    \column{0.5\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\linewidth]{Figures/F9.jpeg}
+        \caption{\scriptsize Tester actual utilizado en TEM Lab, fuente: fotografia propia.}
+    \end{figure}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Sistemas avanzados: ESDMAN}
+
+\begin{columns}[T]
+
+    % ========================================================
+    % Left column: product image
+    % ========================================================
+    \column{0.46\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\linewidth]{Figures/F7.png}
+        \caption{Sistema ESDMAN \cite{ESDMAN_0016809}.}
+    \end{figure}
+
+    \vspace{-0.15cm}
+
+    % ========================================================
+    % Right column: main characteristics
+    % ========================================================
+    \column{0.50\textwidth}
+
+    \begin{block}{Características principales}
+        \small
+        \begin{itemize}
+            \item Identificación de usuario mediante \textbf{RFID}.
+            \item Verificación de \textbf{pulsera antiestática}.
+            \item Verificación de \textbf{calzado ESD}.
+            \item Función de \textbf{control de acceso}.
+            \item Interfaz gráfica para operación del sistema.
+            \item Generación de reportes y registros de pruebas.
+            \item Costo de 2500 USD su versión básica.
+            \item Fabricado en China.
+        \end{itemize}
+    \end{block}
+
+    {\scriptsize \raggedright Fuente: Web oficial de ESDMAN \cite{ESDMAN_0016809}}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Sistemas avanzados: SmartLog Pro 2}
+
+\begin{columns}
+
+    \column{0.5\textwidth}
+
+   \begin{block}{Características principales}
+        \small
+        \begin{itemize}
+            \item Identificación de usuario mediante \textbf{RFID}.
+            \item Verificación de \textbf{pulsera antiestática}.
+            \item Verificación de \textbf{calzado ESD}.
+            \item Función de \textbf{control de acceso}.
+            \item Interfaz gráfica para operación del sistema.
+            \item Generación de reportes y registros de pruebas.
+            \item Costo de 5643 USD su versión básica.
+            \item Fabricado en Estados Unidos
+        \end{itemize}
+    \end{block}
+
+    {\scriptsize \raggedright Fuente: Web oficial del fabricante \cite{SmartLogPro2}}
+
+
+    \column{0.5\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{Figures/SP_22.jpg}
+        \caption{EMIT SmartLog Pro 2 \cite{SmartLogPro2}.}
+    \end{figure}
+
+\end{columns}
+
+\end{frame}
+
+% ============================================================
+% Problem definition
+% ============================================================
+
+\setrightfooter{}
+\section{Definición del problema}
+
+\begin{frame}{Planteamiento del problema}
+
+    \begin{block}{Situación actual}
+        \justifying
+        Aunque existen sistemas comerciales para el control ESD en laboratorios de electrónica y
+        manufactura de semiconductores, estas soluciones suelen presentar costos elevados y una
+        limitada capacidad de personalización. Adicionalmente, no se identifican alternativas de
+        bajo costo que integren de manera conjunta la verificación de pulseras antiestáticas, la
+        identificación de usuarios, el almacenamiento de registros históricos, la generación de
+        reportes y una interfaz gráfica para interactuar con el sistema.
+    \end{block}
+
+    \vspace{0.25cm}
+
+    \begin{alertblock}{Necesidad identificada}
+        \justifying
+        Esta situación evidencia
+        la necesidad de desarrollar una solución accesible y adaptable que permita mejorar la
+        trazabilidad de las pruebas ESD en entornos de laboratorio, como el laboratorio TEM
+        de Intel Costa Rica, donde se ha identificado una oportunidad de mejora en el seguimiento
+        del cumplimiento de los procedimientos ESD.
+    \end{alertblock}
+
+\end{frame}
+
+% ============================================================
+% Proposed solution
+% ============================================================
+
+\setrightfooter{}
+\section{Propuesta de solución}
+
+\begin{frame}{¿Cómo proponemos solucionarlo?}
+
+\begin{columns}
+
+    \column{0.45\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.75\linewidth]{Figures/F10.jpg}
+        \caption{Probador básico de pulsera antiestática HZR171 \cite{HZR171}.}
+    \end{figure}
+
+    \column{0.42\textwidth}
+
+    \begin{block}{Características del probador}
+        \begin{itemize}
+            \item Económico, 30 USD 
+            \item Precisión de $\pm5\%$ 
+            \item Medición entre 800 k$\Omega$ y 10 M$\Omega$ 
+            \item Alimentación de 9 V 
+        \end{itemize}
+    \end{block}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Diagrama de bloques de la solución propuesta}
+
+\begin{columns}
+
+    \column{0.55\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\textwidth]{Figures/SP_16.png}
+        \caption{Interconexión de subsistemas del prototipo. Fuente: elaboración propia.}
+    \end{figure}
+
+    \column{0.35\textwidth}
+
+    \begin{block}{Criterios de diseño}
+        \begin{itemize}
+            \item Uso de USB-C
+            \item Interación con el usuario
+            \item Seguridad eléctrica
+            \item Baja potencia
+        \end{itemize}
+    \end{block}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Solución propuesta}
+
+\begin{columns}
+
+    \column{0.45\textwidth}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.9\textwidth]{Figures/SP_20.png}
+        \caption{Ilustración del sistema ESD propuesto. Fuente: elaboración propia.}
+    \end{figure}
+
+    \column{0.42\textwidth}
+
+    \begin{block}{Funciones integradas}
+        \begin{itemize}
+            \item Medición de pulsera antiestática
+            \item Identificación mediante código de barras
+            \item Identificación mediante reconocimiento facial
+            \item HMI con interfaz gráfica 
+            \item Almacenamiento local de registros
+            \item Sensado de variables ambientales
+            \item Generación de reportes
+        \end{itemize}
+    \end{block}
+
+\end{columns}
+
+\end{frame}
+
+\section{Presupuesto}
+\begin{frame}{¿Cuál sería el costo del prototipo?}
+
+\begin{table}
+\centering
+\caption{Resumen del costo estimado del prototipo.}
+\label{tab:costo_prototipo_beamer}
+
+\scriptsize
+\renewcommand{\arraystretch}{1.25}
+
+\begin{tabular}{p{5.2cm} p{5.2cm} c}
+\toprule
+\textbf{Categoría / concepto} &
+\textbf{Descripción} &
+\textbf{Costo estimado (USD)} \\
+\midrule
+
+Componentes electrónicos principales &
+Módulos principales del sistema de control ESD &
+170.63 \\
+
+Cableado eléctrico &
+Cable 24 AWG para interconexión interna \cite{AWG24Wire} &
+9.66 \\
+
+Placas FR4 de prototipado &
+Placas FR4 de 10 cm $\times$ 15 cm \cite{FR4ProtoBoard} &
+14.29 \\
+
+Material de impresión 3D &
+Consumo aproximado de 500 g de PLA \cite{PLA500gCost} &
+7.25 \\
+
+Materiales mecánicos menores &
+Tornillos, separadores, conectores, termocontraíble y otros consumibles &
+20.00 \\
+
+\midrule
+\textbf{Subtotal fabricación y ensamblaje} &
+&
+\textbf{51.20} \\
+
+\midrule
+\textbf{Costo total estimado del prototipo} &
+&
+\textbf{221.83} \\
+
+\bottomrule
+\end{tabular}
+
+\end{table}
+
+\end{frame}
+
+% ============================================================
+% Hypothesis and objectives
+% ============================================================
+
+\setrightfooter{ ¿Qué se espera demostrar?}
+\section{Hipótesis de solución y objetivos}
+
+\begin{frame}{Hipótesis de solución}
+
+    \vspace{0.35cm}
+
+    \highlightbox{
+        \centering
+        \large
+        Una estación inteligente de control ESD de bajo costo, basada en la integración de un 
+        probador comercial de pulseras antiestáticas, identificación de usuarios mediante código 
+        de barras y reconocimiento facial, monitoreo ambiental y almacenamiento local de registros, 
+        mejora la trazabilidad de las pruebas ESD en entornos de laboratorio al asociar cada 
+        prueba con un usuario, fecha, hora, resultado y condiciones ambientales de operación.
+    }
+
+\end{frame}
+
+\begin{frame}{Objetivo general}
+
+    \vspace{0.6cm}
+
+    \begin{block}{Objetivo general del proyecto}
+        \large
+        \justifying
+        Diseñar e implementar una estación inteligente de control ESD de bajo costo para 
+        laboratorios de electrónica, integrando verificación de pulseras antiestáticas, 
+        identificación de usuarios, monitoreo ambiental y almacenamiento de registros.
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Objetivos específicos}
+
+    \begin{block}{Objetivos específicos del proyecto}
+    \small
+    \begin{itemize}
+
+        \item Integrar los módulos electrónicos requeridos para la estación inteligente de control ESD, incluyendo el 
+        probador comercial, sensor ambiental, dispositivos de identificación, HMI y microcontroladores necesarios para la operación del sistema.
+
+        \item Implementar mecanismos de identificación de usuarios mediante lectura de código de barras y reconocimiento facial.
+
+        \item Implementar los subsistemas de interacción y monitoreo de la estación, incluyendo interfaz gráfica 
+        táctil y monitoreo ambiental.
+
+        \item Implementar almacenamiento local de registros y generación de reportes asociados a las pruebas ESD.
+
+        \item Validar el funcionamiento del sistema mediante pruebas funcionales de los subsistemas 
+        y pruebas de integración del prototipo, así como mediante pruebas de operación realizadas 
+        en el laboratorio TEM de Intel Costa Rica.
+
+    \end{itemize}
+    \end{block}
+
+\end{frame}
+
+% ============================================================
+% Validation plan
+% ============================================================
+
+\section{Validación del prototipo}
+\setrightfooter{}
+
+\begin{frame}{¿Cómo se validará el prototipo?}
+
+\small
+
+\begin{columns}[T]
+
+    % ========================================================
+    % Left column: validation strategy
+    % ========================================================
+    \column{0.48\textwidth}
+
+    \begin{block}{Estrategia de validación}
+        \begin{enumerate}
+            \item \textbf{Pruebas funcionales}\\
+            Validación individual de cada subsistema.
+
+            \item \textbf{Pruebas de integración}\\
+            Verificación de comunicación e interoperabilidad.
+
+            \item \textbf{Pruebas operativas}\\
+            Evaluación del prototipo en el laboratorio TEM.
+        \end{enumerate}
+    \end{block}
+
+    \vspace{0.15cm}
+
+    \begin{alertblock}{Criterio principal}
+        El sistema debe ejecutar el flujo completo desde la identificación del usuario hasta el almacenamiento del resultado.
+    \end{alertblock}
+
+    % ========================================================
+    % Right column: validation items
+    % ========================================================
+    \column{0.48\textwidth}
+
+    \begin{block}{Aspectos por validar}
+        \begin{itemize}
+            \item Lectura de estados del probador ESD
+            \item Identificación por código de barras
+            \item Reconocimiento facial complementario
+            \item Interfaz gráfica e instrucciones al usuario
+            \item Registro de temperatura y humedad
+            \item Almacenamiento local de pruebas
+            \item Generación de reportes CSV
+        \end{itemize}
+    \end{block}
+
+\end{columns}
+
+\end{frame}
+
+% ============================================================
+% Schedule
+% ============================================================
+
+\section{Cronograma}
+\setrightfooter{}
+
+\begin{frame}{¿Cuál es el cronograma de actividades?}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.78\textwidth]{Figures/SP_21.png}
+    \caption{Cronograma propuesto, fuente: elaboración propia}
+    \label{fig:ambar}
+\end{figure}
+
+\end{frame}
+
+% ============================================================
+% Closing slide
+% ============================================================
+
+\begin{frame}[plain]
+
+    \centering
+    
+    \vspace{1.2cm}
+    
+    {\Huge \textbf{¡Muchas gracias!}}\\[0.4cm]
+    
+    {\Large por su atención}\\[0.8cm]
+    
+    \rule{0.75\textwidth}{0.4pt}\\[0.6cm]
+    
+    {\large \textbf{Diseño y implementación de un sistema de \\ bajo costo para el control ESD en laboratorios de electrónica}}\\[0.2cm]
+    {\normalsize Randy Zamora Rojas}\\[0.2cm]
+    {\normalsize Asesor: M.Sc Javier Rivera Alvarado}\\[0.8cm]
+    
+\end{frame}
+
+% ============================================================
+% References
+% ============================================================
 
 \appendix
-\begin{frame}[fragile]{Referencias [1]--[7]}
-\tiny
-\begin{enumerate}
-\item B. Kelechava, ``ANSI/ESD S20.20-2021: Protection of Electrical and Electronic Parts,'' \emph{ANSI Blog}, Mar. 9, 2022. [En línea]. Disponible en: \url{https://blog.ansi.org/ansi/ansi-esd-s20-20-2021-protection-electronic-parts/}. [Accedido: 23-mar-2026].
-\item EOS/ESD Association, ``Fundamentals of Electrostatic Discharge, Part One---An Introduction to ESD,'' 2020. [En línea]. Disponible en: \url{https://www.esda.org/esd-overview/esd-fundamentals/part-1-an-introduction-to-esd/}. [Accedido: 23-mar-2026].
-\item EOS/ESD Association, ``Fundamentals of Electrostatic Discharge, Part Two---Principles of ESD Control,'' 2020. [En línea]. Disponible en: \url{https://www.esda.org/esd-overview/esd-fundamentals/part-2-principles-of-esd-control/}. [Accedido: 23-mar-2026].
-\item EOS/ESD Association, ``Fundamentals of Electrostatic Discharge, Part Three---Basic ESD Control Procedures and Materials,'' 2020. [En línea]. Disponible en: \url{https://www.esda.org/esd-overview/esd-fundamentals/part-3-basic-esd-control-procedures-and-materials/}. [Accedido: 23-mar-2026].
-\item EOS/ESD Association, ``Fundamentals of Electrostatic Discharge, Part Four---Training and Compliance Verification Auditing,'' 2020. [En línea]. Disponible en: \url{https://www.esda.org/esd-overview/esd-fundamentals/part-4-training-and-auditing/}. [Accedido: 23-mar-2026].
-\item EOS/ESD Association, ``Fundamentals of Electrostatic Discharge, Part Five---Device Sensitivity and Testing,'' 2024. [En línea]. Disponible en: \url{https://www.esda.org/esd-overview/esd-fundamentals/part-5-device-sensitivity-and-testing/}. [Accedido: 23-mar-2026].
-\item EOS/ESD Association, ``Fundamentals of Electrostatic Discharge, Part Six---ESD Standards,'' 2025. [En línea]. Disponible en: \url{https://www.esda.org/esd-overview/esd-fundamentals/part-6-esd-standards/}. [Accedido: 23-mar-2026].
-\end{enumerate}
+
+\setrightfooter{Referencias}
+
+\begin{frame}[allowframebreaks]{Referencias}
+
+    \tiny
+    \nocite{*}
+    \bibliographystyle{IEEEtran}
+    \bibliography{references}
+
 \end{frame}
 
-\begin{frame}[fragile]{Referencias [8]--[14]}
-\tiny
-\begin{enumerate}
-\setcounter{enumi}{7}
-\item F. Tenzer y G. Felder, ``ESD Control Program Periodic Verification,'' \emph{Conformity}, mar. 2004. [En línea]. Disponible en: \url{https://desco.descoindustries.com/Articles/ESDControlProgramPeriodic.pdf}. [Accedido: 23-mar-2026].
-\item IEC, ``IEC 61340-5-1: Electrostatics---Part 5-1: Protection of electronic devices from electrostatic phenomena---General requirements,'' 2016. [En línea]. Disponible en: \url{https://www.vde-verlag.de/iec-normen/preview-pdf/info_iec61340-5-1%7Bed2.0.RLV%7Den.pdf}. [Accedido: 23-mar-2026].
-\item NASA Johnson Space Center, ``JSC-66552: Electrostatic Discharge Control Requirements for the Protection of Electronic Components and Assemblies,'' 2013. [En línea]. Disponible en: \url{https://standards.nasa.gov/sites/default/files/standards/JSC/Baseline/0/JSC-66552BASELINE.pdf}. [Accedido: 23-mar-2026].
-\item F. Wan, M. Hillstrom, C. Stayer, D. Swenson y D. Pommerenke, ``The Effect of Humidity on Static Electricity Induced Reliability Issues of ICT Equipment in Data Centers---Motivation and Setup of the Study,'' ASHRAE, 2013. [En línea]. Disponible en: \url{https://www.esdemc.com/public/docs/Publications/Dr.%20Pommerenke%20Related/The%20Effect%20of%20Humidity%20on%20Static%20Electricity%20Induced%20Reliability%20Issues%20of%20ICT%20Equipment%20in%20Data%20Centers%20%E2%80%94Motivation%20and%20Setup%20of%20the%20Study.pdf}. [Accedido: 23-mar-2026].
-\item R. Williams, ``Adiabatic \& Isothermal Humidification for Electronics Manufacturing: The Science of Humidity Control in Manufacturing,'' en \emph{Proc. SMTA International}, 2023. [En línea]. Disponible en: \url{https://www.circuitinsight.com/uploads/2/adiabatic-isothermal-humidification-electronics-manufacturing-smta.pdf}. [Accedido: 23-mar-2026].
-\item C.-C. Lin y C.-Y. Lin, ``ESD Research of SCR Devices under Harsh Environments,'' \emph{Materials}, vol. 16, no. 18, 2023. [En línea]. Disponible en: \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC10532737/}. [Accedido: 23-mar-2026].
-\item ``Monitoring and management of electrostatic wristbands using dashboard,'' prepublicación en ResearchGate, 2024. [En línea]. Disponible en: \url{https://www.researchgate.net/publication/386289271_Monitoring_and_management_of_electrostatic_wristbands_using_dashboard/link/694aef769aa6b4649dc3ebab/download}. [Accedido: 23-mar-2026].
-\end{enumerate}
-\end{frame}
-
-\begin{frame}[fragile]{Referencias [15]--[20]}
-\tiny
-\begin{enumerate}
-\setcounter{enumi}{14}
-\item EMIT, ``SmartLog Pro 2, Hardware 50181.'' [En línea]. Disponible en: \url{https://emit.descoindustries.com/DescoEmitCatalog/Access-Control/SmartLog-Pro-2/Hardware/50181/}. [Accedido: 23-mar-2026].
-\item SCS, ``Dual Combination Tester 770758.'' [En línea]. Disponible en: \url{https://staticcontrol.descoindustries.com/SCSCatalog/Wrist-Strap-and-Footwear-Testers/Dual-Combination-Tester/770758/}. [Accedido: 23-mar-2026].
-\item Transforming Technologies, ``PGT120 Wolfgang Warmbier Personal Grounding Tester Data Sheet.'' [En línea]. Disponible en: \url{https://transforming-technologies.com/wp-content/uploads/pdf/PGT120-Wolfgang-Warmbier-Personal-Grounding-Tester-Data-Sheet.pdf}. [Accedido: 23-mar-2026].
-\item BFN Ionizers, ``PGT130 Wolfgang Warmbier Personal Grounding Tester Data Sheet.'' [En línea]. Disponible en: \url{https://bfnionizers.com/wp-content/uploads/pdf/PGT130.DT-Wolfgang-Warmbier-Personal-Grounding-Tester-Data-Sheet1.pdf}. [Accedido: 23-mar-2026].
-\item ESD Association, ``ANSI/ESD S20.20 Standard.'' [En línea]. Disponible en: \url{https://www.esda.org/standards/ansi-esd-s20-20/}. [Accedido: 23-mar-2026].
-\item ESD Association, ``ANSI/ESD TR53.'' [En línea]. Disponible en: \url{https://www.esda.org/standards/ansi-esd-tr53/}. [Accedido: 23-mar-2026].
-\end{enumerate}
-\end{frame}
-
-\begin{frame}[fragile]{Referencias [21]--[26]}
-\tiny
-\begin{enumerate}
-\setcounter{enumi}{20}
-\item “Probador antiestático de correa de muñeca,” Amazon, 2024. [En línea]. Disponible en: https://www.amazon.com/-/es/Probador-antiest%C3%A1tico-correa-mu%C3%B1eca-del/dp/B0DDH1TP3J. [Accedido: 23-mar-2026].
-\item “ESD Wrist Strap Tester Demo,” YouTube, 2024. [En línea]. Disponible en: https://www.youtube.com/watch?v=D-P-yRWsCyY. [Accedido: 23-mar-2026].
-\item “PGT130.DT Data Logging ESD Tester with RFID,” Transforming Technologies, 2024. [En línea]. Disponible en: https://transforming-technologies.com/product/warmbier-pgt130-dt-data-logging-esd-tester-with-rfid/. [Accedido: 23-mar-2026].
-\item “Probador de correa de muñeca antiestática,” Amazon, 2024. [En línea]. Disponible en: https://www.amazon.com/-/es/Probador-de-correa-mu%C3%B1eca/dp/B009O10L1O. [Accedido: 23-mar-2026].
-\item “SCS 770758 Dual Combination Tester,” Starboard Technologies, 2024. [En línea]. Disponible en: https://starboardtech.com/products/scs-770758-dual-combination-tester. [Accedido: 23-mar-2026].
-\item “ESDMAN ESD System,” ESDMAN, 2024. [En línea]. Disponible en: https://www.esdman.com/product/esdman-esd-system/. [Accedido: 23-mar-2026].
-\item Starboard Technologies, 2024. [En línea]. Disponible en: https://starboardtech.com/products/scs-770758-dual-combination-tester. [Accedido: 23-mar-2026].
-\end{enumerate}
-\end{frame}
+% ============================================================
+% End document
+% ============================================================
 
 \end{document}

@@ -21,6 +21,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{ifthen}       % provide if-then-else operators
 \usepackage{subcaption}
+\usepackage[siunitx]{circuitikz}
+\usepackage{siunitx}
+\usepackage{tabularx}
 
 \usepackage[backend=biber]{biblatex}
 \addbibresource{literatura.bib}
@@ -56,7 +59,7 @@
 \newcommand{\thesisAuthorTECID}{ } %% Carné
 
 % Título de la tesis
-\newcommand{\thesisTitle}{Diseño de un sistema de bajo costo para el control de ESD para laboratorios de electrónica}
+\newcommand{\thesisTitle}{Diseño y implementación de un sistema inteligente de bajo costo para el control ESD en laboratorios de electrónica}
 
 % Keywords
 \newcommand{\thesisKeywords}{ESD, descarga electrostática, alta impedancia, resistencia cuerpo-tierra, sistema inteligente, bajo costo}
@@ -88,7 +91,7 @@
 
 \setLectorI[F]{M.Sc.\,Profesor 1}
 \setLectorII{M.Sc.\,Profesor 2}
-\setAsesor{Ing.\,Profesor 3}
+\setAsesor{M.Sc.\,Javier Rivera Alvarado}
 
 % allow equations to be splitted (breaked) into several pages
 \allowdisplaybreaks[3]
@@ -157,6 +160,7 @@
   \include{body/Marco_Teorico}
   %\include{teoria}
   \include{body/Desc_Solucion}
+  \include{body/Presupuesto}
   \include{body/Hipot_y_Obj}
   \include{body/Experimento_Pre}
   \include{body/Cronograma}

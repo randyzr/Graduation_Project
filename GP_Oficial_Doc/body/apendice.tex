@@ -1,3 +1,100 @@
 \chapter{Apéndice}
+\label{ap:medicion_alta_impedancia}
 
-Material complementario del proyecto.
+Durante la formulación del proyecto se analizó la posibilidad de crear un circuito de medición de resistencia del cuerpo a tierra con una 
+precisión de $\pm15$\%, sin embargo debido a limitantes de tiempo se procedió a utilizar un producto comercial para este fin, el cual es capaz 
+de medir resistencias de cuerpo a tierra en un rango de 750 k$\Omega$ a 10 M$\Omega$ con una precisión de $\pm5$\%, lo cual lo hace ideal para 
+mediciones de pulseras antiestáticas para muñecas, mas no para calzado \cite{HZR171}. Por lo tanto este diseño fue realizadó más no forma parte de los objetivos 
+del proyecto, el diseño se implementará solamente si los objetivos del proyecto ya han sido cumplidos y existe tiempo disponible para dicha elaboración, 
+por lo que dicha implementación no forma parte de la calificación del proyecto y es una investigación adicional al proyecto.
+
+\section{Diseño de un circuito de medición de alta impedancia}
+
+En la medición de la resistencia del usuario a tierra los 
+sistemas industriales portátiles como el Desco Wrist Strap Tester brinda una precisión del $\pm$10\% para valores alrededor de 
+750 k$\Omega$ y $\pm$15\% para valores cercanos a los 10 M$\Omega$ \cite{Desco_19240}. En el caso del sistema industrial SmartLog Pro 2 de Desco posee 
+una precisión del $\pm$10\% para valores entre 750 k$\Omega$ a 35 M$\Omega$ \cite{Desco_SmartLog}, por lo que se define una precisión de $\pm15\%$ 
+como un valor adecuado.
+
+Las mediciones de resistencias como se explica en el capítulo 2, se basa en la ley de Ohm, esto nos da 2 opciones posibles, una opción sería
+utilizando una corriente constante y midiendo la tensión resultante, otro método es utilizar una tensión constante y medir la corriente. Esto 
+aplica para resistencias constantes, es decir que su valor no se ve afectado por el valor de tensión o corriente que pase por ellas, sin embargo
+para el caso de el cuerpo humano, como se explica en el capítulo 2 el valor de la resistencia sí cambia según la tensión o corriente aplicada.
+
+Usar una corriente constante es más preciso que aplicar una tensión constante, esto porque la relación entre resistencia y tensión medida es lineal como 
+se observa a continuación:
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{pics/SP_01.png}
+        \caption{Medición de resistencia utilizando fuente de corriente constante, fuente: elaboración propia.}
+        \label{fig:resistencia_a_tierra}
+\end{figure}
+
+\begin{equation}
+    R_{body} = \frac{V_{body}}{I_{body}}
+\end{equation}
+
+Por lo que la tensión cambiará linealmente conforme la resistencia aumente o disminuya, linealidad que se conserva al computar el valor de esta resistencia.
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.75\textwidth]{pics/SP_02.png}
+        \caption{Relación entre resistencia y tensión medida, fuente: elaboración propia.}
+        \label{fig:resistencia_a_tierra}
+\end{figure}
+
+Lo que convierte a este método en un muy buen cantidado, analizando el método de tensión constante, se puede observar que la relación entre resistencia y 
+tensión medida es no lineal, generando que para valores altos de resistencia el compromiso de precisión se pierda.
+
+El circuito eléctrico equivalente sería:
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.75\textwidth]{pics/TF3_4.png}
+        \caption{Circuito equivalente de medición simplificado, fuente: elaboración propia.}
+        \label{fig:resistencia_a_tierra}
+\end{figure}
+
+Esto nos da por consiguiente que:
+
+\begin{align}
+    R_{Body} = \frac{V_{Body} \cdot R_{ref}}{V_{s}-V_{Body}}
+\end{align}
+
+Graficando esta ecuación se obtiene la siguiente curva:
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.75\textwidth]{pics/SP_03.png}
+        \caption{Comportamiento de $R_{Body}$ con respecto a $V_{Body}$, fuente: elaboración propia.}
+        \label{fig:resistencia_a_tierra}
+\end{figure}
+
+Esto resulta en que cuando $V_{Body} =29.0$ V, $R_{Body} = 29$ M$\Omega$, pero cuando 
+$V_{Body} = 29.5$ V, $R_{Body} = 59$ M$\Omega$, analizando cuanto se traduce cada V medido en el valor
+de la resistencia se procede a computar la derivada de $R_{Body}$ con respecto a $V_{Body}$:
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.75\textwidth]{pics/SP_04.png}
+        \caption{Comportamiento de la derivada de $R_{Body}$ con respecto a $V_{Body}$, fuente: elaboración propia.}
+        \label{fig:resistencia_a_tierra}
+\end{figure}
+
+Esto significa que existen casos donde 1 mV representa 120000 k$\Omega$ de cambio en la resistencia, luego es importante recalcar que
+esta señal eléctrica debe ser digitalizada, cuyo caso se opta por usar un ADC de precisión con un rango de medición entre 0 a 10 V, provocando que la
+señal tenga que ser dividida entre 3.5 por tanto cada mV en la lectura del ADC representarán 360000 k$\Omega$.
+
+Debido a lo anterior se opta por utilizar el método de corriente constante, este método posee una derivada constante de 1000 k$\Omega$ por cada mV, 
+lo que hace que la precisión se mantenga constante a lo largo de todo el rango de medición, generando que desde el punto de vista del ADC cada mV
+representen 3500 k$\Omega$ de cambio en la resistencia, lo cual permite que se obtenga una buena precisión en el resultado indiferentemente del 
+valor de resistencia que se esté midiendo. Debido a que este método nos permite controlar la corriente, se escoje un valor lo suficientemente pequeño como
+para que la dependencia de $R_{Body}$ con $V$ sea mínima, en este caso 1 $\mu$A.
+
+Una vez definido el método de medición, se procede a definir el circuito eléctrico que permita implementar este método, 
+para esto se opta por utilizar un amplificador operacional OPA445 para hacer la medición de $V_{Body}$
+, el cual puede operar con una tensión de alimentación de hasta 40 V y su corriente de polarización es de $\pm100$ pA, 
+esto representa un error de 0.001\% en la corriente aplicada a $R_{Body}$, lo suficientemente pequeña como para ser despreciable. Para 
+la conversión de la señal analógica a digital se opta por utilizar un ADC de precisión AD7606, 
+el cual posee una resolución de 16 bits y un rango de medición de 0 a 10 V, su método de comunicación es SPI. 
