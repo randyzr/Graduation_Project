@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper]{article}
+
+% -------------------------------------------------
+% Paquetes básicos
+% -------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{circuitikz}
+
+% -------------------------------------------------
+% Compatibilidad entre babel español y TikZ
+% -------------------------------------------------
+\usetikzlibrary{babel}
+
+% -------------------------------------------------
+% Configuración de página
+% -------------------------------------------------
+\geometry{margin=2.5cm}
+
+\begin{document}
+
+    \begin{circuitikz}[american voltages]
+
+        % -------------------------------------------------
+        % Fuente de estímulo y resistencia de referencia
+        % -------------------------------------------------
+        \draw
+        (0,0) to[V,invert, l_=$V_S$] (0,4)
+        -- (3,4)
+        to[R, l=$R_{ref}$] (3,2.2);
+
+        % -------------------------------------------------
+        % Nodo de medición de voltaje
+        % -------------------------------------------------
+        \draw
+        (3,2.2) node[circ] {}
+        -- (4.3,2.2)
+        node[ocirc] {}
+        node[right] {$V_{body}$};
+
+        % -------------------------------------------------
+        % Terminal A del sistema de medición
+        % -------------------------------------------------
+        \draw
+        (3,2.2) -- (3,1.4)
+        node[ocirc] {}
+        node[right] {A};
+
+        % -------------------------------------------------
+        % Terminal B del sistema de medición y tierra
+        % -------------------------------------------------
+        \draw
+        (0,0) -- (3,0)
+        node[ocirc] {}
+        node[right] {B}
+        -- (3,-0.2)
+        node[ground] {};
+
+        % -------------------------------------------------
+        % Etiqueta de la fuente
+        % -------------------------------------------------
+        \node[align=center] at (-1.4,2)
+        {Señal de\\estímulo};
+
+
+    \end{circuitikz}
+
+\end{document}

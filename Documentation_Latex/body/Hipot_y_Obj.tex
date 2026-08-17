@@ -1,0 +1,313 @@
+\chapter{Hipótesis y Objetivos del Proyecto}
+
+\section{Hipótesis}
+
+El diseño y la integración de una estación inteligente de control ESD de bajo
+costo permitirán transformar la verificación manual de pulseras antiestáticas en
+un evento trazable y auditable. Para ello, el sistema integrará un probador
+comercial HZR-171, mecanismos de identificación de usuarios, una interfaz
+gráfica táctil y almacenamiento local de los registros generados durante cada
+prueba.
+
+El prototipo generará registros completos en al menos el 95\% de los ciclos de
+prueba ejecutados. Cada registro deberá incluir el nombre y el identificador del
+usuario, la fecha, la hora, el resultado ESD, la temperatura y la humedad relativa.
+Además, el costo estimado de materiales se mantendrá por debajo de USD~350.
+
+\section{Objetivos}
+
+\subsection{Objetivo general}
+
+Diseñar, implementar y validar un prototipo de estación inteligente de bajo
+costo para el control y la trazabilidad de verificaciones ESD en laboratorios de
+electrónica, mediante la integración de un probador de pulseras antiestáticas,
+mecanismos de identificación de usuarios, una interfaz gráfica y almacenamiento
+local de registros.
+
+\subsection{Objetivos específicos}
+
+\begin{itemize}
+
+\item Diseñar la arquitectura electrónica, de comunicación, alimentación e 
+integración física de la estación, con base en los requerimientos 
+funcionales y no funcionales del sistema.
+
+\item Diseñar e implementar los subsistemas de identificación de usuarios y
+adquisición del resultado de la prueba ESD, mediante la integración del lector
+de código de barras, el reconocimiento facial complementario y las señales del
+probador HZR-171.
+
+\item Diseñar e implementar la interfaz gráfica que guíe al usuario durante el
+ciclo de prueba y el sistema de almacenamiento de los resultados y generación
+de reportes históricos trazables.
+
+\item Validar el desempeño funcional del prototipo mediante pruebas individuales
+de los subsistemas y pruebas de integración del sistema completo, estas últimas
+realizadas en un laboratorio de electrónica, utilizando los indicadores de
+trazabilidad e integración funcional definidos para el proyecto.
+
+\end{itemize}
+
+\section{Actividades y entregables por objetivo}
+
+\subsection{Objetivo específico 1}
+
+\textbf{Diseñar la arquitectura electrónica, de comunicación, alimentación e 
+integración física de la estación, con base en los 
+requerimientos funcionales y no funcionales del sistema.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+\item Analizar los requerimientos funcionales y 
+no funcionales del sistema como base para el diseño del prototipo.
+\item Seleccionar y justificar los componentes electrónicos de acuerdo con los
+requerimientos del proyecto.
+\item Definir la arquitectura general y las interfaces de comunicación entre
+los subsistemas.
+\item Diseñar el sistema de alimentación eléctrica y la distribución de energía
+del prototipo.
+\item Definir la asignación de pines y seleccionar los 
+conectores necesarios para la interconexión de los subsistemas.
+\item Elaborar los diagramas eléctricos y de interconexión del sistema.
+\item Diseñar las PCB necesarias para integrar los módulos electrónicos.
+\item Fabricar y verificar eléctricamente las PCB desarrolladas.
+\item Diseñar el modelo CAD y la distribución física de los componentes.
+\item Fabricar la estructura y ensamblar el prototipo.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+\item Especificación de requerimientos y criterios de diseño.
+\item Arquitectura electrónica y diagramas de bloques e interconexión.
+\item Diseño del sistema de alimentación y distribución de pines.
+\item PCB diseñadas, fabricadas y verificadas.
+\item Modelo CAD y prototipo físico ensamblado.
+\end{itemize}
+
+
+\subsection{Objetivo específico 2}
+
+\textbf{Diseñar e implementar los subsistemas de identificación de usuarios y
+adquisición del resultado de la prueba ESD, mediante la integración del lector
+de código de barras, el reconocimiento facial complementario y las señales del
+probador HZR-171.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+\item Definir el flujo de identificación y su relación con el ciclo de prueba.
+\item Diseñar e implementar la comunicación con el lector de código de barras
+GM67.
+\item Desarrollar las rutinas de lectura y validación de identificadores.
+\item Diseñar e implementar el proceso complementario de registro y
+reconocimiento facial.
+\item Diseñar la adquisición de las señales \textit{LO}, \textit{OK} y
+\textit{HI} del probador HZR-171.
+\item Integrar el probador HZR-171 con el controlador secundario y el
+controlador principal.
+\item Asociar la identificación del usuario con el resultado de la prueba ESD.
+\item Verificar funcionalmente los subsistemas de identificación y adquisición.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+\item Diseño documentado del flujo de identificación y adquisición ESD.
+\item Subsistema de identificación por código de barras funcional.
+\item Subsistema complementario de reconocimiento facial.
+\item Adquisición funcional de los estados del probador HZR-171.
+\item Resultados de las pruebas funcionales de los subsistemas de identificación
+y adquisición del resultado ESD.
+\end{itemize}
+
+\subsection{Objetivo específico 3}
+
+\textbf{Diseñar e implementar la interfaz gráfica que guíe al usuario durante
+el ciclo de prueba y el sistema de almacenamiento de los resultados y
+generación de reportes históricos trazables.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+
+\item Definir el flujo de interacción y diseñar la estructura de la interfaz
+gráfica.
+
+\item Implementar la interfaz gráfica y su flujo de navegación para guiar al
+usuario durante el ciclo de prueba y presentar su información de identificación
+y el resultado ESD.
+
+\item Diseñar la estructura de almacenamiento de los registros.
+
+\item Integrar el sensor SHT31-D como fuente de información complementaria de
+temperatura y humedad relativa para cada registro.
+
+\item Implementar el almacenamiento local del nombre y el identificador del
+usuario, la fecha, la hora, el resultado ESD y las variables ambientales asociadas.
+
+\item Implementar la consulta de los registros almacenados y la generación de
+reportes históricos a partir de estos.
+
+\item Verificar el funcionamiento de la interfaz, el almacenamiento, la consulta
+de registros y la generación de reportes.
+
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+
+\item Interfaz gráfica táctil funcional.
+
+\item Diseño documentado del flujo de interacción y de la estructura de datos.
+
+\item Sistema local de almacenamiento, consulta de registros y generación de
+reportes históricos.
+
+\item Resultados de las pruebas funcionales de interacción y gestión de
+información.
+
+\end{itemize}
+
+\subsection{Objetivo específico 4}
+
+\textbf{Validar el desempeño funcional del prototipo mediante la evaluación de
+los resultados de las pruebas individuales de los subsistemas y la ejecución de
+pruebas de integración del sistema completo en un laboratorio de electrónica,
+utilizando los indicadores de trazabilidad e integración funcional definidos
+para el proyecto.}
+
+\paragraph{Actividades}
+
+\begin{itemize}
+\item Definir el procedimiento de validación y los criterios de aceptación del
+prototipo.
+\item Evaluar los resultados de las pruebas funcionales individuales de los
+subsistemas desarrollados en los objetivos anteriores.
+\item Ejecutar en el laboratorio TEM de Intel Costa Rica las pruebas de
+integración del sistema completo, desde la identificación del usuario hasta el
+almacenamiento del registro, incluida la consulta de la información y la
+generación de reportes históricos.
+\item Si circunstancias fuera del control del proyecto impiden realizar las
+pruebas de integración en TEM, aplicar el mismo procedimiento en un laboratorio
+de la Escuela de Ingeniería Electrónica del Tecnológico de Costa Rica, Campus
+Tecnológico Local San Carlos.
+\item Calcular el índice de trazabilidad \(TZ\) y la tasa de integración
+funcional \(IF\) a partir de los resultados de las pruebas de integración.
+\item Analizar los resultados obtenidos y determinar el cumplimiento de los
+criterios de aceptación establecidos.
+\item Documentar las incidencias, limitaciones y conclusiones de la validación
+del prototipo.
+\end{itemize}
+
+\paragraph{Entregables}
+
+\begin{itemize}
+\item Procedimiento de validación y criterios de aceptación.
+\item Evaluación consolidada de los resultados de las pruebas funcionales
+individuales de los subsistemas.
+\item Resultados documentados de las pruebas de integración del sistema
+completo.
+\item Valores calculados para el índice de trazabilidad \(TZ\) y la tasa de
+integración funcional \(IF\).
+\item Informe de validación del prototipo, con el análisis de cumplimiento, las
+incidencias, las limitaciones y las conclusiones obtenidas.
+\end{itemize}
+
+\section{Alcances y limitaciones del proyecto}
+
+\subsection{Alcances}
+
+El resultado del proyecto será un prototipo académico funcional de una estación
+de control ESD para pulseras antiestáticas, capaz de asociar cada prueba con la
+identificación del usuario y conservar localmente la información necesaria para
+su consulta. El prototipo se entregará ensamblado en una estructura física y se
+validará mediante pruebas de los subsistemas y del funcionamiento integrado en
+un entorno de laboratorio. Su alcance corresponde a una demostración funcional
+de la solución propuesta y no a un producto comercial certificado. Tampoco se
+contempla su integración con bases de datos, sistemas de control de acceso u
+otras plataformas empresariales. Las funciones y condiciones esperadas del
+prototipo se detallan en los requisitos funcionales y no funcionales de la
+sección~\ref{sec:requisitos_sistema}.
+
+\subsection{Limitaciones}
+
+El proyecto estará sujeto a las siguientes limitaciones:
+
+\begin{itemize}
+\item La verificación ESD dependerá del rango de operación y de los criterios de
+aprobación del probador comercial HZR-171. El prototipo se limitará a pulseras
+antiestáticas y no evaluará calzado ni tobilleras ESD.
+\item El reconocimiento facial podrá producir falsos positivos o falsos
+negativos y su desempeño dependerá, entre otros factores, de la iluminación, la
+posición del usuario y la calidad de la imagen. Las evaluaciones de NIST
+muestran que las tasas de error varían entre algoritmos y conjuntos de imágenes
+\cite{NISTFRTE11}. Por ello, no se establece de antemano una tasa fija de
+acierto, como 95~\%. Esta función se evaluará experimentalmente y se mantendrá
+como método complementario; la lectura del código de barras será el mecanismo
+principal de identificación.
+\item El almacenamiento será local y no se contempla integración con servicios
+en la nube, bases de datos corporativas, sistemas de control de acceso ni
+plataformas de gestión de personal.
+\item Las pruebas de integración están planificadas en el laboratorio TEM de
+Intel Costa Rica y dependerán de las condiciones de acceso, autorización y
+disponibilidad durante el periodo de ejecución. Si circunstancias fuera del
+control del proyecto impiden realizarlas en TEM, se utilizará un laboratorio de
+la Escuela de Ingeniería Electrónica del Tecnológico de Costa Rica, Campus
+Tecnológico Local San Carlos.
+\item El prototipo desarrollado tendrá fines académicos y 
+no pretende sustituir sistemas comerciales certificados para el control ESD.
+\item El diseño de un circuito propio para la medición de resistencia
+cuerpo-tierra no forma parte del alcance del proyecto.
+\item No se solicitará acceso a bases de datos empresariales con las
+identificaciones de los usuarios del laboratorio TEM de Intel Costa Rica. Por
+lo tanto, cada participante deberá registrar su nombre e identificación la
+primera vez que utilice el prototipo.
+\item El prototipo no medirá la cantidad de carga electrostática, el campo
+electrostático ni la tensión eléctrica almacenada en el usuario.
+\end{itemize}
+
+\subsection{Consideraciones de privacidad}
+
+Debido a que el prototipo contempla reconocimiento facial como mecanismo
+complementario de identificación, se consideran medidas para proteger la
+privacidad de los usuarios durante la validación del sistema. El reconocimiento
+facial no será un requisito obligatorio para utilizar el prototipo, ya que la
+lectura de código de barras se establece como el mecanismo principal de
+identificación.
+
+El registro facial de cada usuario se realizará únicamente con autorización
+previa. En caso de que un usuario no autorice el uso de reconocimiento facial,
+el sistema podrá operar mediante la lectura de código de barras. De esta forma,
+el reconocimiento facial se mantiene como una función complementaria y no como
+una condición obligatoria para ejecutar la prueba ESD.
+
+La información asociada a los usuarios, como nombres, identificaciones
+empresariales o datos relacionados con el registro facial, será utilizada
+únicamente para validar el funcionamiento del prototipo. Estos datos no serán
+publicados en el documento final ni compartidos fuera del entorno autorizado de
+validación.
+
+Los reportes históricos generados localmente por el prototipo podrán incluir el
+nombre y el identificador de los usuarios autorizados. No obstante, cualquier
+resultado incorporado al informe académico final se presentará de forma agregada
+o anonimizada.
+
+Cuando sea necesario presentar resultados en el informe final, la información se
+mostrará de forma agregada o anonimizada. Por ejemplo, se podrán reportar
+cantidades de ciclos ejecutados, tasas de lectura correcta, tasas de
+reconocimiento y cantidad de registros completos, sin incluir nombres,
+fotografías ni identificaciones empresariales de los participantes.
+
+Asimismo, la información utilizada por el prototipo será almacenada localmente y
+no se contempla su envío a servicios en la nube, bases de datos corporativas o
+sistemas externos. Esta decisión reduce la exposición de datos personales y
+mantiene el alcance del proyecto dentro de una validación académica controlada.
+
+Finalmente, el uso del reconocimiento facial se limitará a la validación técnica
+del subsistema de identificación. La finalidad de esta función no es realizar
+vigilancia, control de asistencia ni seguimiento permanente de usuarios, sino
+evaluar si puede utilizarse como mecanismo complementario dentro del flujo de
+verificación ESD propuesto.

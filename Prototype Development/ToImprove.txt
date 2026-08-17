@@ -1,0 +1,28 @@
+About the secondary microcontroller:
+	GPIO12 using OK could be risky
+	Replace the ESP32 WROOM to ESP32C5
+
+About the 3D design
+	Center the screen
+	Improve the joints
+	Change 3.6 degrees inclination to 10
+	Improve the button mechanic
+	Improve the back support
+	Improve the distribution and internal support
+	Improve the Barcode Reader support 
+	Improve the CAM module support 
+	
+About the PCB
+	Add level shifter resistors
+	considerate the USB-C PD circuit
+	
+About others
+	Check the environment sensor
+	Try Intel network connection with an ESP32C5 
+	Search a secure way to send the data to the cloud
+	
+About the graphical interface 
+	Basically create the 2.0 version of the actual one
+	
+	
+	

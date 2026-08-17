@@ -1,28 +1,39 @@
-# LaTeX auxiliary files
+# LaTeX generated files
+**/support/
+**/tmp/
+**/qa_solution/
+**/qa_solution2/
+**/build/
+
 *.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.bbl
+*.bcf
 *.blg
-*.fls
 *.fdb_latexmk
-*.synctex.gz
+*.fls
+*.ilg
+*.ind
+*.idx
+*.lof
+*.log
+*.lot
 *.nav
+*.nlo
+*.out
+*.run.xml
 *.snm
+*.synctex.gz
+*.toc
 *.vrb
+*.bbl-SAVE-ERROR
 
-# Temporary files
+# Third-party training packages
+/Prototype Development/Training/
+
+# Installers and temporary files
+*.exe
+*.pkg
 *.tmp
-*.bak
-*~
 
-# VS Code
-.vscode/
-
-# OS files
+# Operating-system files
+Thumbs.db
 .DS_Store
-Thumbs.db*.mp4
-

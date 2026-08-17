@@ -1,0 +1,178 @@
+\chapter{Introducción}
+
+La descarga electrostática, conocida comúnmente como ESD por sus siglas en inglés
+(\textit{Electrostatic Discharge}), representa un fenómeno crítico en ambientes donde se
+manipulan, validan o caracterizan dispositivos electrónicos sensibles \cite{ESDAPrinciples2}.
+En la industria de semiconductores y en laboratorios de electrónica, una descarga
+electrostática puede provocar fallas inmediatas, degradación paramétrica o daños latentes
+que afectan la confiabilidad de los dispositivos. Este problema adquiere mayor relevancia
+debido a que muchas descargas no son perceptibles para el ser humano, pero pueden ser
+suficientes para dañar circuitos integrados modernos \cite{TI2014}.
+
+En la industria de semiconductores, la relevancia de este fenómeno aumenta conforme los
+circuitos integrados reducen sus dimensiones y operan a mayores velocidades. Esta
+tendencia incrementa la susceptibilidad de los dispositivos frente a eventos de descarga
+electrostática, por lo que el control ESD se considera un aspecto crítico durante el diseño,
+fabricación, manipulación, prueba y ensamblaje de circuitos integrados \cite{ESDA1}.
+Desde el punto de vista de confiabilidad, una descarga electrostática puede causar fallas
+inmediatas, pero también daños latentes que no necesariamente se detectan durante una
+prueba inicial. Estos daños pueden degradar progresivamente el dispositivo hasta producir
+una falla posterior, lo cual dificulta su detección y aumenta el riesgo de que el problema
+aparezca durante etapas avanzadas de validación o incluso en campo \cite{TI2014}.
+
+El impacto económico de los eventos ESD no se limita al costo directo del componente
+dañado. También puede involucrar costos asociados a reprocesos, análisis de falla,
+reparación, retrabajo, tiempo de ingeniería, pérdida de rendimiento de producción
+(\textit{yield}), garantías y afectación de la confiabilidad del producto final
+\cite{versalogic_esd}. La ESD Association indica que los eventos ESD continúan afectando
+el rendimiento de producción, el costo de manufactura, la calidad del producto, la
+confiabilidad y la rentabilidad de las empresas del sector electrónico \cite{ESDA1}. Según
+Versalogic Corporation, las empresas de alta tecnología pueden perder entre un 4 \% y un
+6 \% de sus ganancias brutas anuales debido a problemas asociados con la electrostática
+\cite{versalogic_esd}.
+
+En laboratorios de electrónica, el impacto del ESD también es relevante. Aunque estos
+entornos no siempre corresponden a líneas de producción de alto volumen, en ellos se
+manipulan equipos costosos, tarjetas electrónicas sensibles, circuitos integrados,
+prototipos y muestras de ingeniería. Una descarga electrostática puede causar daños
+inmediatos o degradar el desempeño del dispositivo, lo que puede generar actividades
+adicionales de diagnóstico, reemplazo y repetición de pruebas
+\cite{ESDA1,TI2014}. Por esta razón, la aplicación de medidas de control ESD
+contribuye a proteger los dispositivos y a mantener la continuidad de las actividades
+del laboratorio \cite{ESDAPrinciples2}.
+
+Para reducir este riesgo, normativas como ANSI/ESD S20.20 e IEC 61340-5-1 establecen
+lineamientos para la implementación de programas de control ESD en áreas protegidas
+contra descargas electrostáticas. Estas prácticas incluyen el uso de superficies disipativas,
+control de materiales, puesta a tierra del personal, uso de pulseras antiestáticas y
+verificación periódica de los elementos de protección utilizados por los operadores
+\cite{ESDAPrinciples2}.
+
+Dentro de estos mecanismos, la pulsera antiestática permite establecer una trayectoria
+controlada para la disipación de carga desde el usuario hacia tierra. Sin embargo, la sola
+disponibilidad de una pulsera no garantiza que el usuario la utilice correctamente ni que
+la conexión eléctrica sea adecuada. Por esta razón, se emplean probadores de pulseras
+antiestáticas para verificar si la resistencia eléctrica del conjunto usuario-pulsera se
+encuentra dentro de un rango aceptable. Equipos básicos, como el Desco 19240, permiten
+realizar esta verificación mediante una indicación simple de aprobación o rechazo, pero no
+incorporan identificación de usuario, almacenamiento histórico de pruebas ni generación
+automática de reportes \cite{Desco_19240}.
+
+\section{Escenario de aplicación: laboratorio TEM de Intel Costa Rica}
+
+El presente proyecto surge a partir de una oportunidad de mejora identificada en el
+laboratorio TEM de Intel Costa Rica, un entorno donde se utilizan estaciones de trabajo
+para realizar pruebas funcionales y de caracterización a circuitos integrados. En este tipo
+de laboratorio, la protección contra descargas electrostáticas es especialmente importante
+debido al costo de los equipos utilizados, la sensibilidad de los dispositivos manipulados y
+la necesidad de mantener buenas prácticas de control ESD durante las actividades de
+laboratorio.
+
+Actualmente, el laboratorio cuenta con un probador comercial de pulseras antiestáticas y
+pulseras disponibles para los usuarios. El procedimiento esperado consiste en que cada
+persona que vaya a utilizar una estación de trabajo tome una pulsera, realice la prueba
+correspondiente y continúe únicamente si el resultado es satisfactorio. No obstante,
+cuando el proceso depende únicamente de la disciplina individual del usuario, resulta
+difícil verificar si todos los usuarios ejecutan la prueba de manera sistemática antes de
+utilizar las estaciones de trabajo.
+
+Esta situación evidencia que el problema no se limita a disponer de un equipo de
+verificación ESD, sino a contar con un mecanismo que permita dar seguimiento al
+cumplimiento del procedimiento. Si una prueba no se asocia con un usuario, fecha, hora y
+resultado, el laboratorio no cuenta con información suficiente para determinar quiénes
+realizaron la prueba, con qué frecuencia se ejecutó el procedimiento o si existe una brecha
+entre el uso real del laboratorio y los registros de verificación ESD.
+
+Por lo tanto, el laboratorio TEM de Intel Costa Rica representa un escenario adecuado para
+validar una estación de control ESD. En este contexto, el prototipo propuesto permitiría
+complementar el procedimiento actual, basado en el uso de un probador de pulseras,
+mediante identificación de usuario, almacenamiento de registros, generación de reportes y
+una interfaz gráfica que guíe el flujo de prueba.
+
+En este contexto, el impacto esperado del prototipo consiste en reducir la
+dependencia exclusiva de la disciplina individual del usuario mediante un proceso
+registrable y verificable. Al asociar cada prueba con un usuario, fecha, hora y
+resultado, además de incluir las condiciones ambientales como información
+complementaria, el sistema permitiría que el encargado del
+laboratorio consulte reportes históricos y audite el cumplimiento del
+procedimiento ESD. De esta forma, aunque el prototipo no incorpora control físico
+de acceso, sí convierte la verificación de pulseras antiestáticas en un proceso
+documentado y sujeto a revisión.
+
+\section{Motivación de una solución de bajo costo}
+
+Existen sistemas comerciales avanzados capaces de integrar funciones como verificación
+ESD, identificación de usuario, registro de pruebas, control de acceso, comunicación en
+red y generación de reportes. Entre estas soluciones se encuentran plataformas como
+SmartLog Pro 2, PGT130.DT y la estación de control ESDMAN
+\cite{SmartLogPro2} \cite{PGT130DT} \cite{ESDMAN_0016809}. Sin embargo, estos sistemas
+suelen presentar costos elevados, superiores a los 2000 USD en algunas configuraciones
+\cite{ESDMAN_0016809}, y una capacidad limitada de personalización cuando se comparan
+con soluciones basadas en módulos electrónicos de bajo costo y arquitecturas abiertas.
+
+En este sentido, el laboratorio TEM de Intel Costa Rica se plantea como un entorno real
+para evaluar la utilidad del prototipo y, al mismo tiempo, como una oportunidad para
+mejorar el seguimiento del procedimiento ESD actualmente disponible. La solución
+propuesta busca transformar una prueba manual y aislada en un proceso registrable,
+verificable y trazable, manteniendo una arquitectura accesible, modular y personalizable.
+
+El sistema propuesto integra un probador comercial de pulseras antiestáticas como
+subsistema principal de verificación ESD, identificación de usuarios mediante lectura de
+código de barras y reconocimiento facial, interfaz gráfica táctil, almacenamiento local de
+registros y generación de reportes históricos. También incorpora temperatura y humedad
+relativa como información complementaria de cada prueba.
+De esta manera, el proyecto busca demostrar que es posible desarrollar una estación
+inteligente de control ESD de bajo costo que mejore la trazabilidad de las pruebas en
+entornos de laboratorio.
+
+\section{Planteamiento del problema}
+
+Aunque existen sistemas comerciales para el control ESD en laboratorios de electrónica y
+manufactura de semiconductores, estas soluciones suelen presentar costos elevados y una
+capacidad limitada de personalización. Adicionalmente, no se identifican alternativas de
+bajo costo que integren de manera conjunta la verificación de pulseras antiestáticas, la
+identificación de usuarios, el almacenamiento de registros históricos, la generación de
+reportes y una interfaz gráfica para interactuar con el sistema.
+
+Esta situación evidencia la necesidad de desarrollar una solución accesible y adaptable que
+permita mejorar la trazabilidad de las pruebas ESD en entornos de laboratorio, como el
+laboratorio TEM de Intel Costa Rica, donde se ha identificado una oportunidad de mejora
+en el seguimiento del cumplimiento de los procedimientos ESD.
+
+\section{Estructura del documento}
+
+El presente documento se encuentra organizado en ocho capítulos que describen de forma
+progresiva la fundamentación, el diseño, la formulación, la estrategia de validación y la
+planificación del proyecto.
+
+En el Capítulo 1 se presentan los antecedentes relacionados con el control de descargas
+electrostáticas, la motivación del proyecto, el escenario de aplicación en el laboratorio
+TEM de Intel Costa Rica, la necesidad de una solución de bajo costo y el planteamiento
+del problema.
+
+El Capítulo 2 desarrolla el marco teórico necesario para comprender los conceptos
+fundamentales asociados a las descargas electrostáticas, la medición de resistencia
+cuerpo-tierra y de alta impedancia, el protocolo de comunicación ESP-NOW y los algoritmos
+ligeros de visión artificial para el reconocimiento facial embebido.
+
+En el Capítulo 3 se presenta el estado del arte, incluyendo investigaciones relacionadas,
+normativas aplicables y un análisis comparativo de soluciones comerciales utilizadas para
+el control ESD, identificando sus principales características y limitaciones.
+
+El Capítulo 4 describe la solución propuesta, detallando la arquitectura general del
+sistema, los subsistemas que la conforman, los dispositivos seleccionados, los requisitos
+del sistema y la integración electrónica, funcional y física del prototipo.
+
+El Capítulo 5 presenta el presupuesto estimado para la implementación del sistema y una
+comparación económica con soluciones comerciales disponibles.
+
+En el Capítulo 6 se establecen la hipótesis y los objetivos del proyecto, así como las
+actividades, entregables, alcances y limitaciones considerados para su desarrollo.
+
+El Capítulo 7 presenta la estrategia de validación del prototipo, incluyendo las
+condiciones del experimento, los indicadores de validación, el procedimiento experimental
+y los criterios de aceptación. La validación se planifica preferentemente en el laboratorio
+TEM de Intel Costa Rica.
+
+Finalmente, el Capítulo 8 presenta el cronograma de trabajo propuesto para la ejecución
+del proyecto.

@@ -1,0 +1,2379 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{S1_1_ANSI}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5fce6ba9e6bca4e6399380b88f5ed0b6}{%
+           family={{American National Standards Institute}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{fullhash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{fullhashraw}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{bibnamehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authorbibnamehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authornamehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authorfullhash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authorfullhashraw}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ANSI/ESD S1.1 Wrist Straps}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.ansi.org/ansi/ansi-esd-s1-1-2021-standard-wrist-straps/
+      \endverb
+      \verb{url}
+      \verb https://blog.ansi.org/ansi/ansi-esd-s1-1-2021-standard-wrist-straps/
+      \endverb
+    \endentry
+    \entry{ANSI_S2020_Blog}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5fce6ba9e6bca4e6399380b88f5ed0b6}{%
+           family={{American National Standards Institute}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{fullhash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{fullhashraw}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{bibnamehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authorbibnamehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authornamehash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authorfullhash}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \strng{authorfullhashraw}{5fce6ba9e6bca4e6399380b88f5ed0b6}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ANSI blog article summarizing the ANSI/ESD S20.20 standard}
+      \field{title}{ANSI/ESD S20.20-2021: Protection of Electronic Parts and Assemblies}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.ansi.org/ansi/ansi-esd-s20-20-2021-protection-electronic-parts/
+      \endverb
+      \verb{url}
+      \verb https://blog.ansi.org/ansi/ansi-esd-s20-20-2021-protection-electronic-parts/
+      \endverb
+    \endentry
+    \entry{AD5933}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=a12ff886a2379a9ee6efaa9acfb54df4}{%
+           family={{Analog Devices}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Analog Devices, Inc.}%
+      }
+      \strng{namehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{fullhash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{fullhashraw}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{bibnamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authorbibnamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authornamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authorfullhash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authorfullhashraw}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{AD5933: Impedance Converter, Network Analyzer}}
+      \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/1092256/AD/AD5933.html
+      \endverb
+      \verb{url}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/1092256/AD/AD5933.html
+      \endverb
+    \endentry
+    \entry{ICL7106}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=a12ff886a2379a9ee6efaa9acfb54df4}{%
+           family={{Analog Devices}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Analog Devices, Inc.}%
+      }
+      \strng{namehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{fullhash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{fullhashraw}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{bibnamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authorbibnamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authornamehash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authorfullhash}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \strng{authorfullhashraw}{a12ff886a2379a9ee6efaa9acfb54df4}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ICL7106, ICL7107: 3½ Digit A/D Converters}}
+      \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.analog.com/media/en/technical-documentation/data-sheets/icl7106-icl7107.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.analog.com/media/en/technical-documentation/data-sheets/icl7106-icl7107.pdf
+      \endverb
+    \endentry
+    \entry{ArduinoESPNOW}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
+           family={{Arduino}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhashraw}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{bibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorbibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhashraw}{ee5bced252ab77ec8d633c1afda7c5da}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Tutorial para implementar comunicación bidireccional mediante ESP-NOW entre placas Arduino Nano ESP32}
+      \field{title}{{Arduino Nano ESP32 ESP-NOW Tutorial}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.arduino.cc/tutorials/nano-esp32/esp-now/
+      \endverb
+      \verb{url}
+      \verb https://docs.arduino.cc/tutorials/nano-esp32/esp-now/
+      \endverb
+    \endentry
+    \entry{URV2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=db6bf2e876dcd00ab7632cfed860dd1e}{%
+           family={Armisén},
+           familyi={A\bibinitperiod},
+           given={Raúl\bibnamedelima Arjona},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universitat Rovira i Virgili}%
+      }
+      \strng{namehash}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \strng{fullhash}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \strng{fullhashraw}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \strng{bibnamehash}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \strng{authorbibnamehash}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \strng{authornamehash}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \strng{authorfullhash}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \strng{authorfullhashraw}{db6bf2e876dcd00ab7632cfed860dd1e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automatización Test de Descargas Eléctricas (ESD)}
+      \field{type}{Trabajo de Fin de Grado}
+      \field{year}{2024}
+    \endentry
+    \entry{BBC_Static}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d25b2df3ea5c96463732865cb79b5fdc}{%
+           family={{BBC Bitesize}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d25b2df3ea5c96463732865cb79b5fdc}
+      \strng{fullhash}{d25b2df3ea5c96463732865cb79b5fdc}
+      \strng{fullhashraw}{d25b2df3ea5c96463732865cb79b5fdc}
+      \strng{bibnamehash}{d25b2df3ea5c96463732865cb79b5fdc}
+      \strng{authorbibnamehash}{d25b2df3ea5c96463732865cb79b5fdc}
+      \strng{authornamehash}{d25b2df3ea5c96463732865cb79b5fdc}
+      \strng{authorfullhash}{d25b2df3ea5c96463732865cb79b5fdc}
+      \strng{authorfullhashraw}{d25b2df3ea5c96463732865cb79b5fdc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Educational resource explaining static electricity concepts}
+      \field{title}{Static electricity}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bbc.co.uk/bitesize/articles/z4h94xs
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.co.uk/bitesize/articles/z4h94xs
+      \endverb
+    \endentry
+    \entry{ESPWHOGetStarted2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=03e323bb6c9d92b7babf80c2efde7290}{%
+           family={Bez},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Espressif Systems Developer Portal}%
+      }
+      \strng{namehash}{03e323bb6c9d92b7babf80c2efde7290}
+      \strng{fullhash}{03e323bb6c9d92b7babf80c2efde7290}
+      \strng{fullhashraw}{03e323bb6c9d92b7babf80c2efde7290}
+      \strng{bibnamehash}{03e323bb6c9d92b7babf80c2efde7290}
+      \strng{authorbibnamehash}{03e323bb6c9d92b7babf80c2efde7290}
+      \strng{authornamehash}{03e323bb6c9d92b7babf80c2efde7290}
+      \strng{authorfullhash}{03e323bb6c9d92b7babf80c2efde7290}
+      \strng{authorfullhashraw}{03e323bb6c9d92b7babf80c2efde7290}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{28}
+      \field{month}{5}
+      \field{note}{Guía oficial para configurar ESP-WHO y ejecutar un ejemplo de reconocimiento facial en el ESP32-S3-EYE}
+      \field{title}{{ESP-WHO: Get Started}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.espressif.com/blog/2026/05/esp-who-get-started/
+      \endverb
+      \verb{url}
+      \verb https://developer.espressif.com/blog/2026/05/esp-who-get-started/
+      \endverb
+    \endentry
+    \entry{Desco_19240}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d39c02c284af886d83b6ccffc91d5c38}{%
+           family={{Desco Industries}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{fullhash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{fullhashraw}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{bibnamehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authorbibnamehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authornamehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authorfullhash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authorfullhashraw}{d39c02c284af886d83b6ccffc91d5c38}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Portable tester for verifying wrist strap resistance}
+      \field{title}{19240 Portable Wrist Strap Tester}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://desco.descoindustries.com/DescoCatalog/PersonnelGroundingTesters/Wrist-Strap/Portable-Wrist-Strap-Tester/19240/
+      \endverb
+      \verb{url}
+      \verb https://desco.descoindustries.com/DescoCatalog/PersonnelGroundingTesters/Wrist-Strap/Portable-Wrist-Strap-Tester/19240/
+      \endverb
+    \endentry
+    \entry{SmartLogPro2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d39c02c284af886d83b6ccffc91d5c38}{%
+           family={{Desco Industries}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{fullhash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{fullhashraw}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{bibnamehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authorbibnamehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authornamehash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authorfullhash}{d39c02c284af886d83b6ccffc91d5c38}
+      \strng{authorfullhashraw}{d39c02c284af886d83b6ccffc91d5c38}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Advanced ESD verification system with touchscreen interface, wireless connectivity and user identification}
+      \field{title}{SmartLog Pro 2 Hardware}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://emit.descoindustries.com/DescoEmitCatalog/Access-Control/SmartLog-Pro-2/Hardware/50181/
+      \endverb
+      \verb{url}
+      \verb https://emit.descoindustries.com/DescoEmitCatalog/Access-Control/SmartLog-Pro-2/Hardware/50181/
+      \endverb
+    \endentry
+    \entry{smartlogpro2_manual}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=7eab0cb165842db210b693ee7a806b25}{%
+           family={{DESCO Industries Inc.}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {EMIT}%
+      }
+      \strng{namehash}{7eab0cb165842db210b693ee7a806b25}
+      \strng{fullhash}{7eab0cb165842db210b693ee7a806b25}
+      \strng{fullhashraw}{7eab0cb165842db210b693ee7a806b25}
+      \strng{bibnamehash}{7eab0cb165842db210b693ee7a806b25}
+      \strng{authorbibnamehash}{7eab0cb165842db210b693ee7a806b25}
+      \strng{authornamehash}{7eab0cb165842db210b693ee7a806b25}
+      \strng{authorfullhash}{7eab0cb165842db210b693ee7a806b25}
+      \strng{authorfullhashraw}{7eab0cb165842db210b693ee7a806b25}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Consultado: 27 de junio de 2026}
+      \field{number}{{Technical Bulletin TB-6610}}
+      \field{title}{{SmartLog Pro 2: Installation, Operation, and Maintenance}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.descoindustries.com/PDF/TB-6610.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.descoindustries.com/PDF/TB-6610.pdf
+      \endverb
+    \endentry
+    \entry{Desco_SmartLog}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=74e7068b878e215c9287656e466bf28f}{%
+           family={{Desco Industries Inc.}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Desco Industries}%
+      }
+      \strng{namehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{fullhash}{74e7068b878e215c9287656e466bf28f}
+      \strng{fullhashraw}{74e7068b878e215c9287656e466bf28f}
+      \strng{bibnamehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{authorbibnamehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{authornamehash}{74e7068b878e215c9287656e466bf28f}
+      \strng{authorfullhash}{74e7068b878e215c9287656e466bf28f}
+      \strng{authorfullhashraw}{74e7068b878e215c9287656e466bf28f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Model 50180 Wrist Strap Tester Datasheet}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.globaltestsupply.com/pdfs/cache/www.globaltestsupply.com/50180/datasheet/50180-datasheet.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.globaltestsupply.com/pdfs/cache/www.globaltestsupply.com/50180/datasheet/50180-datasheet.pdf
+      \endverb
+    \endentry
+    \entry{TI2014}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=a049a8ee49bdaa027908c75a1ab2838f}{%
+           family={Diep},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0df41bfbaf4d117f5cbdcc99a2a51766}{%
+           family={Cline},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{27906e67e3df68560df86521c4623bfe}
+      \strng{fullhash}{27906e67e3df68560df86521c4623bfe}
+      \strng{fullhashraw}{27906e67e3df68560df86521c4623bfe}
+      \strng{bibnamehash}{27906e67e3df68560df86521c4623bfe}
+      \strng{authorbibnamehash}{27906e67e3df68560df86521c4623bfe}
+      \strng{authornamehash}{27906e67e3df68560df86521c4623bfe}
+      \strng{authorfullhash}{27906e67e3df68560df86521c4623bfe}
+      \strng{authorfullhashraw}{27906e67e3df68560df86521c4623bfe}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{SSYA010A}
+      \field{title}{Electrostatic Discharge (ESD)}
+      \field{type}{techreport}
+      \field{urlday}{29}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/an/ssya010a/ssya010a.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/an/ssya010a/ssya010a.pdf
+      \endverb
+    \endentry
+    \entry{Globos_Electrostatica}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b37758057acd9cc760b6a3fc509eab5c}{%
+           family={{Educa con Big Bang}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b37758057acd9cc760b6a3fc509eab5c}
+      \strng{fullhash}{b37758057acd9cc760b6a3fc509eab5c}
+      \strng{fullhashraw}{b37758057acd9cc760b6a3fc509eab5c}
+      \strng{bibnamehash}{b37758057acd9cc760b6a3fc509eab5c}
+      \strng{authorbibnamehash}{b37758057acd9cc760b6a3fc509eab5c}
+      \strng{authornamehash}{b37758057acd9cc760b6a3fc509eab5c}
+      \strng{authorfullhash}{b37758057acd9cc760b6a3fc509eab5c}
+      \strng{authorfullhashraw}{b37758057acd9cc760b6a3fc509eab5c}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Artículo educativo sobre experimentos de electricidad estática}
+      \field{title}{5 experimentos de electricidad estática con globos}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://educaconbigbang.com/2015/09/5-experimentos-de-electricidad-estatica-con-globos/
+      \endverb
+      \verb{url}
+      \verb https://educaconbigbang.com/2015/09/5-experimentos-de-electricidad-estatica-con-globos/
+      \endverb
+    \endentry
+    \entry{elecrow_esp32_wiki}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=18a441d3cc79670b42cb00930951ba3c}{%
+           family={{Elecrow}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{fullhash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{fullhashraw}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{bibnamehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{authorbibnamehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{authornamehash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{authorfullhash}{18a441d3cc79670b42cb00930951ba3c}
+      \strng{authorfullhashraw}{18a441d3cc79670b42cb00930951ba3c}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Especificaciones del fabricante, consultado: 27 de junio del 2026}
+      \field{title}{{CrowPanel ESP32 HMI 7.0-inch Display Specifications}}
+      \verb{urlraw}
+      \verb https://www.elecrow.com/wiki/esp32-display-702727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.html
+      \endverb
+      \verb{url}
+      \verb https://www.elecrow.com/wiki/esp32-display-702727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.html
+      \endverb
+    \endentry
+    \entry{ELEK_IEC_IEEE_Safety_2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=96983890a3dd5f5f59d0ac3d5efa1641}{%
+           family={{ELEK}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{fullhash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{fullhashraw}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{bibnamehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{authorbibnamehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{authornamehash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{authorfullhash}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \strng{authorfullhashraw}{96983890a3dd5f5f59d0ac3d5efa1641}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-05-31}
+      \field{title}{Safety Limit Calculations to IEEE and IEC Standards}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://elek.com/articles/safety-limit-calculations-to-ieee-and-iec-standards/
+      \endverb
+      \verb{url}
+      \verb https://elek.com/articles/safety-limit-calculations-to-ieee-and-iec-standards/
+      \endverb
+    \endentry
+    \entry{ESDAPrinciples2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5d7cf6726a1869429bc47b5746f0b9e0}{%
+           family={{EOS/ESD Association}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{fullhash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{fullhashraw}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{bibnamehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{authorbibnamehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{authornamehash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{authorfullhash}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \strng{authorfullhashraw}{5d7cf6726a1869429bc47b5746f0b9e0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-06-10}
+      \field{title}{Fundamentals of Electrostatic Discharge, Part Two: Principles of ESD Control -- ESD Control Program Development}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.esda.org/esd-overview/esd-fundamentals/part-2-principles-of-esd-control/
+      \endverb
+      \verb{url}
+      \verb https://www.esda.org/esd-overview/esd-fundamentals/part-2-principles-of-esd-control/
+      \endverb
+    \endentry
+    \entry{STM97_ANSI}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f072d36bd9f16c82fb1e35701bc6a6dd}{%
+           family={{ESD Association}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{fullhash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{fullhashraw}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{bibnamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorbibnamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authornamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorfullhash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorfullhashraw}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ANSI/ESD STM97.1: Footwear/Flooring System Resistance Measurement in Combination with a Person}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://webstore.ansi.org/standards/esda/ansiesdstm9712018
+      \endverb
+      \verb{url}
+      \verb https://webstore.ansi.org/standards/esda/ansiesdstm9712018
+      \endverb
+    \endentry
+    \entry{ESDA1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f072d36bd9f16c82fb1e35701bc6a6dd}{%
+           family={{ESD Association}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{fullhash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{fullhashraw}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{bibnamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorbibnamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authornamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorfullhash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorfullhashraw}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Educational resource on electrostatic discharge fundamentals}
+      \field{title}{Part 1: An Introduction to ESD}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esda.org/esd-overview/esd-fundamentals/part-1-an-introduction-to-esd/
+      \endverb
+      \verb{url}
+      \verb https://www.esda.org/esd-overview/esd-fundamentals/part-1-an-introduction-to-esd/
+      \endverb
+    \endentry
+    \entry{esda_part5}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f072d36bd9f16c82fb1e35701bc6a6dd}{%
+           family={{ESD Association}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{fullhash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{fullhashraw}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{bibnamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorbibnamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authornamehash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorfullhash}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \strng{authorfullhashraw}{f072d36bd9f16c82fb1e35701bc6a6dd}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.esda.org/esd-overview/esd-fundamentals/part-5-device-sensitivity-and-testing/}}
+      \field{note}{Accessed: 2026-04-19}
+      \field{title}{Part 5: Device Sensitivity and Testing}
+    \endentry
+    \entry{ESDMAN_0016809}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5c2a5cb7c3686b6fead653abc3baf774}{%
+           family={{ESDMAN}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c2a5cb7c3686b6fead653abc3baf774}
+      \strng{fullhash}{5c2a5cb7c3686b6fead653abc3baf774}
+      \strng{fullhashraw}{5c2a5cb7c3686b6fead653abc3baf774}
+      \strng{bibnamehash}{5c2a5cb7c3686b6fead653abc3baf774}
+      \strng{authorbibnamehash}{5c2a5cb7c3686b6fead653abc3baf774}
+      \strng{authornamehash}{5c2a5cb7c3686b6fead653abc3baf774}
+      \strng{authorfullhash}{5c2a5cb7c3686b6fead653abc3baf774}
+      \strng{authorfullhashraw}{5c2a5cb7c3686b6fead653abc3baf774}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Industrial ESD access control system with personnel identification and data management}
+      \field{title}{ESD Access Control System 001-6809}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://esdman01.en.ec21.com/ESD_Access_Control_System,_001-6809--11607596_11478622.html
+      \endverb
+      \verb{url}
+      \verb https://esdman01.en.ec21.com/ESD_Access_Control_System,_001-6809--11607596_11478622.html
+      \endverb
+    \endentry
+    \entry{ElecrowESP32HMIManual}{manual}{}{}
+      \list{organization}{1}{%
+        {Elecrow}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32 Display HMI User Manual}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elecrow.com/download/product/ESP32_Display/ESP32_Display_HMI_User_Manual.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.elecrow.com/download/product/ESP32_Display/ESP32_Display_HMI_User_Manual.pdf
+      \endverb
+    \endentry
+    \entry{ArduinoCameraWebServer}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Arduino-ESP32}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ejemplo oficial de adquisición y procesamiento de imágenes con cámaras basadas en ESP32}
+      \field{title}{{CameraWebServer}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer
+      \endverb
+      \verb{url}
+      \verb https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer
+      \endverb
+    \endentry
+    \entry{ESPDLGuide}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Espressif Systems}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentación oficial de la biblioteca de aprendizaje profundo optimizada para microcontroladores Espressif}
+      \field{title}{{ESP-DL User Guide}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-dl/en/latest/
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-dl/en/latest/
+      \endverb
+    \endentry
+    \entry{ESPNOWDOC}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ESP-IDF Programming Guide}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentación oficial de la interfaz de programación, formato de trama, seguridad y operación de ESP-NOW}
+      \field{title}{{ESP-NOW}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{version}{6.0.2}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_now.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_now.html
+      \endverb
+    \endentry
+    \entry{espressif_espnow}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentación oficial de ESP-NOW. Consultado: 27 de junio de 2026}
+      \field{title}{{ESP-NOW -- ESP-IDF Programming Guide}}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_now.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/network/esp_now.html
+      \endverb
+    \endentry
+    \entry{ESPNOWGUIDE}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Guía oficial de usuario para la configuración, comunicación, seguridad y actualización de firmware mediante ESP-NOW}
+      \field{title}{{ESP-NOW User Guide}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://documentation.espressif.com/esp-now/master/User_Guide.md
+      \endverb
+      \verb{url}
+      \verb https://documentation.espressif.com/esp-now/master/User_Guide.md
+      \endverb
+    \endentry
+    \entry{ESPWHO}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Plataforma oficial de visión artificial para dispositivos Espressif, desarrollada sobre ESP-DL}
+      \field{title}{{ESP-WHO: Face Detection and Recognition Framework}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/espressif/esp-who
+      \endverb
+      \verb{url}
+      \verb https://github.com/espressif/esp-who
+      \endverb
+    \endentry
+    \entry{ESP32Camera}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Controlador oficial para la adquisición de imágenes mediante cámaras compatibles con la familia ESP32}
+      \field{title}{{ESP32 Camera Driver}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/espressif/esp32-camera
+      \endverb
+      \verb{url}
+      \verb https://github.com/espressif/esp32-camera
+      \endverb
+    \endentry
+    \entry{espressif_hw_design}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Espressif Systems}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Recomendaciones de alimentación, desacoplamiento y diseño de hardware para ESP32-S3}
+      \field{title}{{ESP32-S3 Hardware Design Guidelines}}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://documentation.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/
+      \endverb
+      \verb{url}
+      \verb https://documentation.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/
+      \endverb
+    \endentry
+    \entry{ESP32S3Datasheet}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Espressif Systems}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{9}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Hoja de datos oficial del microcontrolador ESP32-S3}
+      \field{title}{{ESP32-S3 Series Datasheet}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{version}{2.2}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://documentation.espressif.com/esp32-s3_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://documentation.espressif.com/esp32-s3_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{esp32s3}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Espressif Systems}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{10}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Hoja de datos del módulo ESP32-S3-WROOM-1/ESP32-S3-WROOM-1U. Consultado: 27 de junio de 2026}
+      \field{title}{{ESP32-S3-WROOM-1 and ESP32-S3-WROOM-1U Datasheet}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{esp32wroom}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Espressif Systems}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{11}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Hoja de datos del módulo ESP32-WROOM-32. Consultado: 27 de junio de 2026}
+      \field{title}{{ESP32-WROOM-32 Datasheet}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{ESPDLQuantization}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ESP-DL User Guide}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{12}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Guía oficial sobre modelos ESP-DL cuantizados a 8 y 16 bits y la evaluación posterior de su exactitud}
+      \field{title}{{How to Quantize Model}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-dl/en/latest/tutorials/how_to_quantize_model.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-dl/en/latest/tutorials/how_to_quantize_model.html
+      \endverb
+    \endentry
+    \entry{ESPDLModelExecution}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ESP-DL User Guide}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{13}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentación oficial sobre la ejecución de modelos y la administración de memoria para entradas, resultados intermedios y salidas}
+      \field{title}{{How to Run Model}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-dl/en/latest/tutorials/how_to_run_model.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-dl/en/latest/tutorials/how_to_run_model.html
+      \endverb
+    \endentry
+    \entry{ESPDLPerformance}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ESP-DL User Guide}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{extraname}{14}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mediciones oficiales de referencia para modelos de detección y reconocimiento en ESP32-S3}
+      \field{title}{{Performance}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-dl/en/release-v1.1/esp32s3/performance.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-dl/en/release-v1.1/esp32s3/performance.html
+      \endverb
+    \endentry
+    \entry{ti_tvs_selection}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=a96ccfc71c446cbf41b115ca58645270}{%
+           family={Forbes},
+           familyi={F\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{a96ccfc71c446cbf41b115ca58645270}
+      \strng{fullhash}{a96ccfc71c446cbf41b115ca58645270}
+      \strng{fullhashraw}{a96ccfc71c446cbf41b115ca58645270}
+      \strng{bibnamehash}{a96ccfc71c446cbf41b115ca58645270}
+      \strng{authorbibnamehash}{a96ccfc71c446cbf41b115ca58645270}
+      \strng{authornamehash}{a96ccfc71c446cbf41b115ca58645270}
+      \strng{authorfullhash}{a96ccfc71c446cbf41b115ca58645270}
+      \strng{authorfullhashraw}{a96ccfc71c446cbf41b115ca58645270}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{SLVAE37}
+      \field{title}{How to Select a Surge Diode}
+      \field{type}{techreport}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/an/slvae37/slvae37.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/an/slvae37/slvae37.pdf
+      \endverb
+    \endentry
+    \entry{FreenoveESP32S3CAM}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5ccd88299834e0c0809f4515744f5c09}{%
+           family={{Freenove}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Freenove}%
+      }
+      \strng{namehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{fullhash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{fullhashraw}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{bibnamehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{authorbibnamehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{authornamehash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{authorfullhash}{5ccd88299834e0c0809f4515744f5c09}
+      \strng{authorfullhashraw}{5ccd88299834e0c0809f4515744f5c09}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32-S3 CAM Board}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://store.freenove.com/products/fnk0085
+      \endverb
+      \verb{url}
+      \verb https://store.freenove.com/products/fnk0085
+      \endverb
+    \endentry
+    \entry{Getty_Electrostatics}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2956f7e0289cd088e5e84a24bacc28bb}{%
+           family={{Getty Conservation Institute}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2956f7e0289cd088e5e84a24bacc28bb}
+      \strng{fullhash}{2956f7e0289cd088e5e84a24bacc28bb}
+      \strng{fullhashraw}{2956f7e0289cd088e5e84a24bacc28bb}
+      \strng{bibnamehash}{2956f7e0289cd088e5e84a24bacc28bb}
+      \strng{authorbibnamehash}{2956f7e0289cd088e5e84a24bacc28bb}
+      \strng{authornamehash}{2956f7e0289cd088e5e84a24bacc28bb}
+      \strng{authorfullhash}{2956f7e0289cd088e5e84a24bacc28bb}
+      \strng{authorfullhashraw}{2956f7e0289cd088e5e84a24bacc28bb}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a Amber?}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.getty.edu/publications/ambers/intro/4/
+      \endverb
+      \verb{url}
+      \verb https://www.getty.edu/publications/ambers/intro/4/
+      \endverb
+    \endentry
+    \entry{GM67}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f4d071357c50478703da4089f993d1e0}{%
+           family={{GROW}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4d071357c50478703da4089f993d1e0}
+      \strng{fullhash}{f4d071357c50478703da4089f993d1e0}
+      \strng{fullhashraw}{f4d071357c50478703da4089f993d1e0}
+      \strng{bibnamehash}{f4d071357c50478703da4089f993d1e0}
+      \strng{authorbibnamehash}{f4d071357c50478703da4089f993d1e0}
+      \strng{authornamehash}{f4d071357c50478703da4089f993d1e0}
+      \strng{authorfullhash}{f4d071357c50478703da4089f993d1e0}
+      \strng{authorfullhashraw}{f4d071357c50478703da4089f993d1e0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página oficial del lector de códigos de barras GM67. Consultado: 27 de junio de 2026}
+      \field{title}{{GROW GM67 1D 2D Barcode Scanner}}
+      \verb{urlraw}
+      \verb https://en.hzgrow.com/product/161.html
+      \endverb
+      \verb{url}
+      \verb https://en.hzgrow.com/product/161.html
+      \endverb
+    \endentry
+    \entry{MobileNet2017}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=0cedb03f907400fc304fdfaa1f7e2085}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d767e8e4d733bcf728bcdf2c193462f7}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Menglong},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31960f03389184b7f052f5b197cc9fdf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6cbb997a11c6922af719c32863261918}{%
+           family={Kalenichenko},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=47ad65c82b1de7d642988df185d7d8ea}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Weijun},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7dcb9c6d4d4251a7e32b502d03c9354b}{%
+           family={Weyand},
+           familyi={W\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8f221f2afb0b5a3d95b3e97101924922}{%
+           family={Andreetto},
+           familyi={A\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c707ec5b5997dc408a14a34a8380166c}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={Hartwig},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1fc6cab9b6009340e110518e53868c4}
+      \strng{fullhash}{cffcf38c642164887a370768f5701b8e}
+      \strng{fullhashraw}{cffcf38c642164887a370768f5701b8e}
+      \strng{bibnamehash}{e1fc6cab9b6009340e110518e53868c4}
+      \strng{authorbibnamehash}{e1fc6cab9b6009340e110518e53868c4}
+      \strng{authornamehash}{e1fc6cab9b6009340e110518e53868c4}
+      \strng{authorfullhash}{cffcf38c642164887a370768f5701b8e}
+      \strng{authorfullhashraw}{cffcf38c642164887a370768f5701b8e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1704.04861}
+      \field{title}{{MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.48550/arXiv.1704.04861
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1704.04861
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1704.04861
+      \endverb
+    \endentry
+    \entry{iec60601_1}{manual}{}{}
+      \list{organization}{1}{%
+        {International Electrotechnical Commission}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{note}{Utilizada como referencia conservadora para límites de corriente en equipos conectados al cuerpo humano}
+      \field{title}{{IEC 60601-1: Medical electrical equipment -- Part 1: General requirements for basic safety and essential performance}}
+      \field{year}{2005}
+    \endentry
+    \entry{IEC60479_Resume}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1bfbc8812fd493bd4a6c196b196d1291}{%
+           family={{International Electrotechnical Commission}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{fullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{fullhashraw}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{bibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorbibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authornamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorfullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorfullhashraw}{1bfbc8812fd493bd4a6c196b196d1291}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IEC 60479-1: Effects of current on human beings and livestock}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://webstore.iec.ch/en/iec_catalog/product/preview/?id=L3B1Yi9wZGYvcHJldmlldy9pbmZvX2llYzYwNDc5LTF7ZWQxLjB9ZW4ucGRm
+      \endverb
+      \verb{url}
+      \verb https://webstore.iec.ch/en/iec_catalog/product/preview/?id=L3B1Yi9wZGYvcHJldmlldy9pbmZvX2llYzYwNDc5LTF7ZWQxLjB9ZW4ucGRm
+      \endverb
+    \endentry
+    \entry{IEC61000_ITU}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1bfbc8812fd493bd4a6c196b196d1291}{%
+           family={{International Electrotechnical Commission}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{fullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{fullhashraw}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{bibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorbibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authornamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorfullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorfullhashraw}{1bfbc8812fd493bd4a6c196b196d1291}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Standard document (2008 edition) hosted by ITU}
+      \field{title}{IEC 61000-4-2: Electromagnetic Compatibility (EMC) – Testing and Measurement Techniques – Electrostatic Discharge Immunity Test}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.itu.int/en/ITU-D/Technology/Documents/Events2016/CI_Training_ARB_Tunis_April16/Session8/IEC_61000-4-2_2008.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.itu.int/en/ITU-D/Technology/Documents/Events2016/CI_Training_ARB_Tunis_April16/Session8/IEC_61000-4-2_2008.pdf
+      \endverb
+    \endentry
+    \entry{IEC61340_Preview}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1bfbc8812fd493bd4a6c196b196d1291}{%
+           family={{International Electrotechnical Commission}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{fullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{fullhashraw}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{bibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorbibnamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authornamehash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorfullhash}{1bfbc8812fd493bd4a6c196b196d1291}
+      \strng{authorfullhashraw}{1bfbc8812fd493bd4a6c196b196d1291}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Official preview of IEC 61340-5-1 standard}
+      \field{title}{IEC 61340-5-1: Electrostatics – Protection of electronic devices from electrostatic phenomena – General requirements (Preview)}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.vde-verlag.de/iec-normen/preview-pdf/info_iec61340-5-1%7Bed2.0.RLV%7Den.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.vde-verlag.de/iec-normen/preview-pdf/info_iec61340-5-1%7Bed2.0.RLV%7Den.pdf
+      \endverb
+    \endentry
+    \entry{OSIModel}{manual}{}{}
+      \name{author}{2}{}{%
+        {{hash=7058e4bd76f877c52b621c942b30613c}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+        {{hash=7ddfb261130d2af8916054bd686f0614}{%
+           family={{International Telecommunication Union}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ISO/IEC and ITU-T}%
+      }
+      \strng{namehash}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \strng{fullhash}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \strng{fullhashraw}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \strng{bibnamehash}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \strng{authorbibnamehash}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \strng{authornamehash}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \strng{authorfullhash}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \strng{authorfullhashraw}{134a4aa239a447ed0b585dd27ef9e6c9}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{note}{Norma internacional que define la arquitectura y las siete capas del modelo de referencia OSI}
+      \field{number}{{ISO/IEC 7498-1:1994; ITU-T Recommendation X.200}}
+      \field{title}{{Information Technology---Open Systems Interconnection---Basic Reference Model: The Basic Model}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{1994}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.itu.int/rec/T-REC-X.200-199407-I/es
+      \endverb
+      \verb{url}
+      \verb https://www.itu.int/rec/T-REC-X.200-199407-I/es
+      \endverb
+    \endentry
+    \entry{JEDEC_JTR001}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e38d9a5c68b6c83fee5f26c49595802b}{%
+           family={{JEDEC Solid State Technology Association}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e38d9a5c68b6c83fee5f26c49595802b}
+      \strng{fullhash}{e38d9a5c68b6c83fee5f26c49595802b}
+      \strng{fullhashraw}{e38d9a5c68b6c83fee5f26c49595802b}
+      \strng{bibnamehash}{e38d9a5c68b6c83fee5f26c49595802b}
+      \strng{authorbibnamehash}{e38d9a5c68b6c83fee5f26c49595802b}
+      \strng{authornamehash}{e38d9a5c68b6c83fee5f26c49595802b}
+      \strng{authorfullhash}{e38d9a5c68b6c83fee5f26c49595802b}
+      \strng{authorfullhashraw}{e38d9a5c68b6c83fee5f26c49595802b}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JTR001: Electrostatic Discharge (ESD) Technology Roadmap}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.jedec.org/sites/default/files/JTR001-01-12%20Final.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.jedec.org/sites/default/files/JTR001-01-12%20Final.pdf
+      \endverb
+    \endentry
+    \entry{keithley_lowlevel}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=890eeb8dcef891d469a809718d997e62}{%
+           family={{Keithley Instruments, Inc.}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Tektronix}%
+      }
+      \strng{namehash}{890eeb8dcef891d469a809718d997e62}
+      \strng{fullhash}{890eeb8dcef891d469a809718d997e62}
+      \strng{fullhashraw}{890eeb8dcef891d469a809718d997e62}
+      \strng{bibnamehash}{890eeb8dcef891d469a809718d997e62}
+      \strng{authorbibnamehash}{890eeb8dcef891d469a809718d997e62}
+      \strng{authornamehash}{890eeb8dcef891d469a809718d997e62}
+      \strng{authorfullhash}{890eeb8dcef891d469a809718d997e62}
+      \strng{authorfullhashraw}{890eeb8dcef891d469a809718d997e62}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7th}
+      \field{title}{Low Level Measurements Handbook: Precision DC Current, Voltage, and Resistance Measurements}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://download.tek.com/document/LowLevelHandbook_7Ed.pdf
+      \endverb
+      \verb{url}
+      \verb https://download.tek.com/document/LowLevelHandbook_7Ed.pdf
+      \endverb
+    \endentry
+    \entry{khalil2014bioimpedance}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=60938378c1552b3ff4ad22718a30130f}{%
+           family={Khalil},
+           familyi={K\bibinitperiod},
+           given={Sami\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=add83feafe234fa5815df535a1bace0f}{%
+           family={Mohktar},
+           familyi={M\bibinitperiod},
+           given={Mas\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f37374b4a29b87573e404ce0bfdeaf43}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Fatimah},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \strng{fullhash}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \strng{fullhashraw}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \strng{bibnamehash}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \strng{authorbibnamehash}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \strng{authornamehash}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \strng{authorfullhash}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \strng{authorfullhashraw}{eb31e72aa9f0469b64f8a76e92c3f8b8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{6}
+      \field{title}{The Theory and Fundamentals of Bioimpedance Analysis in Clinical Status Monitoring and Diagnosis of Diseases}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{pages}{10895\bibrangedash 10928}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.3390/s140610895
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC4118362/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC4118362/
+      \endverb
+    \endentry
+    \entry{kingston_sd_microsd_guide}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=86193dc66127f1cd8f22aa267da62cf3}{%
+           family={{Kingston Technology}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{86193dc66127f1cd8f22aa267da62cf3}
+      \strng{fullhash}{86193dc66127f1cd8f22aa267da62cf3}
+      \strng{fullhashraw}{86193dc66127f1cd8f22aa267da62cf3}
+      \strng{bibnamehash}{86193dc66127f1cd8f22aa267da62cf3}
+      \strng{authorbibnamehash}{86193dc66127f1cd8f22aa267da62cf3}
+      \strng{authornamehash}{86193dc66127f1cd8f22aa267da62cf3}
+      \strng{authorfullhash}{86193dc66127f1cd8f22aa267da62cf3}
+      \strng{authorfullhashraw}{86193dc66127f1cd8f22aa267da62cf3}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Guía técnica sobre tipos, capacidades y estándares de tarjetas SD y microSD. Consultado: 27 de junio de 2026}
+      \field{title}{{A Guide to SD and microSD Card Types}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.kingston.com/en/blog/personal-storage/microsd-sd-memory-card-guide
+      \endverb
+      \verb{url}
+      \verb https://www.kingston.com/en/blog/personal-storage/microsd-sd-memory-card-guide
+      \endverb
+    \endentry
+    \entry{MCUNet2020}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=f7dc0ae05140014a83b76c5ea171577c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Ji},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d260c157f8c93f963d05b170048650c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei-Ming},
+           giveni={W\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=7dd57f26499c599986eb169137eb06b6}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yujun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=594061035639ba14669eb405b12bb729}{%
+           family={Cohn},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=97044e575d3c0a3dd2551779810add07}{%
+           family={Gan},
+           familyi={G\bibinitperiod},
+           given={Chuang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=873e4e07ff73d563d2651d20ffaf99e0}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{854abd7200b26cfc95a45e627cefb855}
+      \strng{fullhash}{8b994b354a76ce044403123301bbdb73}
+      \strng{fullhashraw}{8b994b354a76ce044403123301bbdb73}
+      \strng{bibnamehash}{854abd7200b26cfc95a45e627cefb855}
+      \strng{authorbibnamehash}{854abd7200b26cfc95a45e627cefb855}
+      \strng{authornamehash}{854abd7200b26cfc95a45e627cefb855}
+      \strng{authorfullhash}{8b994b354a76ce044403123301bbdb73}
+      \strng{authorfullhashraw}{8b994b354a76ce044403123301bbdb73}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{{MCUNet: Tiny Deep Learning on IoT Devices}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://papers.neurips.cc/paper/2020/hash/86c51678350f656dcc7f490a43946ee5-Abstract.html
+      \endverb
+      \verb{url}
+      \verb https://papers.neurips.cc/paper/2020/hash/86c51678350f656dcc7f490a43946ee5-Abstract.html
+      \endverb
+    \endentry
+    \entry{Nagy2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4ec07f512abd290d5ccbfe3e123f4fe1}{%
+           family={Nagy},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \strng{fullhash}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \strng{fullhashraw}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \strng{bibnamehash}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \strng{authorbibnamehash}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \strng{authornamehash}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \strng{authorfullhash}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \strng{authorfullhashraw}{4ec07f512abd290d5ccbfe3e123f4fe1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gradus}
+      \field{number}{2}
+      \field{title}{Development of IoT-Based Ground Monitoring System}
+      \field{volume}{12}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.47833/2025.2.ENG.012
+      \endverb
+    \endentry
+    \entry{NISTFaceImageQuality}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ef9cb61878e61d434507444346b29d1a}{%
+           family={{National Institute of Standards and Technology}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {NIST}%
+      }
+      \strng{namehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \strng{bibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorbibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Evaluación de factores de calidad de imagen relacionados con fallos de reconocimiento facial}
+      \field{title}{{Face Analysis Technology Evaluation: Quality}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pages.nist.gov/frvt/html/frvt_quality.html
+      \endverb
+      \verb{url}
+      \verb https://pages.nist.gov/frvt/html/frvt_quality.html
+      \endverb
+    \endentry
+    \entry{NISTFRVT}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ef9cb61878e61d434507444346b29d1a}{%
+           family={{National Institute of Standards and Technology}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {NIST}%
+      }
+      \strng{namehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{fullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \strng{bibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorbibnamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authornamehash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhash}{ef9cb61878e61d434507444346b29d1a}
+      \strng{authorfullhashraw}{ef9cb61878e61d434507444346b29d1a}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Programa de evaluación de algoritmos de reconocimiento facial y de factores que afectan su desempeño}
+      \field{title}{{Face Recognition Vendor Test}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt
+      \endverb
+      \verb{url}
+      \verb https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt
+      \endverb
+    \endentry
+    \entry{TinyMLReview2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=37f6b94ff52303cf740e5df3c9a5f074}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Partha\bibnamedelima Pratim},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{37f6b94ff52303cf740e5df3c9a5f074}
+      \strng{fullhash}{37f6b94ff52303cf740e5df3c9a5f074}
+      \strng{fullhashraw}{37f6b94ff52303cf740e5df3c9a5f074}
+      \strng{bibnamehash}{37f6b94ff52303cf740e5df3c9a5f074}
+      \strng{authorbibnamehash}{37f6b94ff52303cf740e5df3c9a5f074}
+      \strng{authornamehash}{37f6b94ff52303cf740e5df3c9a5f074}
+      \strng{authorfullhash}{37f6b94ff52303cf740e5df3c9a5f074}
+      \strng{authorfullhashraw}{37f6b94ff52303cf740e5df3c9a5f074}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of King Saud University -- Computer and Information Sciences}
+      \field{number}{4}
+      \field{title}{{A Review on TinyML: State-of-the-art and Prospects}}
+      \field{volume}{34}
+      \field{year}{2022}
+      \field{pages}{1595\bibrangedash 1623}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1016/j.jksuci.2021.11.019
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jksuci.2021.11.019
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jksuci.2021.11.019
+      \endverb
+    \endentry
+    \entry{sht31d_datasheet}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=fb72f8a9083f6761e11a1b1bb31d577b}{%
+           family={{Sensirion}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Sensirion}%
+      }
+      \strng{namehash}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \strng{fullhash}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \strng{fullhashraw}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \strng{bibnamehash}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \strng{authorbibnamehash}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \strng{authornamehash}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \strng{authorfullhash}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \strng{authorfullhashraw}{fb72f8a9083f6761e11a1b1bb31d577b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Hoja de datos del sensor digital de humedad y temperatura SHT3x-DIS. Consultado: 27 de junio de 2026}
+      \field{title}{{Datasheet SHT3x-DIS: Humidity and Temperature Sensor}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf
+      \endverb
+      \verb{url}
+      \verb https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf
+      \endverb
+    \endentry
+    \entry{Shepley2019FaceRecognition}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fb5421ae33ae8bb85d013019c88edf29}{%
+           family={Shepley},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima Jason},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb5421ae33ae8bb85d013019c88edf29}
+      \strng{fullhash}{fb5421ae33ae8bb85d013019c88edf29}
+      \strng{fullhashraw}{fb5421ae33ae8bb85d013019c88edf29}
+      \strng{bibnamehash}{fb5421ae33ae8bb85d013019c88edf29}
+      \strng{authorbibnamehash}{fb5421ae33ae8bb85d013019c88edf29}
+      \strng{authornamehash}{fb5421ae33ae8bb85d013019c88edf29}
+      \strng{authorfullhash}{fb5421ae33ae8bb85d013019c88edf29}
+      \strng{authorfullhashraw}{fb5421ae33ae8bb85d013019c88edf29}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1907.12739}
+      \field{title}{{Deep Learning for Face Recognition: A Critical Analysis}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.48550/arXiv.1907.12739
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1907.12739
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1907.12739
+      \endverb
+    \endentry
+    \entry{SCS_770758}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0ad0c9ff7a2994274d52ecc055338085}{%
+           family={{Static Control Systems (SCS)}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ad0c9ff7a2994274d52ecc055338085}
+      \strng{fullhash}{0ad0c9ff7a2994274d52ecc055338085}
+      \strng{fullhashraw}{0ad0c9ff7a2994274d52ecc055338085}
+      \strng{bibnamehash}{0ad0c9ff7a2994274d52ecc055338085}
+      \strng{authorbibnamehash}{0ad0c9ff7a2994274d52ecc055338085}
+      \strng{authornamehash}{0ad0c9ff7a2994274d52ecc055338085}
+      \strng{authorfullhash}{0ad0c9ff7a2994274d52ecc055338085}
+      \strng{authorfullhashraw}{0ad0c9ff7a2994274d52ecc055338085}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ESD tester for simultaneous wrist strap and footwear verification}
+      \field{title}{770758 Dual Combination Wrist Strap and Footwear Tester}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://staticcontrol.descoindustries.com/SCSCatalog/Wrist-Strap-and-Footwear-Testers/Dual-Combination-Tester/770758/
+      \endverb
+      \verb{url}
+      \verb https://staticcontrol.descoindustries.com/SCSCatalog/Wrist-Strap-and-Footwear-Testers/Dual-Combination-Tester/770758/
+      \endverb
+    \endentry
+    \entry{sunfounder_esp_wroom_32_devboard}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=8fb1ecd67f7c23b7ced5a8e5204003d7}{%
+           family={{SunFounder}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \strng{fullhash}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \strng{fullhashraw}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \strng{bibnamehash}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \strng{authorbibnamehash}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \strng{authornamehash}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \strng{authorfullhash}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \strng{authorfullhashraw}{8fb1ecd67f7c23b7ced5a8e5204003d7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Distribuidor comercial del ESP32 WROOM. Consultado: 27 de junio de 2026}
+      \field{title}{{ESP-WROOM-32 ESP32 ESP-32S Development Board}}
+      \verb{urlraw}
+      \verb https://www.sunfounder.com/products/esp-wroom-32-esp32-esp-32s-development-board
+      \endverb
+      \verb{url}
+      \verb https://www.sunfounder.com/products/esp-wroom-32-esp32-esp-32s-development-board
+      \endverb
+    \endentry
+    \entry{hzr171_oficial}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=082726c9aa27e40eea318f1e24319134}{%
+           family={{SURPA-HZR}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{082726c9aa27e40eea318f1e24319134}
+      \strng{fullhash}{082726c9aa27e40eea318f1e24319134}
+      \strng{fullhashraw}{082726c9aa27e40eea318f1e24319134}
+      \strng{bibnamehash}{082726c9aa27e40eea318f1e24319134}
+      \strng{authorbibnamehash}{082726c9aa27e40eea318f1e24319134}
+      \strng{authornamehash}{082726c9aa27e40eea318f1e24319134}
+      \strng{authorfullhash}{082726c9aa27e40eea318f1e24319134}
+      \strng{authorfullhashraw}{082726c9aa27e40eea318f1e24319134}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consultado: 27 de junio de 2026}
+      \field{title}{{Probador de pulsera antiestática HZR-171}}
+      \verb{urlraw}
+      \verb https://www.surpa-hzr.com/ceshi/224.html
+      \endverb
+      \verb{url}
+      \verb https://www.surpa-hzr.com/ceshi/224.html
+      \endverb
+    \endentry
+    \entry{teknind_dual_esd_tester}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=69008786883d43a52fe55e069851c768}{%
+           family={{Teknind}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{69008786883d43a52fe55e069851c768}
+      \strng{fullhash}{69008786883d43a52fe55e069851c768}
+      \strng{fullhashraw}{69008786883d43a52fe55e069851c768}
+      \strng{bibnamehash}{69008786883d43a52fe55e069851c768}
+      \strng{authorbibnamehash}{69008786883d43a52fe55e069851c768}
+      \strng{authornamehash}{69008786883d43a52fe55e069851c768}
+      \strng{authorfullhash}{69008786883d43a52fe55e069851c768}
+      \strng{authorfullhashraw}{69008786883d43a52fe55e069851c768}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página de producto de un probador dual para pulsera antiestática y calzado ESD. Consultado: 27 de junio de 2026}
+      \field{title}{{Dual ESD Footwear and Wrist Strap Tester}}
+      \verb{urlraw}
+      \verb https://www.teknind.com/dual-esd-footwear-and-wrist-strap-tester/
+      \endverb
+      \verb{url}
+      \verb https://www.teknind.com/dual-esd-footwear-and-wrist-strap-tester/
+      \endverb
+    \endentry
+    \entry{PGT120}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7091218b5c95cdeadd20f9c062226be0}{%
+           family={{Transforming Technologies / Wolfgang Warmbier}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{fullhash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{fullhashraw}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{bibnamehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authorbibnamehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authornamehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authorfullhash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authorfullhashraw}{7091218b5c95cdeadd20f9c062226be0}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ESD tester for wrist strap and footwear with adjustable test voltage}
+      \field{title}{PGT120 Combination ESD Tester for Personal Grounding Equipment}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://transforming-technologies.com/product/warmbier-pgt120-combo-esd-tester/
+      \endverb
+      \verb{url}
+      \verb https://transforming-technologies.com/product/warmbier-pgt120-combo-esd-tester/
+      \endverb
+    \endentry
+    \entry{PGT130DT}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7091218b5c95cdeadd20f9c062226be0}{%
+           family={{Transforming Technologies / Wolfgang Warmbier}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{fullhash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{fullhashraw}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{bibnamehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authorbibnamehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authornamehash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authorfullhash}{7091218b5c95cdeadd20f9c062226be0}
+      \strng{authorfullhashraw}{7091218b5c95cdeadd20f9c062226be0}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Advanced ESD tester with data logging, RFID identification and access control integration}
+      \field{title}{PGT130.DT Data Logging ESD Tester with RFID}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://transforming-technologies.com/product/warmbier-pgt130-dt-data-logging-esd-tester-with-rfid/
+      \endverb
+      \verb{url}
+      \verb https://transforming-technologies.com/product/warmbier-pgt130-dt-data-logging-esd-tester-with-rfid/
+      \endverb
+    \endentry
+    \entry{dtic_skin}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=c276e5e25dabfcb5829609b82a1e01ca}{%
+           family={{U.S. Department of Defense}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Defense Technical Information Center (DTIC)}%
+      }
+      \strng{namehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{fullhash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{fullhashraw}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{bibnamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorbibnamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authornamehash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorfullhash}{c276e5e25dabfcb5829609b82a1e01ca}
+      \strng{authorfullhashraw}{c276e5e25dabfcb5829609b82a1e01ca}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{AD0842306}
+      \field{title}{The Electrical Properties of Human Skin and Tissue}
+      \field{type}{techreport}
+      \field{year}{1970}
+      \verb{urlraw}
+      \verb https://apps.dtic.mil/sti/tr/pdf/AD0842306.pdf
+      \endverb
+      \verb{url}
+      \verb https://apps.dtic.mil/sti/tr/pdf/AD0842306.pdf
+      \endverb
+    \endentry
+    \entry{Illinois_Static}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6c7deeb7b171b9b2bdcf27eb56557c34}{%
+           family={{University of Illinois at Urbana-Champaign}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \strng{fullhash}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \strng{fullhashraw}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \strng{bibnamehash}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \strng{authorbibnamehash}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \strng{authornamehash}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \strng{authorfullhash}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \strng{authorfullhashraw}{6c7deeb7b171b9b2bdcf27eb56557c34}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Educational explanation of static electricity phenomena}
+      \field{title}{Why does static electricity occur?}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://van.physics.illinois.edu/ask/listing/542
+      \endverb
+      \verb{url}
+      \verb https://van.physics.illinois.edu/ask/listing/542
+      \endverb
+    \endentry
+    \entry{usbif_usb_power_delivery}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=109f9e5e8d3391c90c982d3dca1ba799}{%
+           family={{USB Implementers Forum}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{fullhash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{fullhashraw}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{bibnamehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{authorbibnamehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{authornamehash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{authorfullhash}{109f9e5e8d3391c90c982d3dca1ba799}
+      \strng{authorfullhashraw}{109f9e5e8d3391c90c982d3dca1ba799}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página oficial de USB-IF sobre USB Power Delivery. Consultado: 27 de junio de 2026}
+      \field{title}{{USB Charger (USB Power Delivery)}}
+      \verb{urlraw}
+      \verb https://www.usb.org/usb-charger-pd
+      \endverb
+      \verb{url}
+      \verb https://www.usb.org/usb-charger-pd
+      \endverb
+    \endentry
+    \entry{versalogic_esd}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8a670dbd66471029ce6b0cbb99b809b1}{%
+           family={{VersaLogic Corporation}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a670dbd66471029ce6b0cbb99b809b1}
+      \strng{fullhash}{8a670dbd66471029ce6b0cbb99b809b1}
+      \strng{fullhashraw}{8a670dbd66471029ce6b0cbb99b809b1}
+      \strng{bibnamehash}{8a670dbd66471029ce6b0cbb99b809b1}
+      \strng{authorbibnamehash}{8a670dbd66471029ce6b0cbb99b809b1}
+      \strng{authornamehash}{8a670dbd66471029ce6b0cbb99b809b1}
+      \strng{authorfullhash}{8a670dbd66471029ce6b0cbb99b809b1}
+      \strng{authorfullhashraw}{8a670dbd66471029ce6b0cbb99b809b1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.versalogic.com/wp-content/themes/vsl-new/assets/resources/whitepapers/VL-ESD-White-Paper.pdf}}
+      \field{note}{White Paper, Accessed: 2026-04-19}
+      \field{title}{Electrostatic Discharge (ESD) and How to Prevent It}
+    \endentry
+    \entry{ti_basic_guide_i2c}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=4ecf0a464bbc1c13080faa9cd57ec5c4}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \strng{fullhash}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \strng{fullhashraw}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \strng{bibnamehash}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \strng{authorbibnamehash}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \strng{authornamehash}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \strng{authorfullhash}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \strng{authorfullhashraw}{4ecf0a464bbc1c13080faa9cd57ec5c4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Nota de aplicación sobre el protocolo I2C, su capa física, modos de velocidad, estructura de comunicación y cálculo de resistencias de \textit{pull-up}. Consultado: 27 de junio de 2026}
+      \field{number}{{SBAA565}}
+      \field{title}{{A Basic Guide to I2C}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/an/sbaa565/sbaa565.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/an/sbaa565/sbaa565.pdf
+      \endverb
+    \endentry
+    \entry{ti_output_capacitance}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=81485dd36a8e49f72b44d9c891e708f1}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Texas Instruments}%
+      }
+      \strng{namehash}{81485dd36a8e49f72b44d9c891e708f1}
+      \strng{fullhash}{81485dd36a8e49f72b44d9c891e708f1}
+      \strng{fullhashraw}{81485dd36a8e49f72b44d9c891e708f1}
+      \strng{bibnamehash}{81485dd36a8e49f72b44d9c891e708f1}
+      \strng{authorbibnamehash}{81485dd36a8e49f72b44d9c891e708f1}
+      \strng{authornamehash}{81485dd36a8e49f72b44d9c891e708f1}
+      \strng{authorfullhash}{81485dd36a8e49f72b44d9c891e708f1}
+      \strng{authorfullhashraw}{81485dd36a8e49f72b44d9c891e708f1}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{SLVA874}
+      \field{title}{Calculating Output Capacitance to Meet Transient and Ripple Requirements}
+      \field{type}{techreport}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/an/slva874/slva874.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/an/slva874/slva874.pdf
+      \endverb
+    \endentry
+    \entry{XL6019Datasheet}{manual}{}{}
+      \list{organization}{1}{%
+        {XLSEMI}%
+      }
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labeltitlesource}{title}
+      \field{title}{XL6019 180 kHz 5 A Switching Current Boost DC/DC Converter Datasheet}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/1134396/XLSEMI/XL6019.html
+      \endverb
+      \verb{url}
+      \verb https://www.alldatasheet.com/datasheet-pdf/view/1134396/XLSEMI/XL6019.html
+      \endverb
+    \endentry
+    \entry{Xu2023}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=bb1110dbe5f93ba297548be23b8d2bd8}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=15f56c9abc35b5edce9b2192470873fa}{%
+           family={Koo},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=970b75ffc93f34de56ce34c4f98b7019}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7ba35c4eda82b8027f41a710a3a82648}{%
+           family={Tatman},
+           familyi={T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b68780ccd190e136edc2259934e323a}
+      \strng{fullhash}{94414789810590fd801bd8f9cac0f97f}
+      \strng{fullhashraw}{94414789810590fd801bd8f9cac0f97f}
+      \strng{bibnamehash}{6b68780ccd190e136edc2259934e323a}
+      \strng{authorbibnamehash}{6b68780ccd190e136edc2259934e323a}
+      \strng{authornamehash}{6b68780ccd190e136edc2259934e323a}
+      \strng{authorfullhash}{94414789810590fd801bd8f9cac0f97f}
+      \strng{authorfullhashraw}{94414789810590fd801bd8f9cac0f97f}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://assets.amazon.science/4e/61/ef2f73dd493781aef810dd325aa3/continuous-esd-monitoring-system-for-manufacturing.pdf}}
+      \field{note}{Accessed: 2026-04-18}
+      \field{title}{Continuous ESD Monitoring System for Manufacturing}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

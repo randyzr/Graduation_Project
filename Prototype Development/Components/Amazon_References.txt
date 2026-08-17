@@ -1,0 +1,13 @@
+Probador HZR-171: https://www.amazon.com/Static-Anti-Static-Wristband-Grounding-Monitor/dp/B0FTXNWKLB/ref=sr_1_1?sr=8-1
+ESP32-WROOM: https://www.amazon.com/AITRIP-ESP-WROOM-32-Development-Microcontroller-Compatible/dp/B0DF2YJSHN/ref=sr_1_5?sr=8-5
+ESP32S3 HMI 7": https://www.amazon.com/ELECROW-Dual-Core-Compatible-PlatformIO-MicroPython/dp/B0F8NFFH29/ref=sr_1_1?sr=8-1
+ESP32S3 CAM Freenove: https://www.amazon.com/dp/B0F48DV38M/ref=twister_B0F4R8Y1CT?_encoding=UTF8
+GM67 Lector de Codigo Barras: https://www.amazon.com/Bloepum-Scanner-Module-Reader-Android/dp/B0F5NM3NC4/ref=sr_1_8?sr=8-8
+Módulo SHT31-D: https://www.amazon.com/HiLetgo-Temperature-Humidity-Interface-GY-SHT31-D/dp/B07ZSZW92J/ref=sr_1_8?sr=8-8
+Parlante 8 Ohm 3 W: https://www.amazon.com/Loudspeakers-JST-PH2-0-Interface-Electronic-Advertising/dp/B0FN7B8229/ref=sr_1_3?sr=8-3
+Micro SD 32 GB: https://www.amazon.com/High-Speed-Performance-Compatible-Portable-Devices%EF%BC%881/dp/B0GL9L4L9P/ref=sr_1_20?sr=8-20&xpid=JO17GAhzFm7bk
+Módulo USB-C PD: https://www.amazon.com/Type-C-Trigger-Board-Adjustable-Voltage/dp/B0D5D79LTV/ref=sr_1_13?sr=8-13&xpid=1avIOw8QUjstk
+Cable eléctrico 24 AWG: https://www.amazon.com/Fermerry-Stranded-Electrical-Silicone-Cables/dp/B089CRSLG8/ref=sr_1_3?sr=8-3
+FR4 5 pcs 15x10: https://www.amazon.com/uxcell-150x100mm-Single-Sided-Thickness-Prototyping/dp/B07R59P6QS/ref=sr_1_11?sr=8-11
+PLA Negro 1 kg: https://www.amazon.com/DEEPLEE-1-75mm-Printer-Filament-Black/dp/B0DCJR8JTG/ref=sr_1_3?sr=8-3
+Modulo RTC: https://www.amazon.com/DS3231-AT24C32-Module-Memory-Replace/dp/B09LLMYBM1/ref=sr_1_1?sr=8-1

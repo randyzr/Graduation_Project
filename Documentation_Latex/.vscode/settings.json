@@ -1,0 +1,32 @@
+{
+    "latex-workshop.latex.outDir": "%DIR%",
+    "latex-workshop.latex.auxDir": "%DIR%/support",
+
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk-clean-layout",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "-auxdir=%AUXDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+    ],
+
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Build PDF with support folder",
+            "tools": [
+                "latexmk-clean-layout"
+            ]
+        }
+    ],
+
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click"
+}

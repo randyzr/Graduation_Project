@@ -1,7 +1,0 @@
-https://www.analog.com/en/resources/technical-articles/signal-conditioning-for-high-impedance-sensors.html
-https://ww1.microchip.com/downloads/en/Appnotes/00001154B.pdf
-https://www.ti.com/lit/an/sbaa275a/sbaa275a.pdf?ts=1775529101465&ref_url=https%253A%252F%252Fchatgpt.com%252F
-https://www.descoindustries.com/pdf/TB-3017.pdf
-https://www.esda.org/assets/Documents/FundamentalsPart4.pdf
-https://www.ti.com/lit/an/snoa664/snoa664.pdf
-https://download.tek.com/document/LowLevelHandbook_7Ed.pdf

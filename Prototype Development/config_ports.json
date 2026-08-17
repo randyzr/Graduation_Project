@@ -1,0 +1,30 @@
+{
+  "description": "Persistent microcontroller identities. Resolve the current COM port from device_name_contains instead of storing a fixed COM number.",
+  "controllers": {
+    "main": {
+      "device_name_contains": "USB-SERIAL CH340",
+      "usb_vid": "1A86",
+      "usb_pid": "7523",
+      "sketch": "Codes/MainController",
+      "fqbn": "esp32:esp32:esp32s3:PSRAM=opi",
+      "role": "Elecrow 7-inch HMI / main ESP32-S3 controller"
+    },
+    "secondary": {
+      "device_name_contains": "Silicon Labs CP210x USB to UART Bridge",
+      "usb_vid": "10C4",
+      "usb_pid": "EA60",
+      "sketch": "Codes/SecondaryController",
+      "fqbn": "esp32:esp32:esp32",
+      "role": "ESP32 WROOM / ESD tester and GM67 badge reader"
+    },
+    "facial": {
+      "device_name_contains": "USB-Enhanced-SERIAL CH343",
+      "usb_vid": "1A86",
+      "usb_pid": "55D3",
+      "device_serial": "5AB9009102",
+      "sketch": "Codes/FacialController",
+      "fqbn": "esp32:esp32:esp32s3:PSRAM=opi,USBMode=default,PartitionScheme=custom,FlashMode=qio",
+      "role": "Freenove ESP32-S3 camera / facial recognition controller"
+    }
+  }
+}

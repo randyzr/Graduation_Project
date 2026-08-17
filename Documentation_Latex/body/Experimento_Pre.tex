@@ -1,0 +1,173 @@
+\chapter{Experimento Preliminar}
+
+Este capítulo presenta la estrategia propuesta para validar el funcionamiento del prototipo integrado. 
+Para ello, se evaluarán los resultados de las pruebas funcionales individuales realizadas durante 
+el desarrollo de los subsistemas y se ejecutarán pruebas de integración del sistema completo en un 
+laboratorio de electrónica. La evaluación integral permitirá comprobar la ejecución del ciclo de 
+prueba y determinar la capacidad del prototipo para generar registros 
+trazables de las verificaciones de pulseras antiestáticas.
+
+La validación está planificada en el laboratorio TEM de Intel Costa Rica, debido
+a que el proyecto surge de una necesidad identificada en ese entorno y las
+condiciones de operación corresponden con su aplicación prevista. Si
+circunstancias fuera del control del proyecto impiden realizar las pruebas en
+TEM, se utilizará como alternativa un laboratorio de la Escuela de Ingeniería
+Electrónica del Tecnológico de Costa Rica, Campus Tecnológico Local San Carlos.
+En ambos casos se aplicarán el mismo procedimiento, los mismos indicadores y los
+mismos criterios de aceptación.
+
+\section{Condiciones del experimento}
+
+Antes de ejecutar el experimento se realizarán pruebas funcionales de los
+subsistemas principales. Se comprobará la lectura de los estados
+\textit{LO}, \textit{OK} y \textit{HI} entregados por el probador HZR-171, la
+identificación mediante código de barras, el reconocimiento facial
+complementario, la navegación de la interfaz gráfica y la escritura de datos en
+la memoria local. 
+
+Para la evaluación integral se ejecutarán al menos 30 ciclos completos con un
+mínimo de cinco usuarios de prueba. Los identificadores utilizados podrán ser
+ficticios o anonimizados. El reconocimiento facial será opcional y únicamente
+se probará con participantes que autoricen previamente su uso.
+
+Un ciclo completo estará formado por las siguientes etapas:
+
+\begin{enumerate}
+\item Identificación del usuario mediante código de barras o, de forma
+complementaria, reconocimiento facial.
+\item Presentación de las instrucciones en la interfaz gráfica.
+\item Ejecución de la prueba de pulsera antiestática.
+\item Adquisición e interpretación del resultado entregado por el HZR-171.
+\item Almacenamiento local del registro y presentación del resultado al usuario.
+\end{enumerate}
+
+Cada registro deberá contener, como mínimo, el nombre y el identificador del
+usuario, la fecha, la hora y el resultado de la prueba ESD. Además, incorporará la
+temperatura y la humedad relativa disponibles durante el ciclo. 
+
+\section{Indicadores de validación}
+
+La evaluación del prototipo se concentrará en dos indicadores: el índice de
+trazabilidad \(TZ\) y la tasa de integración funcional \(IF\). De esta manera se
+evita utilizar varios porcentajes que evalúan partes de un mismo ciclo y se
+mantiene el análisis relacionado con los objetivos principales del proyecto.
+
+\subsection{Índice de trazabilidad}
+
+El índice de trazabilidad representa el porcentaje de ciclos ejecutados que
+generan un registro completo:
+
+\begin{equation}
+TZ =
+\frac{N_{\text{registros completos}}}
+{N_{\text{ciclos ejecutados}}}
+\times 100\%
+\label{eq:indice_trazabilidad}
+\end{equation}
+
+Para este indicador, un registro completo es aquel que permite relacionar de
+forma inequívoca al usuario con la fecha, la hora y el resultado ESD obtenido.
+La temperatura y la humedad relativa se almacenarán como datos complementarios,
+pero no determinarán por sí solas si el registro es trazable. El criterio de
+aceptación será \(TZ \geq 95\%\).
+
+\subsection{Tasa de integración funcional}
+
+La tasa de integración funcional representa el porcentaje de ciclos en los que
+la secuencia completa se ejecuta correctamente:
+
+\begin{equation}
+IF =
+\frac{N_{\text{ciclos funcionalmente correctos}}}
+{N_{\text{ciclos ejecutados}}}
+\times 100\%
+\label{eq:integracion_funcional}
+\end{equation}
+
+Un ciclo será funcionalmente correcto cuando el sistema identifique al usuario,
+guíe la operación mediante la interfaz, interprete el estado del probador,
+muestre el resultado correspondiente y almacene el registro sin errores que
+impidan completar el flujo. El criterio de aceptación será \(IF \geq 95\%\).
+
+\section{Procedimiento experimental}
+
+El experimento se realizará siguiendo este procedimiento:
+
+\begin{enumerate}
+
+\item Ejecutar al menos 30 ciclos completos, alternando los usuarios y los
+resultados de prueba disponibles.
+
+\item Revisar cada registro almacenado y comprobar que el nombre y el
+identificador del usuario, la fecha, la hora, el resultado ESD, la temperatura
+y la humedad relativa coincidan con los datos observados durante el ciclo.
+
+\item Utilizar la interfaz gráfica del prototipo para consultar los registros y
+generar un reporte histórico en formato CSV correspondiente al conjunto de
+ciclos ejecutados.
+
+\item Verificar que el reporte generado coincida con los registros almacenados,
+incluya los campos definidos y presente la cantidad de registros completos
+obtenidos durante los 30 ciclos.
+
+\item Contabilizar los registros completos y los ciclos funcionalmente
+correctos.
+
+\item Calcular los indicadores \(TZ\) e \(IF\) y compararlos con sus criterios de
+aceptación.
+
+\end{enumerate}
+
+Durante las pruebas también se documentarán errores de comunicación, fallas de
+lectura, problemas de navegación y cualquier ajuste necesario en el montaje
+físico. Las observaciones cualitativas servirán para complementar los indicadores
+y orientar correcciones del diseño.
+
+\section{Criterios de aceptación}
+
+La Tabla~\ref{tab:criterios_validacion} resume los criterios principales del
+experimento.
+
+\begin{table}[H]
+\centering
+\caption{Criterios de aceptación del experimento preliminar.}
+\label{tab:criterios_validacion}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.4cm}
+                            >{\raggedright\arraybackslash}X
+                            >{\raggedright\arraybackslash}p{3.5cm}}
+\toprule
+\textbf{Evaluación} &
+\textbf{Evidencia} &
+\textbf{Criterio de aceptación} \\
+\midrule
+Trazabilidad \(TZ\) &
+Registros que asocian usuario, fecha, hora y resultado ESD respecto al total de
+ciclos ejecutados. &
+\(TZ \geq 95\%\) en al menos 30 ciclos. \\
+\addlinespace
+Integración funcional \(IF\) &
+Ciclos completados correctamente desde la identificación hasta el
+almacenamiento del registro. &
+\(IF \geq 95\%\) en al menos 30 ciclos. \\
+\addlinespace
+Reporte histórico &
+Archivo CSV generado a partir de los registros almacenados. &
+Al menos un reporte legible y coherente con los ciclos ejecutados. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Análisis de resultados}
+
+El prototipo se considerará satisfactorio si cumple los criterios establecidos para \(TZ\) e \(IF\).
+El análisis presentará los valores obtenidos, las fallas observadas y las
+correcciones realizadas durante la integración. También se informará el
+laboratorio donde finalmente se ejecutó el experimento y, si fue necesario
+utilizar la alternativa de TEC San Carlos, se explicará la circunstancia externa
+que impidió realizar las pruebas en TEM.
+
+Los resultados se presentarán de forma agregada o anonimizada. No se publicarán
+nombres, fotografías ni identificaciones empresariales de los participantes. El
+experimento demostrará el desempeño funcional del prototipo dentro del alcance
+académico definido, pero no constituirá una certificación industrial del
+sistema.
